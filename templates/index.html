@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <style>
+      body {
+        background-image: url("https://upload.wikimedia.org/wikipedia/fr/thumb/a/a6/Universit%C3%A9_Toulouse_1_%28logo%29.svg/langfr-800px-Universit%C3%A9_Toulouse_1_%28logo%29.svg.png");
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+      }
+      #container {
+        margin: auto;
+        width: 50%;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px #888888;
+        border-radius: 10px;
+      }
+      #dialog {
+        height: 300px;
+        border: 1px solid #ccc;
+        overflow: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      #inputBox {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      #sendButton {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Chatbot</h1>
+      <div id="dialog"></div>
+      <form action="/predict_intent" method="post">
+        <input type="text" name="user_input" id="inputBox" placeholder="Ask your question...">
+        <button type="submit" id="sendButton">Send</button>
+      </form>
+      {% if predicted_intent %}
+        <p>Predicted Intent: {{ predicted_intent }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>
