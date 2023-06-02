@@ -80,6 +80,7 @@
     {
       "intent": "program.goals",
       "utterances": [
+        "tell me about the program",
         "What are the goals of the program",
         "goals",
         "what is this program about",
@@ -91,6 +92,14 @@
         "The 2IS program offers a comprehensive and unique view of innovation in information technology over a 2-year period, covering topics such as innovative software solutions, software development methods, and innovation and entrepreneurship in strategy and management. These include business intelligence and data visualization, machine learning, collective intelligence, distributed databases, agile management, and collaborative design."
       ]
     },
+    {
+      "intent": "program.curriculum.bpm",
+      "utterances": [
+        "do we have "
+      ],
+      "answers": [
+
+      ]},
     {
       "intent": "program.international",
       "utterances": ["international program", "exchange program"],
@@ -375,6 +384,7 @@
         "Depending on your region the process will be different. Send the bot 'Campus France' if you are from Campus France countries, send 'Europe' if you are from Europe and send 'France' if you are French students, or international students holding a French Bachelor degree. Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required)."
       ]
     },
+
     {
       "intent": "application.campusfrance",
       "utterances": ["campus france", "Apply using campus france"],
