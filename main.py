@@ -1,26 +1,53 @@
 import json
-import numpy as np
+import re
 import nltk
+import sqlite3
+from datetime import date
 from nltk.stem.lancaster import LancasterStemmer
-
 stemmer = LancasterStemmer()
+import matplotlib.pyplot as plt
+import seaborn as sns
+import  numpy as np
+import email.utils
 import random
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.svm import LinearSVC
+from sklearn.metrics import precision_score, recall_score
 
 nltk.download('punkt')
 import string
 from nltk.corpus import stopwords
-
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
-import os
-from gtts import gTTS
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import TfidfVectorizer
 with open('intentsComplete.json', encoding='utf-8') as file:
     data = json.load(file)
+
+with open('test.json') as file:
+    test_data = json.load(file)
+from sklearn.metrics import confusion_matrix, precision_score, recall_score
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score
+# Connect to the SQLite database
+current_date = str(date.today())
+#conn = sqlite3.connect('chatbot_Database.db')
+conn = sqlite3.connect('chatbot_Database.db', check_same_thread=False)
+conn.row_factory = sqlite3.Row
+
+# Get a connection from the pool
+def get_connection():
+    return conn
+
+# Create a table
+cursor = conn.cursor()
+
+cursor.execute('''CREATE TABLE IF NOT EXISTS users
+                  (email TEXT, Email_confirmed BOOLEAN, date_of_use TEXT)''')
+
+cursor.execute(''' CREATE TABLE IF NOT EXISTS TEACHERS (email TEXT, position TEXT,name TEXT, courses TEXT)''')
+conn.commit()
+
 
 words = []
 labels = []
@@ -44,7 +71,6 @@ vectorizer = CountVectorizer()
 X_train_counts = vectorizer.fit_transform(docs_x)
 tfidf_transformer = TfidfTransformer()
 X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
-
 model = LinearSVC()
 model.fit(X_train_tfidf, docs_y)
 
@@ -56,10 +82,16 @@ def preprocess_text(text):
     text = text.lower()
     # Remove stop words
     stop_words = set(stopwords.words('english'))
-    word_tokens = word_tokenize(text)
+    stop_words.remove("who")
+    stop_words.remove("how")
+    stop_words.remove("or")
+    stop_words.add("tell")
+    stop_words.add("could")
+    stop_words.add("can")
+    word_tokens = nltk.word_tokenize(text)
+    # Remove punctuation except for "."
     filtered_text = [word for word in word_tokens if word not in stop_words]
     return " ".join(filtered_text)
-
 
 def predict_intent(text, return_confidence=False):
     # Preprocess the input text
@@ -84,94 +116,185 @@ if isinstance(data, dict) and 'data' in data:
         if isinstance(d, dict) and 'intent' in d and 'answers' in d:
             responses[d['intent']] = d['answers']
 
+
+def check_Responces(last_response,moreDetailedResponse):
+  if (last_response==moreDetailedResponse):
+    return False
+  return True
+
+
 last_question = None
 last_response = None
 
-
-def calculate_similarity(text1, text2):
-    # Calculate the similarity between two texts using cosine similarity
-    vectorizer = TfidfVectorizer()
-    tfidf_matrix = vectorizer.fit_transform([text1, text2])
-    similarity_matrix = cosine_similarity(tfidf_matrix[0], tfidf_matrix[1])
-    similarity = similarity_matrix[0][0]
-    return similarity
+user_email =None
+Email_confirmed = 0
+user_date_of_use = str(date.today())
 
 
-def check_keywords(text):
-    # Check if the text contains any of the specified keywords
-    keywords = ['he', 'she', 'that', 'it', 'who is', 'when it is', 'how long does it take', 'do i need it', 'but',
-                'and', 'who is she', 'who is he']
-    for keyword in keywords:
-        if keyword in text:
-            return True
-    return False
 
+def respond(user_input):
+    global last_question, last_response, last_processed_text, current_processed_text
+    current_processed_text = preprocess_text(user_input)
+    conn = get_connection()
+    cursor = conn.cursor()
+    email_regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+    email_matches = re.findall(email_regex, user_input)
 
-def generate_response(input_text):
-    if isinstance(input_text, list):
-        # Combine all questions in the dialogue into a single string
-        input_text = ' '.join(input_text)
+    # Check if the user input is a clarification
+    clarification_phrases=["well I try to explain more ", "let me put it this way  ","sorry for confusion let me explain more "]
 
-    # Process the input text and predict the intent
-    processed_text = preprocess_text(input_text)
-    intent, confidence = predict_intent(processed_text, return_confidence=True)
+    if predict_intent(user_input) == "user.clarification" and last_response is not None:
+        if last_question is not None:
+            tag = predict_intent(last_question)
+            if tag in responses:
+                available_answers = [answer for answer in responses[tag] if answer != last_response]
+                if available_answers:
+                    response = random.choice(clarification_phrases) + random.choice(available_answers)
+                    last_response = response
+                    return response
 
-    # Check if the intent is above a certain confidence threshold
-    if confidence > 1.5:
-        if intent in responses:
-            tag = intent
-            response = random.choice(responses[tag])
-            # Add context to the response if necessary
-            if response == "I'm sorry, I didn't understand your question." and last_question is not None:
-                response = "I'm sorry, I don't have an answer to your question about {}. Can I help you with something else?".format(last_question)
-            return response
+    if email_matches:
+        user_email = email_matches[0]
 
-    return "I'm sorry, I didn't understand your question."
+        # Validate the email address
+        is_valid = email.utils.parseaddr(user_email)[1] != ''
 
+        if not is_valid:
+            return "Please provide a valid email address."
 
-def respond(dialogue):
-    global last_question, last_response
-    # Predict the intent using the model
-    if last_question is not None:
-
-        keywords_present = check_keywords(user_input)
-        if  keywords_present:
-            similarity = calculate_similarity(user_input, last_question)
-            if similarity>5:
-             dialogue.append(user_input)  # Add the user input to the dialogue
-
-    # Generate response based on the updated dialogue or user input alone
-    if len(dialogue) < 4:
-        response = generate_response(dialogue)
+        # Check if the email exists in the teachers table
+        cursor.execute("SELECT * FROM teachers WHERE email=?", (user_email,))
+        teacher_data = cursor.fetchone()
+        if teacher_data:
+            return f"Teacher information: Position: {teacher_data[1]}, Courses: {teacher_data[3]}"
+        else:
+            # Email not found in the teachers table, insert into users table
+            cursor.execute("INSERT INTO users (email, Email_confirmed, date_of_use) VALUES (?, ?, ?)",
+                           (user_email, Email_confirmed, user_date_of_use))
+            conn.commit()
+            return "Thank you for providing us with your email address!"
     else:
-        response = generate_response(user_input)
+        # Process the input using predict_intent and the rest of the code
+        intent, confidence = predict_intent(user_input, return_confidence=True)
+        print(confidence)
 
-    # Update the context variables
-    last_question = user_input
-    last_response = response
-    return response
+        # Check if the intent is above a certain confidence threshold
+        if confidence > 0.80:
+            if intent in responses:
+                tag = intent
+                response = random.choice(responses[tag])
+                # Update the context variables
+                last_question = user_input
+                last_response = response
+                return response
+
+    if len(current_processed_text) < 2 and user_input:
+        return "I'm sorry, but I need more context to accurately answer your question. " \
+               "Could you provide more information or clarify what you are referring to?"
 
 
+    return "I'm sorry, but I didn't understand your question."
+    # Predict the intent using the model
+    print(confidence)
+
+X_train, X_test, y_train, y_test = train_test_split(docs_x, docs_y, test_size=0.5, random_state=42)
+X_test_counts = vectorizer.transform(X_test)
+X_test_tfidf = tfidf_transformer.transform(X_test_counts)
+
+
+
+for example in test_data:
+    user_input = example['user_input']
+    expected_intent = example['expected_intent']
+
+    # Predict the intent using your model
+    predicted_intent = predict_intent(user_input)
+
+    # Compare the predicted intent with the expected intent
+    if predicted_intent == expected_intent:
+        print(f"Input: {user_input}")
+        print(f"Expected Intent: {expected_intent}")
+        print(f"Predicted Intent: {predicted_intent}")
+        print("Prediction: Correct\n")
+    else:
+        print(f"Input: {user_input}")
+        print(f"Expected Intent: {expected_intent}")
+        print(f"Predicted Intent: {predicted_intent}")
+        print("Prediction: Incorrect\n")
+
+# Create lists to store the expected and predicted intents
+expected_intents = []
+predicted_intents = []
+
+# Iterate over the test data and evaluate the model's predictions
+for example in test_data:
+    user_input = example['user_input']
+    expected_intent = example['expected_intent']
+
+    # Predict the intent using your model
+    predicted_intent = predict_intent(user_input)
+
+    expected_intents.append(expected_intent)
+    predicted_intents.append(predicted_intent)
+
+# Get the unique intents from both the expected and predicted intents
+intents = np.unique(expected_intents + predicted_intents)
+
+# Create the confusion matrix
+confusion_mat = confusion_matrix(predicted_intents, expected_intents, labels=intents)
+
+# Plot the confusion matrix
+plt.figure(figsize=(10, 8))
+sns.heatmap(confusion_mat, annot=True, fmt="d", xticklabels=intents, yticklabels=intents, cmap="YlGnBu")
+
+# Add labels for correctly classified and misclassified instances
+for i in range(len(intents)):
+    for j in range(len(intents)):
+        color = 'green' if i == j else 'red'  # Highlight correctly and wrongly classified instances
+        weight = 'bold'
+        plt.text(j + 0.5, i + 0.5, confusion_mat[i, j], ha='center', va='center', color=color, weight=weight)
+
+plt.title("Confusion Matrix")
+plt.xlabel("Expected Labels")
+plt.ylabel("Predicted Labels")
+plt.xticks(rotation=45, ha='right')
+plt.yticks(rotation=0)
+plt.tight_layout()
+plt.show()
 # Main conversation loop
 dialogue = []  # Variable to store the dialogue questions
+last_question = ''
+
 print("Bot: Hello! How can I assist you today?")
 while True:
     user_input = input("User: ")
+    dialogue.append(user_input)
+
     if user_input.lower() == 'goodbye':
         print("Bot: Goodbye!")
         break
+    else:
 
-    # Check if the user input should be added to the dialogue and get the response
-    response = respond(dialogue + [user_input])
-    if response is None:
-        response = respond([user_input])
-
-    if response:
-        dialogue.append(user_input)  # Add the user input to the dialogue
+        response = respond(user_input)
 
     print("Bot:", response)
+
+    last_question = user_input
+
+
     if len(dialogue) >= 4:
         dialogue.clear()  # Clear the dialogue list
-
     print(dialogue)
+
+    #print(last_question)
+    print(predict_intent(user_input))
+    print("the processed text is", preprocess_text(user_input))
+    precision = precision_score(expected_intents, predicted_intents, average='weighted')
+
+    # Calculate recall
+    recall = recall_score(expected_intents, predicted_intents, average='weighted')
+
+    # Print the precision and recall scores
+    print("Precision:", precision)
+    print("Recall:", recall)
 

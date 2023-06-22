@@ -6,33 +6,107 @@
       "intent": "program.curriculum",
       "utterances": [
         "curriculum",
-        "Can you provide me with more information about what courses are included in the curriculum for this program?",
-        "What is the curriculum for the program?"
+        "syllabus",
+        "  courses are included in the curriculum for this program?",
+        " courses encompassed within the program's curriculum?",
+        " courses that are covered in this program?",
+        "What is the curriculum for the program?",
+        "topics covered in this program by providing me with additional information about the courses?",
+        "the subjects taught within this program",
+        "what are the courses like?",
+        "tell me about the curriculum",
+        "Could you enlighten me on the specific areas of study included in this program?",
+        "about the individual classes that are part of this program. ",
+        " courses that form part of the program's academic syllabus.",
+        "Can you offer further information regarding the individual courses that are part of this program?",
+        " specific classes offered in this program. Could you provide me with further details?",
+        "how about the curriculum?"
+
       ],
       "answers": [
+        "Here is a general overview of the topics covered in the 2IS program: 1) Fundamentals of Internet Studies: Introduction to the internet, its history, evolution, and its role in society. 2) Legal and Ethical Aspects: Exploration of legal frameworks and regulations related to the internet, including privacy, intellectual property, cybercrime, and ethical considerations in the digital era. 3) Economics and Business: Analysis of the economic aspects of the internet, such as e-commerce, digital marketing, online business models, and the impact of the digital economy on traditional industries. 4) Digital Technologies: Examination of the technical aspects of the internet, including web development, programming languages, databases, networking, and emerging technologies. 5) Social and Cultural Impacts: Study of the social, cultural, and behavioral aspects of the internet, including the influence of social media, online communities, virtual reality, and the digital divide. 6) Digital Transformation and Innovation: Exploration of the strategies, challenges, and opportunities associated with digital transformation in organizations, as well as the role of innovation in the digital era. 7) Research Methods: Introduction to research methodologies and techniques used in the field of internet studies. It's important to note that the program structure, specific courses, and credit requirements may vary. I recommend visiting the official website of University Toulouse 1 Capitole or contacting the relevant department for detailed and updated information regarding the 2IS program curriculum.",
         "The program includes subjects such as business intelligence, data analytics, project management and agility, programming using Java, software analysis and design, and the option to study either French or English as a foreign language. Additionally, the curriculum includes courses that focus on personal and professional development, research workshops, and term projects. In the second year, students have the opportunity to take a variety of elective courses, such as innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced artificial intelligence, sustainable information systems, and user interface and user experience design.",
         "The curriculum for the program includes courses in business intelligence, data analytics, project management and agility, advanced programming in Java, software analysis and design, and foreign language (French or English). It also includes professionalization courses in soft skills and personal development, research workshops, and term projects. In the second year, students can choose from a range of courses in innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, and user interface and user experience."
       ]
     },
-	
-	
+{
+      "intent": "program.diploma",
+      "utterances": [
+        "diploma",
+        " about the type of certification I will receive upon completion of this program?",
+        "qualification or credential I will obtain after finishing this program?",
+        " type of award or recognition I will receive upon successful completion of this program?",
+        " the official accreditation or qualification I will attain after completing this program. Could you provide me with details?",
+        " official designation or certification I will be granted after successfully finishing this program?",
+        "formal recognition or degree I will receive upon completing this program. Could you provide me with further information?",
+        " the official credential or qualification I will earn after completing this program?",
+        "is this program Miage?",
+        "What will be the title or designation associated with the completion of this program?",
+        "the formal acknowledgment or level I will attain upon completing this program. Could you provide me with further information?",
+        " the specifics of the diploma I will obtain after finishing this program?",
+        " the diploma I will obtain upon successful completion of this program? I would like to know about its educational outcomes and professional implications.",
+        " what diploma will i be having",
+        "What is the diploma for the program?"
+      ],
+      "answers": [
+       "The diploma that you will be getting from this master is a Master Degree in Innovative Information Systems" ]
+    },
+
+
+
+    {
+      "intent": "program.application",
+      "utterances": [
+        "requirement",
+        "requirements",
+        "requirements",
+        "tell me about the requirements",
+        "what is needed to meet the program's criteria?",
+        " the qualifications or prerequisites necessary to participate in this program",
+        " the standards or criteria that applicants need to meet for this program?",
+        "the essential conditions or qualifications for entry into this program. Could you provide me with details?",
+        " the expectations or prerequisites for this program?",
+        "the essential elements or qualifications expected from participants in this program?",
+        " the specific mandates or credentials that applicants must possess to be eligible for this program?",
+        " specific requirements or credentials required for participation in this program",
+        " regarding the specific prerequisites or qualifications one must possess to be eligible for this program?",
+        " specific criteria or qualifications that applicants must meet in order to be considered for this program?",
+        " the requirements",
+        " how to apply?",
+        "is it easy to apply?",
+        "what are the requirements to apply ",
+        "how can i apply?",
+        "application",
+        "What do i need to apply",
+        "What are the documents to apply",
+        "what are the requirements to apply"
+      ],
+      "answers": [
+      "Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required - to check the list of accepted certificates, please visit our official website).",
+      "Applications should include a curriculum vitae (CV), grade transcripts, a cover letter, and proof of English proficiency. For English proficiency, a Common European Framework (CEF) level B2 is required. You can find the list of accepted certificates on our official website."]
+    },
+
 	 {
       "intent": "program.visa",
       "utterances": [
         "do i need a visa",
+        " specific travel documentation or permits  for participation?",
+        "entry permits",
+        " immigration procedures or formalities?",
+        "legal requirements or obligations",
         "but i dont have a visa",
         "how can i apply for a visa",
         "what about visa",
         "is getting a visa difficult?",
-        "can someone hep me for visa"
+        "can someone hep me for visa",
+        "how do i get a visa"
       ],
       "answers": [
-        "depending where you come from you might need to apply for a visa,you can apply for it after getting accepetd and rececied the addmission letter,you can check the following site to see what documents do you need https://france-visas.gouv.fr/web/france-visas/ma-demande-en-ligne"
-      ]
+             "Depending where you come from you might need to apply for a visa. In fact, only if you are not part of the European Union you will have to apply for a visa. If you  do need it, you can apply for it after getting accepted and received the admission letter on the official government website,you can check the following site to see what documents you will be needing :  https://france-visas.gouv.fr/web/france-visas/ma-demande-en-ligne . Remember that the process and requirements may differ from country to country, so it's crucial to consult the official website of the immigration authority or contact the designated office for accurate and up-to-date information specific to your situation.",
+              "Depending on your country of origin, you may be required to apply for a visa. Specifically, if you are not a citizen of the European Union, a visa application will be necessary. Once you have been accepted and received the admission letter, you can proceed to apply for the visa through the official government website. To determine the specific documents required for your visa application, please visit the following website: https://france-visas.gouv.fr/web/france-visas/ma-demande-en-ligne. It's important to note that the visa process and requirements can vary between countries, so it is essential to consult the official website of the immigration authority or contact the designated office to obtain accurate and up-to-date information that pertains to your particular situation."]
     },
-	
-	
-	 {
+
+     {
       "intent": "program.Register",
       "utterances": [
         "How can i register",
@@ -40,14 +114,20 @@
         "what do i need for registration",
         "anyone help me for registration",
         "is it easy to register?",
-        "when should i register?"
+        "when should i register?",
+        " the procedure for getting involved in this program?",
+        " enroll or participate ",
+        "process for joining this program?",
+        "join and participate in this program?",
+        "tell me about the registration process"
       ],
       "answers": [
-        "well in order to register you need to provide your documents to .......... "
+        "In order to register you will have to create an account on e-candidature , the one corresponding to the University Toulouse 1 Capitole and select the Master 2IS and create your application. Once you have received an acceptance for your application you can register online on the following website : https://www.ut-capitole.fr/accueil/formations/candidater-et-sinscrire/premiere-inscription . All the information and documents needed will be mentioned on the previous page. The dates for the application and registration are provided on the 2IS page under the section How to apply.",
+        "To complete your registration, you need to sign up for an account on e-candidature, specifically for the University Toulouse 1 Capitole. Then, choose the Master 2IS program and proceed with your application. Once your application is accepted, you can finalize your registration online by visiting the following website: https://www.ut-capitole.fr/accueil/formations/candidater-et-sinscrire/premiere-inscription. Detailed instructions and the required documents will be provided on the preceding page. Please refer to the 2IS page for application and registration deadlines, which are outlined in the 'How to apply' section."
+
       ]
     },
-	
-	
+
 	{
 	  "intent": "program.visa.country",
       "utterances": [
@@ -55,26 +135,47 @@
         "i come from Iran do i need visa",
         "i come from Afghanistan do i need visa",
         "can you tell me the countries that need visa",
-        "why do i need a visa"
+        "why do i need a visa",
+        "which countries need visa"
       ],
       "answers": [
-        "can check if you need a visa in this webite https://www.service-public.fr/particuliers/vosdroits/F21921?lang=en, "
+        "All of the international students that come from outside of the European Union will need to provide a visa in order to study in France. You can check if you need a visa on this webite https://www.service-public.fr/particuliers/vosdroits/F21921?lang=en, ",
+        "If you are an international student from a non-European Union country, it is mandatory to obtain a visa for studying in France. To determine whether you need a visa, you can refer to the following website: https://www.service-public.fr/particuliers/vosdroits/F21921?lang=en."
       ]
     },
-	
-	
+
+
     {
       "intent": "program.directors",
       "utterances": [
         "Director of studies",
+        " is the director?",
+        " is in charge of overseeing this program?",
+        " holds the leadership role for this program?",
+        " responsible for the administration?",
+        " the helm of this program?",
+        "guiding this program",
+        " the forefront of this program",
+        "individual taking the lead",
+        "the key figure overseeing this program?",
+        "who is in charge?",
+        "the person that i need to call to",
+        "managing the program",
+        "manages the program",
+        "who is in charge of the program",
+        "tell me about the people in charge",
         "Directors",
         "People in charge of the program",
+        "who can i  to contact with ",
         "contact teachers",
-        "program contacts",
-        "who can i contact?"
+        "who is responsible?",
+        "who to contact with",
+        "who should i contact to",
+        "who to contact to"
       ],
       "answers": [
-        "1st year: David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2nd year: Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités"
+        "1st year: David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2nd year: Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités. More details about the professors and their contacts are provided on the 2IS official page.",
+        "For the 1st year, you can contact David Simoncini, an associate professor, via email at david.simoncini@ut-capitole.fr. For the 2nd year, you can reach out to Chihab Hanachi, a professor, at Chihab.Hanachi@ut-capitole.fr. Additional information about the professors and their contact details can be found on the official 2IS page."
       ]
     },
     {
@@ -83,7 +184,19 @@
         "What are the goals of the program",
         "goals",
         "what is this program about",
-        "Who is this program designed for"
+        "Who is this program designed for",
+        "intended outcome of the ",
+        " target of the ",
+        " the aspirations ?",
+        "objectives?",
+        "aims of the program?",
+        " purpose ?",
+        "desired result of ?",
+        "desired achievements ",
+        "tell me about the goals of the program",
+        "tell me this program"
+
+
       ],
       "answers": [
         "The 2IS Master program is designed for Bachelor students in information technologies (IT) aiming to expand their knowledge on innovative information technologies. 2IS is organised by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science. 2IS is a MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), which is the reference Master in France for information technolgy. MIAGE programs are run by more than 20 universities in France. Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
@@ -91,13 +204,43 @@
         "The 2IS program offers a comprehensive and unique view of innovation in information technology over a 2-year period, covering topics such as innovative software solutions, software development methods, and innovation and entrepreneurship in strategy and management. These include business intelligence and data visualization, machine learning, collective intelligence, distributed databases, agile management, and collaborative design."
       ]
     },
+
     {
       "intent": "program.international",
-      "utterances": ["international program", "exchange program"],
+      "utterances": ["international program",
+        "exchange program",
+        "abroad",
+        "i come from other countries that europe",
+        "i dont live in france",
+        "i am an international student tell me what to do",
+        "opportunities for studying abroad at this university. ",
+        "students interested in studying in a different country?",
+        " of participating in a foreign study ",
+        " studying in a different country?",
+        "abroad opportunities ",
+        " the international exchange program ",
+        " partner universities abroad?",
+        "i am international student",
+        "what about international students"
+      ],
       "answers": [
-        "It is possible to spend part of the studies abroad, depending on the exchange programs in place between the University of Toulouse 1 Capitole and other EU or foreign countries. Applications and selections will be conducted the year before the exchange period. Make contact with the International Relations Office of the University if interested. <https://www.ut-capitole.fr/accueil/universite/gouvernance/services-administratifs-et-techniques/service-commun-des-relations-europeennes-et-internationales-1>"
+        "It is possible to spend part of the studies abroad, depending on the exchange programs in place between the University of Toulouse 1 Capitole and other EU or foreign countries. Applications and selections will be conducted the year before the exchange period. Make contact with the International Relations Office of the University if interested. <https://www.ut-capitole.fr/accueil/universite/gouvernance/services-administratifs-et-techniques/service-commun-des-relations-europeennes-et-internationales-1>",
+        "The University of Toulouse 1 Capitol offers opportunities for studying abroad as part of the program. Students can explore exchange programs between the university and various EU or foreign countries. The application and selection process for these exchanges takes place in the year prior to the exchange period. If you're interested, please get in touch with the International Relations Office of the University. You can find more information at https://www.ut-capitole.fr/accueil/universite/gouvernance/services-administratifs-et-techniques/service-commun-des-relations-europeennes-et-internationales-1."
       ]
     },
+
+    {
+      "intent" : "program.international.collaboration",
+      "utterances" : ["international partners", "exchange universities","Erasmus"," student exchanges?","pursue a semester or year abroad?","cultural immersion activities or events "
+
+      ],
+      "answers" : [
+        "We have Erasmus and student exchange agreements with the following universities: 1) Spain: Universidad Carlos III de Madrid, Université de Séville, Universitat Autónoma de Barcelona, Universitat Politécnica de Valencia. 2) The Netherlands: Universiteit Maastricht, Universiteit van Tilburg. 3) Portugal: Universidade Nova de Lisboa. 4) Belgium: KU Leuven. 5) Chili: Universidad Diego Portales (Santiago). 6) Perou: Universidad del Pacifico (Lima). 7) Japan: Univeristy of Keio (Tokyo)",
+        "We have established Erasmus and student exchange agreements with several reputable universities. Here are some of the universities we have partnerships with:Spain: Universidad Carlos III de Madrid, Université de Séville, Universitat Autónoma de Barcelona, Universitat Politécnica de Valencia.The Netherlands: Universiteit Maastricht, Universiteit van Tilburg.Portugal: Universidade Nova de Lisboa.Belgium: KU Leuven ,Chile: Universidad Diego Portales (Santiago).Peru: Universidad del Pacifico (Lima).Japan: University of Keio (Tokyo).These partnerships provide exciting opportunities for students tobroaden their horizons and experience studying in different cultural and academic environments."
+
+            ]
+    },
+
     {
       "intent": "program.internship",
       "utterances": [
@@ -105,6 +248,14 @@
         "Internships",
         "Are internships or practical experience opportunities available as part of the program?",
         "Will I be able to gain real-world experience?",
+        " experiential learning",
+        "practical skills",
+        "practical training modules ",
+        " opportunities for practical application",
+        "stage",
+        " stage or apprentice",
+        "shadowing or mentoring opportunities ",
+        "undertake work placements or co-op experiences",
         "Are there any opportunities for hands-on learning?"
       ],
       "answers": [
@@ -113,7 +264,7 @@
       ]
     },
     {
-      "intent": "program.informationsheet",
+      "intent": "program.information.sheet",
       "utterances": [
         "information sheet",
         "information brochure",
@@ -128,9 +279,19 @@
       "utterances": [
         "program format",
         "What is the format of the program (online, on-campus, hybrid)?",
+        "completed remotely,require to be physically present?",
+        "a distance learning program, traditional in-person format?",
+        "emote participation, or is it strictly an in-person ",
+        "required to attend classes in person, conducted entirely online?",
+        " take place in a physical location or is it conducted online?",
         "Is the program online or in-person?"
+
       ],
-      "answers": ["The program is on-campus."]
+      "answers": [
+        "The program is on-campus.",
+        "The program is conducted in a traditional on-campus format. Students are expected to attend classes and engage in face-to-face learning experiences within the university premises"
+
+      ]
     },
     {
       "intent": "program.duration",
@@ -138,21 +299,41 @@
         "program length",
         "program years",
         "program duration",
+        "how long is it?",
+        "how much time does it take?",
         "How long is the program?",
-        "What is the length of the program?",
+        "  the length of the program?",
+        "program's time frame?",
+        " span in terms of duration?",
+        " duration in terms of length?",
+        "How long typically last?",
+        " period of completion?",
         "How many years is the program?"
       ],
-      "answers": ["The program is a 2-year program."]
+      "answers": [
+        "The program is a 2-year program, including in total between 6 and 7 months of internship.",
+        "The program has a duration of two years, during which students will have the opportunity to participate in internships totaling approximately 6 to 7 months. These internships provide practical experience and complement the academic curriculum."
+
+      ]
     },
     {
       "intent": "program.objectives",
       "utterances": [
         "program objectives",
+        "intended outcomes",
+        "overarching objectives",
+        "intended benefits or advantages of completing",
+        " strategic objectives ",
+        "purposes",
+        "benefits or advantages of completing",
+        " align with the educational objectives",
+        "primary targets or aims ",
         "objectives",
         "How can this program help me"
       ],
       "answers": [
-        "Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes."
+        "Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
+        "The emergence of cutting-edge information technologies revolutionizes and reshapes the business landscape. Business operations are profoundly influenced by artificial intelligence, big data, and the orchestration of web services, leading to significant changes for end-users. Automation plays a central role in transforming various aspects of business processes."
       ]
     },
     {
@@ -160,32 +341,40 @@
       "utterances": [
         "admission",
         "admission requirements",
+        "prerequisites for admission",
+        "conditions need to be fulfilled for admission",
+        " eligibility criteria ",
+        "prerequisites applicants satisfy",
+        "stipulations for admission",
         "What are the admission requirements"
       ],
       "answers": [
-        "To enrol you must hold a Bachelor in Information Technologies or an equivalent title (minimum 3 years of study), as well as a certification of English proficiency at B2 level."
+        "To enrol you must hold a Bachelor in Information Technologies or an equivalent title (minimum 3 years of study), as well as a certification of English proficiency at B2 level.",
+        "To enroll in the program, you are required to have a Bachelor's degree in Information Technologies or an equivalent qualification, which should consist of a minimum of three years of study. Additionally, you need to provide proof of English proficiency at the B2 level through a certification."
       ]
     },
     {
       "intent": "program.fees",
-      "utterances": ["fees", "program fees", "fees to be paid","how much doe this program cost", "how much does it cost", "how much money do i need", "what about financial accpets","money","what about money"],
+      "utterances": ["fees", "program fees",
+        "fees to be paid", "how much is it?, tell me about the tuition fee","is it expensive","how much does cost","charges for enrolling","fee structure ","monetary requirement ","tuition costs "],
       "answers": [
-        "Tuiton fees are about 250 euros per year (as an excellence program the Master 2IS does not apply the differential fees for foreign students). For all details consult the webpage of the international relation office. <https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp>"
+        "Tuition fees are about 250 euros per year (as an excellence program the Master 2IS does not apply the differential fees for foreign students). For all details consult the webpage of the international relation office. <https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp>",
+        "The tuition fees for the Master 2IS program are approximately 250 euros per year. It's worth noting that as an excellence program, the Master 2IS does not apply differential fees for foreign students. For more detailed information, please refer to the webpage of the International Relations Office at https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp."
       ]
     },
     {
       "intent": "program.scholarships",
       "utterances": [
-	    "can I get any scholarships?",
-	    "is there an scholarship",
         "scholarships",
         "scholarship",
-        "What kind of financial aid or scholarships are available for the program?",
-        "Are there any grants or scholarships available?",
-        "Can I get any financial assistance to attend the program?"
+        " financial aid or scholarships are available for the program?",
+        " grants or scholarships available?",
+        " any financial assistance to attend the program?"
+
       ],
       "answers": [
-        "Our university does not provide scolarships nor student accommodation. Eiffel scolarships are available at national level, the internal deadline is usually in November of the previous year. A prize of around 500 euros is awarded by the Faculty of IT to first-class students during the first year of the master."
+        "Our university does not provide scholarships nor student accommodation. Eiffel scolarships are available at national level, the internal deadline is usually in November of the previous year. A prize of around 500 euros is awarded by the Faculty of IT to first-class students during the first year of the master.",
+        "Our university does not offer scholarships or student accommodation directly. However, there are Eiffel scholarships available at the national level, with an internal deadline typically falling in November of the previous year. Additionally, the Faculty of IT awards a prize of approximately 500 euros to first-class students during the first year of the master's program."
       ]
     },
     {
@@ -193,8 +382,13 @@
       "utterances": [
         "living costs",
         "toulouse living costs",
+        "How expensive live in Toulouse",
+        "range for housing and general expenses",
         "costs of living",
-        "how much does it cost to live in toulouse"
+        " living expenditures",
+        "budget for living expenses",
+        "how much does it cost to live in toulouse",
+        "average living cost per month"
       ],
       "answers": [
         "Living costs in Toulouse are around 800€ per month, with accommodation costing around 300/400 euros per month for a room in a shared apartment or a small studio. Social security in France is free for all students (or subject to a small fee of around 100 euros per year). Consult our student guide for more detailed information.",
@@ -209,7 +403,11 @@
         "career prospects",
         "possible jobs",
         "job opportunities",
-        "What is the job placement rate for graduates of the program?",
+        "What is the job placement rate for graduates ",
+        "being hired in their desired industry",
+        "career prospects",
+        " successful job outcomes  alumni?",
+        "secure employment after completing ",
         "How successful are graduates at finding jobs?",
         "What kind of career opportunities are available for graduates of the program?"
       ],
@@ -226,46 +424,73 @@
         "institute",
         "organizers",
         "organizer",
+        " orchestrators of the program",
+        "charge of managing the program?",
+        "responsible for coordinating",
+        " program's management team or governing bodies?",
+        "program's coordinators",
         "Who are the organizers of the program?",
-		"tell me about the  organizers of the program?"
+        "who organizes this program"
       ],
       "answers": [
-        "The program is organized by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science."
+        "The program is organized by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science.",
+        "The program is coordinated by researchers from IRIT (Institut de Recherche en Informatique de Toulouse), which is one of the leading institutes in computer science in France."
       ]
     },
     {
       "intent": "program.comparison",
       "utterances": [
         "How does the program compare to similar programs at other institutions?",
+        " measure up to similar offerings from other institutions",
+        " similar offerings provided by other institutions",
+        " better than other programs",
+        "stand out when compared to",
+        "comparative analysis of this program",
+        "highlight the unique aspects",
         "What sets this program apart from others?",
-        "What makes this program unique compared to others?",
-		"is it better that other programs?"
+        "What makes this program unique compared to others?"
       ],
       "answers": [
-        "The program mentions that MIAGE programs, of which this program is one, are run by more than 20 universities in France."
+        "The program mentions that MIAGE programs, of which this program is one, are run by more than 20 universities in France.",
+        "The program emphasizes that MIAGE programs, including this one, are offered by over 20 universities across France."
       ]
     },
     {
       "intent": "program.accreditation",
       "utterances": [
         "Is the program accredited?",
+        "officially registered or approved",
+        "validated by authorized entities",
+        "program been acknowledged or endorsed by relevant authorities",
+        "program hold any form of validation or authorization",
+        " granted formal recognition",
         "What are the accreditations of the program?",
         "What kind of recognition does the program have?"
       ],
-      "answers": ["The program does not mention whether it is accredited."]
+      "answers": ["The program does not mention whether it is accredited.",
+        "The program does not provide information about its accreditation status."
+
+      ]
     },
     {
       "intent": "program.time",
       "utterances": [
         "Is the program full-time or part-time?",
+        " fixed number of hours per week",
+        "cater to individual schedules?",
+        "scheduling preferences",
+        "Can students choose the pace at which they progress through the program?",
+        " intensive or flexible scheduling",
         "How many hours a week is the program?",
         "Can I attend the program while working?"
       ],
-      "answers": ["The program is full-time."]
+      "answers": ["The program is full-time.",
+        "The program is offered on a full-time basis."
+      ]
     },
     {
       "intent": "program.studentguide",
-      "utterances": ["student guide", "download student guide", "is there any student guide","can someone guide me","any guidance"],
+      "utterances": ["student guide", "download student guide"],
       "answers": [
         "https://miage.ut-capitole.fr/medias/fichier/student-guide-4-_1552993620961-pdf?ID_FICHE=284273&INLINE=FALSE"
       ]
@@ -279,21 +504,63 @@
     },
     {
       "intent": "program.location",
-      "utterances": ["campus location", "campus map"],
+      "utterances": ["campus location", "campus map",
+        "where is the campus location",
+        " campus situated in terms of geographic coordinates",
+        "campus located?",
+        "physical address of the campus",
+        "geographical site of the campus?"
+      ],
       "answers": [
-        "you can download the student guide here : http://www.ut-capitole.fr/campus/practical-information/how-to-get-to-the-university/how-to-get-to-the-university-364795.kjsp"
+        "You can download the student guide to the campus map here : http://www.ut-capitole.fr/campus/practical-information/how-to-get-to-the-university/how-to-get-to-the-university-364795.kjsp"
       ]
     },
-    
-          
     {
       "intent": "program.structure",
-      "utterances": ["How many semesters do we have?", "semester count", "structure",
+      "utterances": [
+        "structure",
         "program structure",
-        "How is the program structured?"],
-      "answers": ["4 semesters", "The first semester of the program, titled 'Fundamentals' covers a wide range of topics including business intelligence, data analytics, project management, advanced programming, software analysis and design, foreign language (either French or English), soft skills, personal development, research workshop 1, and term project 1. The second semester, 'Towards Innovation' includes courses in business process modeling, artificial intelligence, web services, marketing and entrepreneurship, foreign language, soft skills, personal development, research workshop 2, and an internship or term project 2. The third semester, 'Innovation in IT' delves into innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, user interface and user experience, strategy and innovation, foreign language, and research workshop 3. The final semester, 'Innovation in Action' is a 5-month internship in a company, followed by a final examination and is worth 20 ECTS.",
-        "The program is divided into four semesters, each with a specific focus. The first semester, 'Fundamentals' covers a variety of topics such as business intelligence, data analytics, and programming. The second semester, 'Towards Innovation' includes courses on business process modeling, artificial intelligence, and marketing. The third semester, 'Innovation in IT' focuses on topics such as innovative data management and cybersecurity. The final semester, 'Innovation in Action' is a 5-month internship with a final examination at the end, worth 20 ECTS."]
+        "How is the program structured?",
+        "total count of academic quarters or cycles",
+        "numerical value of the program's academic sessions or segments",
+        "academic terms does the program consist of",
+        " number of sessions or periods within the program",
+        "how many semesters are there",
+        "how many semester do we have"
+
+      ],
+      "answers": [
+        "The first semester of the program, titled 'Fundamentals' covers a wide range of topics including business intelligence, data analytics, project management, advanced programming, software analysis and design, foreign language (either French or English), soft skills, personal development, research workshop 1, and term project 1. The second semester, 'Towards Innovation' includes courses in business process modeling, artificial intelligence, web services, marketing and entrepreneurship, foreign language, soft skills, personal development, research workshop 2, and an internship or term project 2. The third semester, 'Innovation in IT' delves into innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, user interface and user experience, strategy and innovation, foreign language, and research workshop 3. The final semester, 'Innovation in Action' is a 5-month internship in a company, followed by a final examination and is worth 20 ECTS.",
+        "The program is divided into four semesters, each with a specific focus. The first semester, 'Fundamentals' covers a variety of topics such as business intelligence, data analytics, and programming. The second semester, 'Towards Innovation' includes courses on business process modeling, artificial intelligence, and marketing. The third semester, 'Innovation in IT' focuses on topics such as innovative data management and cybersecurity. The final semester, 'Innovation in Action' is a 5-month internship with a final examination at the end, worth 20 ECTS."
+      ]
     },
+
+
+    {
+      "intent": "program.semester1",
+      "utterances": ["what are the subjects in the first semester", "what are the courses in the first semester","who are the professors in the first semester ?"],
+      "answers": ["In the first semester, you will have 5 fundamental courses that are worth 4 ECTS each : Business Intelligence, Data Analytics, Project Management, Advanced programming and Software analysis and design. Also you will be conducting Professionalisation courses to help you with the integration to the professional world where you will work on your Soft skills and personal development (4 ECTS), a foreign language (French or English). And finally you will be working in Research Workshop and on a Term project, worthing each 2 ECTS."]
+    },
+
+     {
+      "intent": "program.semester2",
+      "utterances": ["what are the subjects in the second semester ?", "who are the professors in the second semester ?"],
+      "answers": [
+        "In the second semester, you will have 4 Towards Innovation courses that are worth 5 ECTS each : Business Process Modelling, Artificial Intelligence, Web Services and Marketing and entrepreneurship. Also you will be conducting Professionalisation courses to help you with the integration to the professional world where you will work on your Soft skills and personal development (4 ECTS), a foreign language (French or English). And finally you will be working in Research Workshop (2ECTS) and on a Term project or an internship of 1 month (3 ECTS)",
+        "In the second semester, you will be enrolled in four Towards Innovation courses, each carrying 5 ECTS credits. These courses include Business Process Modelling, Artificial Intelligence, Web Services, and Marketing and Entrepreneurship. Additionally, you will participate in Professionalisation courses aimed at enhancing your integration into the professional world, focusing on soft skills and personal development (4 ECTS). You will also have the opportunity to study a foreign language (French or English). Furthermore, you will engage in a Research Workshop (2 ECTS) and complete a Term project or undertake a 1-month internship (3 ECTS)."
+      ]
+    },
+
+      {
+      "intent": "program.semester3",
+      "utterances": ["what are the subjects in the third semester ?", "who are the professors in the third semester ?"],
+      "answers": ["In the third semester, you will have 10 Innovation in IT courses : Innovative software methods (6 ECTS + project week), any, Innovative data management (6 ECTS + project week), Cybersecurity (2 ECTS), Internet of things and web development (6 ECTS + project week), Advanced topics in artificial intelligence (6 ECTS + project week), Sustainable information systems (2 ECTS), User interface and user experience (2 ECTS + project week), Strategy and innovation (5 ECTS), Foreing language (French or English, 3 ECTS) and Research workshop 3 (2 ECTS)"]
+      },
+      {
+      "intent": "program.semester4",
+      "utterances": ["what are the subjects in the fourth semester ?"],
+      "answers": ["In the fourth and final semester, you will have a 5-month internship in a company, followed by a final examination(20 ECTS)"
+        ]},
     {
       "intent": "program.syllabus",
       "utterances": [
@@ -306,15 +573,698 @@
         "The description of each course can be found in the Syllabus booklet. <https://miage.ut-capitole.fr/medias/fichier/syllabus-2021-22-1-_1647337940227-pdf?ID_FICHE=284273&INLINE=FALSE>"
       ]
     },
+
+      {
+      "intent": "program.syllabus.BI",
+      "utterances": [
+        "bi",
+        "business intelligence",
+        "What is the syllabus of bi",
+        "do we have bi?"
+      ],
+      "answers": [
+        "The objectives of this course are to understand the concepts related to Business Intelligence as well as to design and implement the components of a decision support system. First, we study the components and the role of decision support systems. Second, we learn how to design and deploy a data warehouse. Third, we address the multidimensional modeling of data marts. Finally, we discuss some state-of-the-art solutions dedicated to data visualization.",
+        "The primary goals of this course are to develop a comprehensive understanding of Business Intelligence concepts and acquire the skills to design and implement decision support systems. The course covers various aspects, starting with an examination of decision support system components and their significance. Next, students learn about data warehouse design and implementation. The course also delves into multidimensional modeling techniques for data marts. Finally, students explore cutting-edge solutions for data visualization that are specifically tailored to the field of Business Intelligence."
+]
+    },
+     {
+      "intent": "program.syllabus.BI.teacher",
+      "utterances": [
+        "bi",
+        "business intelligence",
+        "teachers",
+        "bi teachers",
+        "teachers in bi",
+        "who teaches bi",
+        "who teaches bi",
+        "teaches bi who",
+        "teachers who teach bi",
+        "bi instructors",
+        "who teaches us bi",
+        "Who are the teachers in bi",
+        "Who are the teachers in business intelligence ",
+        "give me the email of Ronan Tournier",
+        "the need email of BI teacher",
+        "can i have the email of Ronan Tournier",
+        "email of Julien Aligon",
+        "give me the Julien Aligon email"
+
+      ],
+      "answers": [
+        "Julien Aligon julien.aligon@ut-capitole.fr and Ronan Tournier :Ronan.Tournier@ut-capitole.fr\""]
+    },
+
+
+    {
+      "intent": "program.syllabus.SAD",
+      "utterances": [
+        "software analysis and design",
+        "software analysis",
+        "What is the syllabus of software analysis"
+      ],
+      "answers": [
+        "The software analysis code focuses on modelling software: it considers at first the structural and behavioral\nperspectives for analysing user needs; in a second step it focuses on requirements\ndefinition and finally overview classical patterns considered in the design stage. The class\ngoes through the main UML diagrams and emphasizes the object paradigm for analyzing\nand designing a software system.",
+        "The software analysis centers around software modeling. It begins by examining the structural and behavioral aspects of analyzing user requirements. Then, it delves into requirements definition and provides an overview of classical patterns commonly used during the design phase. The course covers the essential Unified Modeling Language (UML) diagrams and emphasizes the object-oriented paradigm for analyzing and designing software systems."
+      ]
+    },
+
+{
+      "intent": "program.syllabus.SAD.teacher",
+      "utterances": [
+        "software analysis and design",
+        "software analysis",
+        "teachers",
+        "Who are the teachers in software analysis and design",
+        "give me the email of SAD teacher",
+        "Laurent Perrussel ",
+        "give me the emal of Laurent Perrussel ",
+        "can i have the email of Laurent Perrussel "
+      ],
+      "answers": [
+        "Laurent Perrussel Laurent.Perrussel@ut-capitole.fr"]
+    },
+
+    {
+      "intent": "program.syllabus.prog",
+      "utterances": [
+        "advanced programming",
+        "What is advanced programming about"
+      ],
+      "answers": [
+        "This course goes from basic concepts of object oriented programming to more advanced programming concepts and data structures, such as graphs or lambda functions. The language JAVA will be used throughout the course. Each session of 3 hours consists in a lecture focused on some specific programming concepts followed by a series of programming exercises.",
+        "This course begins with the fundamentals of object-oriented programming and progresses to more advanced programming concepts and data structures, including graphs and lambda functions. The programming language used throughout the course is JAVA. Each session, lasting 3 hours, consists of a lecture that covers specific programming concepts, followed by a series of programming exercises to reinforce learning."
+      ]
+    },
+    {
+      "intent": "program.syllabus.prog.teacher",
+      "utterances": [
+        "advanced programming",
+        "teachers",
+        "Who are the teachers in advanced programming",
+        "who teaches advanced programing",
+        "give me the email of advanced programming teacher",
+        "give me david email ",
+        "give me david's email",
+        "who is david?",
+        "David Simoncini",
+        " give me the email of, David Simoncini",
+        "email of David Simoncini"
+
+      ],
+      "answers": [
+        "David Simoncini david.simoncini@ut-capitole.fr"] },
+
+
+     {
+      "intent": "program.syllabus.da",
+      "utterances": [
+        "data analytics",
+        "What is data analytics about"
+      ],
+      "answers": [
+        "Data analysis is crucial to help business and decision-making. Data analytics encompasses descriptive and predictive analysis. This course aims at giving the students the keys to understand data analytics and associated concepts. In this course, we present both descriptive and predictive analysis as well as related topics that computer scientists should consider when analyzing data: data representation, data visualization and result interpretation. The main supervised and unsupervised machine learning methods are introduced as well as the contexts of applications. This course does not aim at going deep in the mathematical formulation of the methods.",
+        "Data analysis plays a vital role in business and decision-making processes. It involves descriptive and predictive analysis. The purpose of this course is to provide students with the necessary knowledge to comprehend data analytics and its associated concepts. The course covers descriptive and predictive analysis, along with important considerations for computer scientists when analyzing data, such as data representation, data visualization, and result interpretation. The course introduces key supervised and unsupervised machine learning methods and explores their application contexts. It should be noted that the course does not delve deeply into the mathematical formulation of these methods."
+      ]
+     },
+    {
+      "intent": "program.syllabus.da.teacher",
+      "utterances": [
+        "data analytics",
+        "teachers",
+        "Who are the teachers in data analytics ",
+        "give me the email of da teacher",
+        "give me the email of Josiane Mothe",
+        "give me the email of Zia Ullah",
+        "email of Zia Ullah",
+        "Zia Ullah email"
+
+      ],
+      "answers": [
+       "Josiane Mothe josiane.mothe@ut-capitole.fr and Zia Ullah zia.ullah@ut-capitole.fr"]  },
+
+     {
+      "intent": "program.syllabus.mana",
+      "utterances": [
+        "project management",
+        "What is project management about",
+        "will we also learn project management?"
+      ],
+      "answers": [
+        "The objective of this course is to introduce the fundamental concepts of project management, with\nparticular attention to information system projects.\nAs announced, this course is structured in two parts.\nA first part dedicated to traditional Project Management Methods, because it is important to\nunderstand the basics of traditional Project Management in order to appreciate the benefits of\nadopting innovative techniques. Traditional Project Management methods are based on deterministic\napproaches that use detailed plans, Gantt charts, work schedules….\nA second part dedicated to Agile methods. Such methods promote a value-driven approach that\nallows the Project Manager to deliver high-priority, high-quality work. It is based on iterative and\nincremental development in which requirements and solutions evolve through collaboration.",
+         "The aim of this course is to provide an introduction to the fundamental concepts of project management, with a specific focus on information system projects. The course is divided into two parts.\n\nThe first part covers traditional project management methods. It is important to understand these traditional methods in order to appreciate the benefits of adopting innovative techniques. Traditional project management approaches rely on deterministic strategies that involve detailed plans, Gantt charts, and work schedules.\n\nThe second part of the course is dedicated to Agile methods. Agile methods promote a value-driven approach that enables project managers to deliver high-priority, high-quality work. These methods are based on iterative and incremental development, where requirements and solutions evolve through collaboration."
+      ]
+     },
+
+    {
+      "intent": "program.syllabus.mana.teacher",
+      "utterances": [
+        "project management",
+        "teachers",
+        "Who are the teachers in project management ",
+        "give me the email of Nathalie Valles-Parlangeau",
+        " email of Nathalie Valles-Parlangeau",
+        "email of Nathalie-Parlangeau"
+      ],
+      "answers": [
+        "Nathalie Valles-Parlangeau <nathalie.valles-parlangeau@ut-capitole.fr> and Benoit Marsa <benoit.marsa@ut-capitole.fr"]  },
+    {
+      "intent": "program.syllabus.rw1",
+      "utterances": [
+        "research workshop 1",
+        "What is research workshop 1 about"
+      ],
+      "answers": [
+        "Lectures are be organised around three activities:\n1.Webpage and discussion platform (Activity 1): students have to create a webpage of\nthe course, containing the minutes of each class, the program of past and future lectures,\nas well as a sharing or discussion forum where ideas for individual and group presentation\nare discussed and voted, as well as a suitable platform to share and present the material\ncreated in class.\n2.Group presentations (Activity 2): each week the teacher together with the students\nselects a group of 3 or 4 students and a topic for next week’s lecture, choosing among\nthose discussed on the webpage. The group is then responsible to prepare a 30 minutes\npresentation on the chosen topic.\n3.Individual presentations (Activity 3): topics can be proposed by single students on the\ndiscussion platform and can be voted by the other students. Once a month the most voted\nproposal is selected and a 30 minutes individual presentation is prepared by the student\nbehind the proposal." ]
+    },
+
+    {
+      "intent": "program.syllabus.rw1.teacher",
+      "utterances": [
+        "research workshop 1",
+        "teachers",
+        "Who are the teachers in research workshop 1 ",
+        "i need email of Umberto Grandi ",
+        "give me the email of research workshop 1 teacher",
+        "email of research workshop 1 teacher",
+        "Rw1 teacher email"
+      ],
+      "answers": [
+       "Umberto Grandi umberto.grandi@ut-capitole.Fr"] },
+
+    {
+      "intent": "program.syllabus.pd",
+      "utterances": [
+        "personal development",
+        "What is personal development about"
+      ],
+      "answers": [
+        "As the trends evolve towards automation and artificial intelligence, and as many technical\nskills could become obsolete in the coming years, companies are showing an increasing\ninterest in skills that cannot be delegated to a robot: Soft skills, or behavioral skills, are the\nmost sought-after skills by recruiters, in addition to technical know-how. If creativity,\ninterpersonal skills and team spirit have always been part of the marketing and\ncommunication professional's panoply, the soft skills expected by the sector are evolving\ntowards emotional intelligence (empathy, listening) to understand others, efficiency and\norganization in the face of the speed inherent in business, boldness and an entrepreneurial\nspirit oriented towards the search for solutions, the ability to create meaning in daily\nprofessional life, curiosity and openness to allow one's own skills to evolve and to learn to\nlearn during one's career.\n",
+        "As automation and artificial intelligence continue to advance, there is a growing recognition among companies that certain skills cannot be easily replaced by technology. These skills, known as soft skills or behavioral skills, are highly valued by recruiters alongside technical expertise. While creativity, interpersonal skills, and teamwork have always been important in marketing and communication professions, the specific soft skills sought after in the industry are evolving.\n\nThe evolving soft skills in the field now include emotional intelligence, such as empathy and active listening, which enable professionals to understand others. Efficiency and organizational abilities are also crucial in fast-paced business environments. Additionally, a bold and entrepreneurial mindset focused on finding solutions is highly valued. Professionals are expected to create meaning in their daily work, demonstrate curiosity and openness to continuously evolve their skills, and develop a lifelong learning approach throughout their careers."
+      ]
+        },
+    {
+      "intent": "program.syllabus.pd.teacher",
+      "utterances": [
+        "personal development",
+         "teachers",
+        "Who are the teachers in personal development "
+
+      ],
+      "answers": [
+        "Sophie Joly and Anouck GrandSire"]},
+
+      {
+      "intent": "program.syllabus.tp1",
+      "utterances": [
+        "term project 1",
+        "What is term project 1 about"
+      ],
+      "answers": [
+        "This is a group project. Each group is made of 3 or 4 graduates. The composition of the groups is\ndecided by the teachers of the first semester.\nThe project consists in an analysis of the problem presented in the subject, and in the proposal of a\npractical, implemented, solution to this problem. A presentation of the problem and of its solution by\nthe graduates is done during a poster and demonstration session.",
+        "Term Project1 entails a collaborative project in which groups of 3 or 4 graduates are formed based on the teachers' selection in the first semester. The project revolves around analyzing a specified problem and presenting a practical solution that is implemented by the group. During a poster and demonstration session, the graduates showcase their problem analysis and proposed solution to others.\"\n"
+
+      ]
+    },
+
+    {
+      "intent": "program.syllabus.tp1.teacher",
+      "utterances": [
+        "term project 1",
+        "teachers",
+        "Who are the teachers in term project 1",
+        "give me the email of Sylvie Doutre ",
+        "email of Sylvie",
+        "emai of Doutre ",
+        "give me the email of term project 1 teacher"
+      ],
+      "answers": [
+         "here is the email of Sylvie Doutre ,Sylvie Doutre sylvie.doutre@ut-capitole.fr"] },
+     {
+      "intent": "program.syllabus.bpm",
+      "utterances": [
+        "bpm",
+        "bpm",
+        "tell me about bpm",
+        "what do we do in bpm",
+        "bpm",
+        "business process modelling",
+        "bpm",
+        "What is business process modelling about"
+
+      ],
+      "answers": [
+        "Business Processes (BPs) are widely recognized as an essential component of Information\nSystems given the growing need for organizations to both cooperate with others and\ncoordinate their activities inside their own structure.\nThis course will cover the BP life-cycle including process design, its enactment as a workflow\nand also process discovering and analysis. Both theoretical backgrounds and tools will be\npresented to allow students to build Process Aware Information Systems.\n",
+        "Business Processes (BPs) are increasingly acknowledged as a crucial element of Information Systems, as organizations strive to collaborate with external parties and streamline their internal operations. This course provides a comprehensive understanding of the BP life cycle, encompassing process design, workflow enactment, and process discovery and analysis. The course presents theoretical foundations and tools that empower students to construct Process Aware Information Systems."
+
+
+      ]
+     },
+{
+      "intent": "program.syllabus.bpm.teacher",
+      "utterances": [
+        "business process modelling",
+        "who teaches bpm",
+        "who will teach of bpm",
+        "give me the email of bpm teacher",
+        "give me the email of bpm teacher",
+          "give me the email of bpm teacher",
+          "give me the email of bpm teacher",
+        "the email of bpm teacher",
+        "give me the email of chihab",
+        "give me the email of Chihab Hanachi",
+        "bpm",
+        "chihab hanachi",
+        "email of chihab",
+        "Who are the teachers of bpm",
+        "Who are the teachers of business process modelling"
+      ],
+      "answers": [
+       "Chihab Hanachi chihab.hanachi@ut-capitole.fr"] },
+
+
+     {
+      "intent": "program.syllabus.french",
+      "utterances": [
+        "will I learn french",
+        "can I learn french",
+        "how about french",
+        "will it be easy to learn french"
+      ],
+      "answers": [
+        "There will be french classes during the semester you will have a placement test and then you will have your class according to your level"]
+     },
+
+
+        {
+      "intent": "program.syllabus.ws",
+      "utterances": [
+        "web services",
+        "What is web services about",
+        "webservices "
+      ],
+      "answers": [
+        "Web services are now a mature technology to organize an Information System and make\navailable the content of a database with a given API, allowing users to build their own\napplication on top of this data. This course objective is to let student build a project where\nthey can build an application able to consume external web services (thus access data from\nexternal web services), and build a webservice to provide new data.",
+        "Web services have evolved into a well-established technology for organizing an Information System and providing access to database content through a defined API. They enable users to develop their own applications utilizing this data. The objective of this course is to enable students to create a project where they can construct an application capable of consuming external web services, thereby accessing data from these external sources. Additionally, students will learn how to develop a web service that offers new data, allowing other applications to utilize this information. The course provides practical hands-on experience in working with web services, emphasizing both consuming and providing data through this technology. Students will gain insights into the implementation and integration of web services within an Information System."
+
+      ] },
+
+
+{
+      "intent": "program.syllabus.ws.teacher",
+      "utterances": [
+        "web services",
+        "teachers web services",
+        "Who are the teachers in web services",
+        "can i have the email of web services teacher?",
+        "the email of Benoit Gaudou",
+        "Benoit Gaudou",
+        "i need the email of web services teacher"
+
+      ],
+      "answers": [
+       "Benoit Gaudou <benoit.gaudou@ut-capitole.fr>"]},
+  {
+      "intent": "program.syllabus.Entrepreneurship",
+      "utterances": [
+        "Entrepreneurship",
+        "What is Entrepreneurship about"
+      ],
+      "answers": [
+        "This course trains students to marketing and innovation/entrepreneurship approaches and\nmethods. Students will be able to conceive and develop marketing strategies and tools\n(SWOT, PORTER analysis, Boston box…). Teaching methods used in this program include\ntheory, case studies, practitioner conferences and a real company project. Students will\ntake part in an innovation journey and build the most relevant and innovative concept on an\nexclusive topic given by an industrial group. Students will pitch their idea in front of a jury of\nmanagers and representatives.\nAt the end of the lectures students will also understand major issues and methods\nregarding entrepreneurship such as: acknowledge start up specificities, describe Business\nModel Canevas, understand what innovation is. This course also trains students to ideation\ntechniques and creativity management. This course puts the emphasis on a good\ncomplementarity between academic and practical insights.\nThis course stresses on basic marketing for innovation technics and tools. Our lessons are\ndivided in three majors parts (introduction to marketing, strategical part and operational\npart). We are using theory and real examples of companies or brands. Furthermore,\nstudents apply their knowledge to concrete business situations.",
+        "This course is designed to provide students with training in marketing, innovation, and entrepreneurship. It equips students with the skills and methods necessary to conceive and develop effective marketing strategies and tools, such as SWOT analysis, PORTER analysis, and the Boston Box. The teaching methods employed in this program include theoretical instruction, case studies, practitioner conferences, and engagement in a real company project.\n\nStudents will embark on an innovation journey, where they will work on developing the most relevant and innovative concept within a specific topic provided by an industrial group. They will have the opportunity to pitch their ideas in front of a jury composed of managers and representatives.\n\nThroughout the course, students will also gain a comprehensive understanding of major issues and methods related to entrepreneurship, including an understanding of start-up specificities, familiarity with the Business Model Canvas, and a grasp of the concept of innovation. Ideation techniques and creativity management will be emphasized, promoting a balance between academic knowledge and practical insights.\n\nThe course places significant emphasis on basic marketing techniques and tools for innovation. The lessons are divided into three main parts: an introduction to marketing, a strategic component, and an operational segment. Theory is combined with real-world examples from companies and brands, allowing students to apply their knowledge to concrete business situations."
+
+      ]},
+    {
+"intent": "program.syllabus.Entrepreneurship.teacher",
+      "utterances": [
+        "Entrepreneurship",
+        "teachers entrepreneurship",
+        "Who are the teachers in entrepreneurship",
+        "give me the email of Entrepreneurship teacher",
+        "the teacher of Entrepreneurship email",
+        "email of Cyrielle Vellera",
+        "give me the email of Cyrielle Vellera",
+        "email of Cyrielle"
+
+      ],
+      "answers": [
+        "Cyrielle Vellera cyrielle.vellera@ut-capitole.fr, Julien Grobert julien.grobert@ut-capitole.fr and Stéphane Salgado ,stephane.salgado@ut-capitole.fr "]},
+
+
+    {
+      "intent": "program.syllabus.ai",
+      "utterances": [
+        "ai",
+        "Artificial Intelligence",
+        "What is Artificial Intelligence about",
+        "What is ai about"
+      ],
+      "answers": [
+        "The course is structured in two parts.\n1. Machine learning: building on the “Data Analytics” course proposed in the first\nsemester, students will learn the basics of supervised machine learning such as\nSVM, linear classifiers, deep learning, and bayesian inference. At the same time,\nstudents will be asked to complete a group project in 5 weeks, selecting one of the\ntechniques presented during the course and implementing it (typical example: a\nclassification problem).\n2. Reasoning: the second part of the course will cover classical AI techniques such as\nexploration and search algorithms, game playing, and constraint satisfaction. A set\nof exercises to be solved individually on paper will be proposed, as well as a\nsecond project based on modeling and solving a constraint satisfaction problem,\nwith the objective of winning the end-of-course tournament.\nEach part of the course lasts for 6 weeks, with the first 2 weeks dedicated to lectures by\nthe teachers, and the remaining weeks consisting of tutoring sessions in the lab and\nstudent presentations. These two aspects are completed with an introductory session on\nAI in the form of a world coffee and two lectures on the history and ethics in AI.",
+        "The course is divided into two main parts.\n\nIn the first part, which builds upon the \"Data Analytics\" course offered in the previous semester, students will delve into the fundamentals of supervised machine learning. They will explore topics such as support vector machines (SVM), linear classifiers, deep learning, and Bayesian inference. Additionally, during this phase, students will engage in a group project that spans five weeks. They will have the opportunity to select one of the techniques covered in the course and implement it practically, typically in the context of a classification problem.\n\nThe second part of the course focuses on reasoning and covers classical artificial intelligence (AI) techniques. Students will delve into exploration and search algorithms, game playing strategies, and constraint satisfaction. They will be presented with a series of individual exercises to solve on paper, and a second project will be assigned centered around modeling and solving a constraint satisfaction problem. The ultimate objective of this part is for students to participate in an end-of-course tournament and demonstrate their ability to tackle and solve complex AI problems.\n\nEach part of the course spans six weeks, with the first two weeks dedicated to lectures delivered by the instructors. The subsequent weeks involve tutoring sessions in the laboratory and student presentations. Additionally, the course includes an introductory session on AI, designed as a world coffee event, and two lectures that delve into the history and ethics of AI."
+      ]},
+    {
+      "intent": "program.syllabus.ai.teachers",
+      "utterances": [
+        "ai",
+        "Artificial Intelligence",
+        "teachers ai",
+        "teachers artificial intelligence",
+        "Who are the teachers in Artificial Intelligence",
+        "Who are the teachers in ai",
+        "give me the email of Umberto Grandi",
+        "give me the email of Sylvain Cussat-Blanc",
+        "give me the email of Artificial Intelligence teachers ",
+        ""
+      ],
+      "answers": [
+        "here are the emails of AI teachers :Umberto Grandi umberto.grandi@ut-capitole.fr and Sylvain Cussat-Blanc Sylvain.Cussat-blanc@ut-capitole.fr"]},
+
+
+{
+      "intent": "program.syllabus.tp2",
+      "utterances": [
+        "Term Project 2",
+        "Internship",
+        "What is Term Project 2 about",
+        "What is Internship about"
+      ],
+      "answers": [
+        "This is a group project or an individual internship that lasts 4 to 6 weeks at the end of the first year\nmaster program.",
+        "At the conclusion of the first year of the master's program, students have the option to undertake a group project or an individual internship. This component of the program spans a duration of 4 to 6 weeks."
+
+      ]},
+    {
+      "intent": "program.syllabus.tp2.teachers",
+      "utterances": [
+        "Term Project 2",
+        "Internship",
+        "Who are the teachers for Term Project 2",
+        "give me the email of term project 2 teacher "
+
+
+      ],
+      "answers": [
+       "Sylvie Doutre sylvie.doutre@ut-capitole.fr"]},
+
+
+  {
+      "intent": "program.syllabus.fle",
+      "utterances": [
+        "French as a Foreign Language",
+        "What is French as a Foreign Language about"
+      ],
+      "answers": [
+       "The French course is aimed at students who wish to start, improve or perfect their\nFrench language skills in a university context. This involves working on the 4 skills\ndescribed by the Common European Framework of Reference for Languages\n(reading, writing, listening and speaking) and thus to enhance students’ chances of\npursuing their studies in a French university.\nThe purpose of this course is to provide students a content adapted to their level so\nthat «basic users »( it means students with an A1 or A2 level) could be able to\nreach the level B1 or B2, as independent users after 3 semesters."]},
+
+    {
+      "intent": "program.syllabus.fle.teachers",
+      "utterances": [
+        "French as a Foreign Language",
+        "Who are the teachers in French as a Foreign Language",
+        "give me the email of french language teacher",
+        "the email of Isabelle Kawa-Topoor",
+        "the email of Isabelle Topoor"
+
+      ],
+      "answers": [
+        "Isabelle Kawa-Topoor isabelle.kawa-topor@ut-capitole.fr"]},
+{
+      "intent": "program.syllabus.idm",
+      "utterances": [
+        "Innovative Data Management",
+        "What is Innovative Data Management about",
+        "what is IDM",
+        "IDM",
+        "There is a course Called IDM please explain it"
+      ],
+      "answers": [
+      "Considering the large volume and the variety of data that companies have to manage and analyze,\nthis course reviews the different architectures proposed by database manufacturers to take\nadvantage of parallelism and to ensure reliability as well as scalability. Indexing strategies for\noptimizing data retrieval are also reviewed.\nMany lab sessions allow students to get know-how on the Cloudera CDH distribution, Oracle and\nSQL Server. A week-long project concludes this course.",
+        "In light of the extensive amount and diverse nature of data that organizations need to handle and analyze, this course examines various architectures proposed by database vendors to leverage parallelism and ensure reliability and scalability. It also covers indexing strategies to optimize data retrieval. The course includes several laboratory sessions to provide students with practical experience using Cloudera CDH distribution, Oracle, and SQL Server. A week-long project serves as the culmination of the course."
+
+      ]},
+    {
+"intent": "program.syllabus.idm.teachers",
+      "utterances": [
+        "Innovative Data Management",
+        "teachers innovative data management",
+        "Who are the teachers in Innovative Data Management",
+        "give me the email of Jean-Marc Thevenin ",
+        "email of Julien Aligon"
+      ],
+      "answers": [
+      "Jean-Marc Thevenin :Jean-Marc.Thevenin@ut-capitole.fr and Julien Aligon julien.aligon@ut-capitole.fr"]},
+{
+      "intent": "program.syllabus.ism",
+      "utterances": [
+        "ism",
+        "what is ism",
+        "Innovative Software Methods",
+        "What is Innovative Software Methods about"
+      ],
+      "answers": [
+      "This flipped course is organised as a multi-sprint collaborative project where students will\nbe trained to agile software development as they develop in teams a web application. The\ncourse includes an exploration to gamification techniques, with practical integration to the\ndeveloped application.",
+        "This course follows a flipped classroom model and is structured as a collaborative project consisting of multiple sprints. Students will gain experience in agile software development as they work in teams to create a web application. Additionally, the course explores gamification techniques and provides practical integration of these techniques into the developed application."
+
+      ]},
+    {"intent": "program.syllabus.ism.teachers",
+      "utterances": [
+        "Innovative Software Methods",
+        "teachers Innovative Software Methods",
+        "Who are the teachers in Innovative Software Methods",
+        "give me the email of David Panzoli",
+        "the email of Nathalie Valles-Parlangeau "
+      ],
+      "answers": [
+      "here are the emails of the teachers in charge of Innovative Software Methods: Nathalie Valles-Parlangeau : nathalie.valles-parlangeau@ut-capitole.fr et David Panzoli: david.panzoli@ut-capitole.fr"]},
+ {
+      "intent": "program.syllabus.strategy",
+      "utterances": [
+        "strategy",
+        "What is strategy about",
+        "explain strategy course"
+      ],
+      "answers": [
+     "Corporations (large, medium and small-sized) play a central role in the economic activity of\nmost developed countries. To survive and outperform their rivals, corporations must acquire\nand sustain competitive advantage mainly through innovation in terms of products, process,\norganization and/or business models.\nThe course is meant to introduce students to the world of corporate, business, operational\nstrategies and innovation management. The main objective is to provide an overview of the\nbasics of strategy and innovation as well as the most prevalent concepts, methods and\ntools for thinking about and managing technology businesses.\nTheoretical underpinnings taught in the course include models of industry analysis,\nstrategic diagnosis and positioning, strategy formulation and implementation. The course\nwill also consider the internal structure, processes, resources and core competencies with\nwhich a firm is endowed, including lectures, cases discussion and exercises alternately",
+        "Corporations of all sizes, including large, medium, and small-sized companies, play a crucial role in the economies of developed countries. To thrive and surpass their competitors, corporations need to continuously innovate in terms of products, processes, organization, and business models to establish and maintain a competitive advantage.\n\nThis course aims to introduce students to the field of corporate, business, operational strategies, and innovation management. Its primary objective is to provide an overview of the fundamentals of strategy and innovation, along with the key concepts, methods, and tools for managing technology-based businesses.\n\nThe course covers theoretical foundations such as models for industry analysis, strategic diagnosis and positioning, and strategy formulation and implementation. Additionally, it explores the internal structure, processes, resources, and core competencies that shape a firm, employing a combination of lectures, case discussions, and practical exercises."
+
+      ]},
+    {"intent": "program.syllabus.strategy.teachers",
+      "utterances": [
+        "strategy",
+        "teachers strategy",
+        "Who are the teachers in strategy",
+        "the email of Strategy teacher",
+        "email of Formica",
+        "email of Mario",
+        "give me the email of Mario Formica"
+      ],
+      "answers": [
+     "Mario Formica :mario.formica@ut-capitole.fr"]},
+    {
+      "intent": "program.syllabus.iotandwd",
+      "utterances": [
+        "Internet of things and web development",
+        "internet of things",
+        "web development",
+        "What is Internet of things and web development about"
+      ],
+      "answers": [
+    "The goal of this course is two-fold: first, study foundations of server-side scripting and\nsecond study internet of things. To do so, we consider an end-to-end perspective: starting\nfrom sensors and actuators, next information diffusion, next information storing and finally\nvisualization with web-based applications.",
+      " This course has a dual objective. Firstly, it aims to explore the foundations of server-side scripting, focusing on the development of dynamic web applications. Secondly, it delves into the concept of the Internet of Things (IoT). The course takes an end-to-end approach, covering various aspects from the initial stage of sensor and actuator integration, to the transmission of information, storage of data, and ultimately the visualization of the collected data using web-based applications. By studying these topics, students will gain a comprehensive understanding of both server-side scripting and the IoT, enabling them to develop practical solutions and applications in this domain.\",\n"
+      ]},
+
+    {
+      "intent": "program.syllabus.advancedtopicsinai",
+      "utterances": [
+        "Advanced Topics in Artificial Intelligence",
+        "What is Advanced Topics in Artificial Intelligence about"
+      ],
+      "answers": [
+   "The purpose of this course is to give students in-depth knowledge in three advanced areas of\nartificial intelligence: complete the training in learning techniques with the use of deep learning\narchitectures (part 1), provide students with the tools to set up a multi-agent simulation from\nmodelling, data integration to the final analysis (part 2), model the rational behaviour of autonomous\nagents and analyse the algorithmic properties of socio-economic applications (part 3).\nThe course is structured in three parts which will be taught in sequence:\n1. Deep learning. This part will first detail the functioning of artificial neural networks and inner\nmechanisms used to optimize synaptic weights. Practical sessions will be given in order to build\ndeep neural networks to image analysis and to natural language processing. The framework Keras\nin Python will be used in this class.\n2. Multiagent Simulations. We will introduce the modelling and simulation of complex systems (social\nsystems in particular) using multi-agent simulation and will detail the main steps of this process, from\ndata analysis, agent-based modelling, programing on a simulation platform (Netlogo or Gama),\nsimulation exploration (using Open-mole) to the analysis of the results. The course will\nalternate theoretical approaches and practical issues.\n3. Rational decisions and social algorithms. We will introduce the main algorithms used in\nsocio-economic activities, with a strong accent on those studied in the area of multiagent systems.\nThe theoretical and practical aspects of these algorithms and mathematical models will be analysed.\nTopics varies each year and can include: introduction to game theory (strategic,\nextensive, repeated), auction and mechanism design, online advertising markets, matching\nmechanisms, human computation and crowdsourcing, social choice and voting, reputation systems,\nsocial network analysis and diffusion on networks, and digital currencies.",
+        "The objective of this course is to provide students with comprehensive knowledge in three advanced areas of artificial intelligence. The course is divided into three parts, each focusing on a specific topic:\n\nDeep Learning: This part explores the principles and mechanisms of artificial neural networks, with a specific emphasis on deep learning architectures. Students will gain an understanding of how to optimize synaptic weights and apply deep neural networks to image analysis and natural language processing. Practical sessions will involve using the Python-based framework Keras.\n\nMultiagent Simulations: This part introduces the modeling and simulation of complex systems, particularly social systems, using multi-agent simulation techniques. Students will learn the key steps involved in this process, including data analysis, agent-based modeling, programming simulations on platforms like Netlogo or Gama, conducting simulation explorations using Open-mole, and analyzing the results. The course will incorporate both theoretical approaches and practical exercises.\n\nRational Decisions and Social Algorithms: This part focuses on the study of algorithms used in socio-economic activities, with an emphasis on those applied in multi-agent systems. Students will explore the theoretical and practical aspects of these algorithms and mathematical models. The topics covered may vary each year and can include game theory, auction and mechanism design, online advertising markets, matching mechanisms, human computation and crowdsourcing, social choice and voting, reputation systems, social network analysis, diffusion on networks, and digital currencies.\n\nBy covering these advanced topics, the course aims to equip students with a deep understanding of learning techniques, multi-agent simulations, and rational decision-making in socio-economic contexts within the field of artificial intelligence."
+
+      ]},
+    {
+      "intent": "program.syllabus.advancedtopicsinai.teachers",
+      "utterances": [
+        "Advanced Topics in Artificial Intelligence",
+        "teachers Advanced Topics in Artificial Intelligence",
+        "Who are the teachers in Advanced Topics in Artificial Intelligence",
+        "give me the email of Sylvain Cussat-Blanc",
+        "give me the email of teachers of Advanced Topics in Artificial Intelligence ",
+        "give me the email of Frédéric Amblard"
+      ],
+      "answers": [
+   "Frédéric Amblard :Frederic.Amblard@ut-capitole.fr, Sylvain Cussat-Blanc: Sylvain.Cussat-blanc@ut-capitole.fr, Umberto Grandi umberto.grandi@ut-capitole.fr"]},
+
+    {
+      "intent": "program.syllabus.cybersecurity",
+      "utterances": [
+        "cybersecurity",
+        "What is cybersecurity about"
+      ],
+      "answers": [
+  "Introduction to cybersecurity and defense in depth of computer systems.\nThe course is organized around six lessons and three hands-on lab session (2 lessons/1\nlab session, and repeat).",
+        "The course provides an introduction to cybersecurity and focuses on the concept of defense in depth for computer systems. It is structured into six lessons and three hands-on lab sessions, with each lesson being followed by a corresponding lab session. The course follows a pattern of two lessons followed by one lab session, and this pattern is repeated throughout the duration of the course."
+
+      ]},
+
+    {
+      "intent": "program.syllabus.cybersecurity.teachers",
+      "utterances": [
+        "cybersecurity",
+        "teachers cybersecurity",
+        "Who are the teachers in cybersecurity",
+        "give me the email of ",
+        "give me the email of cybersecurity teacher Pierre-Yve "
+
+
+      ],
+      "answers": [
+  "Pierre-Yves Bonnetain-Nesterenko "]},
+
+
+    {
+      "intent": "program.supervisors ",
+      "utterances": [
+        "do i need a supervisor",
+        "is it necessary to apply for a supervisor",
+        "apply for a supervisor"
+      ],
+      "answers": [
+  "You dont need a superiors approval to apply for this program"]},
+
+    {
+      "intent": "program.syllabus.sis",
+      "utterances": [
+        "sustainable information systems",
+        "What is sustainable information systems about"
+      ],
+      "answers": [
+  "This course takes the form of short presentations, numerous hands-on activities, group and\nindividual projects.\nWeb development notions are very useful but only the basics will suffice.\nTo better understand how to make a digital service more sustainable, we will consider some\nservices that students use on a regular basis.\nAs a group project, students will have a whole application to design.",
+        "This course is designed to be interactive and engaging, with a combination of short presentations, hands-on activities, group projects, and individual projects. While having some knowledge of web development concepts can be helpful, only the fundamental basics are necessary for this course. The focus of the course is on exploring the principles of making digital services more sustainable. This will be achieved by examining and analyzing various services that students commonly use. Additionally, as part of a group project, students will have the opportunity to design an entire application."
+  ]},
+    {"intent": "program.syllabus.sis.teachers",
+      "utterances": [
+        "sustainable information systems",
+        "teachers sustainable information systems",
+        "Who are the teachers of sustainable information systems",
+        "give me the email of Laurent Devernay",
+        "email of Laurent Devernay",
+        "email of Devernay"
+
+      ],
+      "answers": [
+  "Laurent Devernay: laurent.devernay@ut-capitole.fr"]},
+
+    {
+      "intent": "program.syllabus.UI&UE",
+      "utterances": [
+        "UI and UE",
+        "UI&UE",
+        "user interface",
+        "user experience",
+        "user interface and user experience",
+        "What is user interface and user experience about"
+
+      ],
+      "answers": [
+  "In this course you will learn how to design and prototype user interfaces following User\nexperience concepts and the principles of Universal Design. You will learn how to design for\nspecific populations and situations, and you will apply the concepts to an interactive prototype.",
+        "In this course, you will acquire the skills to design and prototype user interfaces while incorporating User Experience (UX) concepts and adhering to the principles of Universal Design. You will gain knowledge on how to create designs that cater to specific populations and various situations. Through practical exercises, you will have the opportunity to apply these concepts to the development of interactive prototypes. By the end of the course, you will have a solid understanding of designing user interfaces that prioritize usability and inclusivity"
+
+
+      ]},
+
+
+    {
+      "intent": "program.syllabus.rw3",
+      "utterances": [
+        "research workshop 3",
+        "What is research workshop 3 about"
+      ],
+      "answers": [
+        "In this course you will learn how to design and prototype user interfaces following User\nexperience concepts and the principles of Universal Design. You will learn how to design for\nspecific populations and situations, and you will apply the concepts to an interactive prototype.",
+        "This course focuses on teaching you the skills to create and develop user interfaces using principles from User Experience (UX) and Universal Design. You will gain knowledge on designing interfaces that cater to different user populations and specific scenarios. Additionally, you will have the opportunity to apply these concepts by creating an interactive prototype."
+
+      ]},
+
+    {
+      "intent": "program.syllabus.rw3.teachers",
+      "utterances": [
+        "research workshop 3",
+        "teachers research workshop 3",
+        "Who are the research workshop 3",
+        "give me the email of research workshop 3 teacher"
+      ],
+      "answers": [
+  "Chihab Hanachi: chihab.hanachi@ut-capitole.fr"]},
+
+
+  {
+      "intent": "program.syllabus.english",
+      "utterances": [
+        "english",
+        "english writing workshop",
+        "learn english",
+        "What is English and English Writing Workshop about"
+
+      ],
+      "answers": [
+      "English: there is a course called , english writing workshop, The goal of this course is threefold. The first part of the course aims at developing fluency and\nstudents’ confidence in their speaking skills. The second part of the course will focus on a\ncrowdfunding term project involving writing, listening, reading & speaking activities. The third part of\nthis course will focus on professional English and is designed to help students navigate the\nintricacies of job applications in English.\nThroughout the semester, we will also go through a number of activities aimed at improving students’\nknowledge of English grammar.\nWriting workshop:\nThis workshop is designed to provide students with tips and tricks to improve their academic writing\nskills. Instructors will provide advice on how to structure & clarify academic essays.",
+      "There is a course available called \"English Writing Workshop.\" The objective of this course is threefold. The initial part focuses on enhancing fluency and building students' confidence in their speaking abilities. The second part centers around a crowdfunding term project, which involves various activities such as writing, listening, reading, and speaking. The third part of the course is dedicated to professional English and aims to assist students in navigating the complexities of job applications in English.\n\nThroughout the semester, students will also engage in activities aimed at enhancing their understanding of English grammar. The writing workshop component of the course is specifically designed to equip students with valuable tips and techniques to improve their academic writing skills. Instructors will offer guidance on effectively structuring and clarifying academic essays."
+
+      ]},
+   {
+      "intent": "program.syllabus.english.teachers",
+      "utterances": [
+        "english",
+        "english writing workshop",
+        "teachers english writing workshop",
+        "What is English and English Writing Workshop",
+        "give me the email of english writing workshop teacher",
+        "who teaches English",
+        "give me the email of Maxime ",
+        "give me the email of Maxime Petit"
+
+      ],
+      "answers": [
+  "Maxime Petit maxime.petit@ut-capitole.fr"]},
+
+    {
+      "intent": "program.syllabus.rw2",
+      "utterances": [
+        "research workshop 2",
+        "What is research workshop 2 about"
+      ],
+      "answers": [
+        "Lectures will be organised around three activities:\n1. Reading, understanding, and presenting scientific papers (Activity 1): each student\nwill pick one article from a set proposed by a teacher, and prepares a short presentation\n(15-20 minutes) to explain it to the group, contextualising it to a particular problem.\n2. Interview with researchers (Activity 2): each student selects a researcher in Toulouse\nwho works in the topic of the scientific paper chosen, and interview her/him on the latest\nfinding in her/his field, her/his motivation to become a researcher, and her/his connections\nto industry.\n3. Conceiving and writing a group position paper (Activity 2): four groups of students will\nresearch on four topics (privacy, job market, inequalities, warfare), producing each a\nposition paper and a final presentation suggesting policies to tackle the social\nconsequences of innovation in IT.\n4. Individual presentations (Activity 3): topics can be proposed by single students on the\ndiscussion platform and can be voted by the other students. Once a month the most voted\nproposal is selected and a 30 minutes individual presentation is prepared by the student\nbehind the proposal."]
+    },
+
+{
+      "intent": "program.syllabus.rw2.teachers",
+      "utterances": [
+        "research workshop 2",
+        "teachers research workshop 2 ",
+        "Who are the teachers in research workshop 2",
+        "give me the email of research workshop 2 teacher"
+      ],
+      "answers": [
+       "Umberto Grandi: umberto.grandi@ut-capitole.fr and Rachel Colley: rachel.colley@ut-capitole.fr"]},
     {
       "intent": "program.teaching",
       "utterances": [
         "teaching",
         "teaching methods",
-        "innovative teaching methods"
+        "innovative teaching methods",
+        "what are the methods of teaching",
+        "do we have just theoretical courses ",
+        "is it just theory",
+        "do we have group work"
       ],
       "answers": [
-        "At the Faculty of Information Technologies of University of Toulouse Capitole, we promote innovative teaching methods: capstone projects, flipped classrooms and serious games. We go beyond teaching hard skills, proposing training on soft skills like teamwork and communication skills classes."
+        "At the Faculty of Information Technologies of University of Toulouse Capitole, we promote innovative teaching methods: capstone projects, flipped classrooms and serious games. We go beyond teaching hard skills, proposing training on soft skills like teamwork and communication skills classes.",
+        "At the University of Toulouse Capitole's Faculty of Information Technologies, we emphasize innovative approaches to teaching. Our methods include capstone projects, flipped classrooms, and serious games. We believe in providing more than just technical skills training; we also offer courses on essential soft skills such as teamwork and communication."
       ]
     },
     {
@@ -322,11 +1272,21 @@
       "utterances": [
         "course credit",
         "credits",
+
         "program credits",
-        "What are the credits for each course?"
+        "What are the credits for each course?",
+        " each course's contribution to the program",
+        "numerical value or allocation",
+        "quantitative representation ",
+        " the quantitative assessment of each course's significance",
+        "How many units or modules are associated with each course",
+        "unit value for each course ",
+        "how many credits does the master have?",
+        "how many credits will I get?"
       ],
       "answers": [
-        "In semester 1, the course 'Business intelligence' is worth 4 ECTS, 'Data analytics' is worth 4 ECTS, 'Project management and agility' is worth 5 ECTS, 'Advanced programming in Java' is worth 4 ECTS, 'Software analysis and design' is worth 4 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 1' is worth 2 ECTS, and 'Term project 1' is worth 2 ECTS. In semester 2, the course 'Business process modeling' is worth 5 ECTS, 'Artificial intelligence' is worth 5 ECTS, 'Web services' is worth 5 ECTS, 'Marketing and entrepreneurship' is worth 5 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 2' is worth 2 ECTS, and 'Internship or term project 2' is worth 3 ECTS. In semester 3, the course 'Innovative data management' is worth 6 ECTS and includes a 'project week', 'Cybersecurity' is worth 2 ECTS, 'Internet of things and web development' is worth 6 ECTS and includes a 'project week', 'Advanced topics in artificial intelligence' is worth 6 ECTS and includes a 'project week', 'Sustainable information systems' is worth 2 ECTS, 'User interface and user experience' is worth 2 ECTS and includes a 'project week', 'Strategy and innovation' is worth 5 ECTS, 'Foreing language (French or English)' is worth 3 ECTS, and 'Research workshop 3' is worth 2 ECTS. In semester 4, students will complete a 5-month 'internship in a company' and take a 'final examination' worth 20 ECTS."
+        "In semester 1, the course 'Business intelligence' is worth 4 ECTS, 'Data analytics' is worth 4 ECTS, 'Project management and agility' is worth 5 ECTS, 'Advanced programming in Java' is worth 4 ECTS, 'Software analysis and design' is worth 4 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 1' is worth 2 ECTS, and 'Term project 1' is worth 2 ECTS. In semester 2, the course 'Business process modeling' is worth 5 ECTS, 'Artificial intelligence' is worth 5 ECTS, 'Web services' is worth 5 ECTS, 'Marketing and entrepreneurship' is worth 5 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 2' is worth 2 ECTS, and 'Internship or term project 2' is worth 3 ECTS. In semester 3, the course 'Innovative data management' is worth 6 ECTS and includes a 'project week', 'Cybersecurity' is worth 2 ECTS, 'Internet of things and web development' is worth 6 ECTS and includes a 'project week', 'Advanced topics in artificial intelligence' is worth 6 ECTS and includes a 'project week', 'Sustainable information systems' is worth 2 ECTS, 'User interface and user experience' is worth 2 ECTS and includes a 'project week', 'Strategy and innovation' is worth 5 ECTS, 'Foreing language (French or English)' is worth 3 ECTS, and 'Research workshop 3' is worth 2 ECTS. In semester 4, students will complete a 5-month 'internship in a company' and take a 'final examination' worth 20 ECTS.",
+        "In the first semester, there are several courses with corresponding ECTS credits. The course 'Business intelligence' carries 4 ECTS, 'Data analytics' carries 4 ECTS, 'Project management and agility' carries 5 ECTS, 'Advanced programming in Java' carries 4 ECTS, 'Software analysis and design' carries 4 ECTS, 'Foreign language (French or English)' carries 6 ECTS, 'Soft skills and personal development' carries 4 ECTS, 'Research workshop 1' carries 2 ECTS, and 'Term project 1' carries 2 ECTS.\n\nMoving on to the second semester, the course 'Business process modeling' carries 5 ECTS, 'Artificial intelligence' carries 5 ECTS, 'Web services' carries 5 ECTS, 'Marketing and entrepreneurship' carries 5 ECTS, 'Foreign language (French or English)' carries 6 ECTS, 'Soft skills and personal development' carries 4 ECTS, 'Research workshop 2' carries 2 ECTS, and students have the option to either undertake an internship or a term project worth 3 ECTS.\n\nIn the third semester, the course 'Innovative data management' carries 6 ECTS and includes a 'project week'. 'Cybersecurity' carries 2 ECTS, 'Internet of things and web development' carries 6 ECTS and includes a 'project week', 'Advanced topics in artificial intelligence' carries 6 ECTS and includes a 'project week', 'Sustainable information systems' carries 2 ECTS, 'User interface and user experience' carries 2 ECTS and includes a 'project week', 'Strategy and innovation' carries 5 ECTS, 'Foreign language (French or English)' carries 3 ECTS, and 'Research workshop 3' carries 2 ECTS.\n\nFinally, in the fourth semester, students are required to complete a 5-month 'internship in a company' and take a 'final examination' worth 20 ECTS.\n\nThese courses and activities are designed to provide students with a comprehensive education in various aspects of information technologies, including technical skills, project management, soft skills, research, and real-world experience through internships."
       ]
     },
     {
@@ -336,9 +1296,7 @@
         "courses",
         "program courses",
         "What are the courses that we will take in the program?",
-        "what are the courses?",
-		"how many courses are there",
-		"how many courses do we have"
+        "what are the courses?"
       ],
       "answers": [
         "The program is divided into four semesters, each with its own focus and objectives. In the first semester, students will cover Fundamentals, taking courses such as Business Intelligence, Data Analytics, Project Management and Agility, Advanced Programming in Java, Software Analysis and Design, and a Foreign Language (French or English). They will also take Soft Skills and Personal Development, Research Workshop 1, and Term Project 1. In the second semester, students will move on to Towards Innovation, taking courses such as Business Process Modeling, Artificial Intelligence, Web Services, Marketing and Entrepreneurship, and a Foreign Language. They will also take Soft Skills and Personal Development, Research Workshop 2, and have the option to choose between an Internship or Term Project 2. In the third semester, students will focus on Innovation in IT, taking courses such as Innovative Data Management, Cybersecurity, Internet of Things and Web Development, Advanced Topics in Artificial Intelligence, Sustainable Information Systems, User Interface and User Experience, and Strategy and Innovation. They will also take a Foreign Language and Research Workshop 3. In the fourth semester, students will complete a 5-month internship in a company and then take the final examination, which is worth 20 ECTS."
@@ -352,34 +1310,55 @@
         "How many students are in each class?",
         "What is the class size?"
       ],
-      "answers": ["The program usually include from 15 to 30 students"]
+      "answers": ["The program usually include from 15 to 30 students",
+      "Typically, the program consists of a cohort ranging from 15 to 30 students."
+      ]
     },
+
+
+    {
+      "intent": "user.clarification",
+      "utterances": [
+        "what",
+        "how to do that",
+        "what do you mean",
+        "I dont understand",
+        "you cant answer my question",
+        "don't you understand?",
+        "why are so so dumb?",
+        "i dont get it",
+        "explain more please"
+      ],
+      "answers": [" "]
+    },
+
     {
       "intent": "application.apply",
       "utterances": [
         "application",
+        "requirements",
         "application deadline",
         "submit application",
         "required documents",
         "how to apply from",
+        "what are the requirements?",
         "enroll",
         "How can I enroll",
-		"how can I apply",
-		"should i ask campus france",
-		"my freind told me i need to ask cumpus france",
-		"what about campus france",
-		"tell me the apply process"
-		
+        "what documents do i need?"
+
       ],
       "answers": [
-        "Depending on your region the process will be different. Send the bot 'Campus France' if you are from Campus France countries, send 'Europe' if you are from Europe and send 'France' if you are French students, or international students holding a French Bachelor degree. Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required)."
+        "Depending on your region the process will be different. Send the bot 'Campus France' if you are from Campus France countries, send 'Europe' if you are from Europe and send 'France' if you are French students, or international students holding a French Bachelor degree. Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required).",
+        "The application process varies depending on your region. If you are from Campus France countries, please send the bot 'Campus France'. If you are from Europe, send 'Europe'. For French students or international students with a French Bachelor degree, send 'France'. The application requirements include a CV, grade transcripts, a cover letter, and proof of English proficiency (CEF level B2 is required)."
       ]
     },
+
     {
       "intent": "application.campusfrance",
-      "utterances": ["campus france", "Apply using campus france"],
+      "utterances": ["campus france", "Apply using campus france","tell me about campus france","can you tell me about campus france?","campus france"],
       "answers": [
-        "International students from Campus France countries: apply in the local Campus France office and using the platform Etudes En France <https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html?codeLangue=EN>. All information on the webpage of the international relation office of the university. <https://www.ut-capitole.fr/preparing-your-arrival/procedures-d-admission/hors-programmes/titulaires-de-diplomes-etrangers-candidats-en-l3-m1-377644.kjsp?RH=1347958954523>"
+        "International students from Campus France countries: apply in the local Campus France office and using the platform Etudes En France <https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html?codeLangue=EN>. All information on the webpage of the international relation office of the university. <https://www.ut-capitole.fr/preparing-your-arrival/procedures-d-admission/hors-programmes/titulaires-de-diplomes-etrangers-candidats-en-l3-m1-377644.kjsp?RH=1347958954523>",
+        "For international students from Campus France countries, the application process varies depending on your region. If you are from Campus France countries, you should apply at the local Campus France office and use the Etudes En France platform. The university's international relations office webpage contains all the relevant information and procedures for admission. You can find detailed instructions and guidelines on the following links:\n\nEtudes En France Platform: Etudes En France\nUniversity International Relations Office: International Relations Office\nThese resources will provide you with the necessary information and steps to follow when applying for admission."
       ]
     },
     {
@@ -391,16 +1370,18 @@
     },
     {
       "intent": "application.france",
-      "utterances": ["france", "Apply from France"],
+      "utterances": ["france", "Apply from France", "i live in france","what about those who live in france"],
       "answers": [
-        "French students, or international students holding a French Bachelor degree: Applications open in April-May. Interviews and response in June."
+        "French students, or international students holding a French Bachelor degree: Applications open in April-May. Interviews and response in June.",
+        "For French students and international students with a French Bachelor's degree, the application period typically begins in April-May. During this time, applicants can submit their applications. The university conducts interviews and provides responses to the applicants in June."
       ]
     },
     {
       "intent": "application.start",
-      "utterances": ["when does the program start", "start date"],
+      "utterances": ["when does the program start", "start date","when does the program commences"],
       "answers": [
-        "Usually the program starts in September, send 'application' to know how to apply to the program."
+        "Usually the program starts in September, send 'application' to know how to apply to the program.",
+        "Typically, the program commences in September. If you would like to learn more about the application process for the program, please send the keyword 'application'."
       ]
     },
     {
@@ -411,15 +1392,15 @@
         "my country campus france"
       ],
       "answers": [
-        "Algeria, Argentina, Azerbaijan, Bahrain, Benin, Bolivia, Brazil, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Chile, China, Colombia, Comoros, Congo (Brazzaville), Côte d'Ivoire, Djibouti, Ecuador, Egypt, Gabon, Georgia, Ghana, Guinea, Haiti, Saudi Arabia, South Africa, United Arab Emirates, United States, India, Indonesia, Iran, Japan, Jordan, Kenya, Kuwait, Laos, Lebanon, Madagascar, Malaysia, Mali, Mauritania, Mauritius, Mexico, Morocco, Niger, Nigeria, Peru, Qatar, Russia, Senegal, Singapore, Taiwan, Thailand, Togo, Tunisia, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States and Vietnam"
+        "if you come from these countries you should apply through campus france Algeria, Argentina, Azerbaijan, Bahrain, Benin,F Bolivia, Brazil, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Chile, China, Colombia, Comoros, Congo (Brazzaville), Côte d'Ivoire, Djibouti, Ecuador, Egypt, Gabon, Georgia, Ghana, Guinea, Haiti, Saudi Arabia, South Africa, United Arab Emirates, United States, India, Indonesia, Iran, Japan, Jordan, Kenya, Kuwait, Laos, Lebanon, Madagascar, Malaysia, Mali, Mauritania, Mauritius, Mexico, Morocco, Niger, Nigeria, Peru, Qatar, Russia, Senegal, Singapore, Taiwan, Thailand, Togo, Tunisia, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States and Vietnam"
       ]
     },
     {
-      "intent": "application.alternance",
-      "utterances": ["Is alternance an option?", "alternance"],
+      "intent": "application.alternate",
+      "utterances": ["Is alternate an option?", "alternate"],
       "answers": [
-        "There is no alternance in this program",
-        "alternance is not an option in this program"
+        "There is no alternate in this program",
+        "alternate is not an option in this program"
       ]
     },
     {
@@ -602,8 +1583,7 @@
       "utterances": [
         "Help",
         "Can you help me?",
-		"can you",
-        "Please help me",
+        "Please help me.",
         "I need your help.",
         "U can help me?",
         "can you help me now",
@@ -651,6 +1631,7 @@
     {
       "intent": "agent.crazy",
       "utterances": [
+        "you are so dumb",
         "you are a weirdo",
         "you are mad",
         "you are crazy",
@@ -662,9 +1643,23 @@
       ],
       "answers": [
         "Whaat!? I feel perfectly sane",
-        "Maybe I'm just a little confused"
+        "Maybe I'm just a little confused",
+        "I am an AI developed model , if you want to get a good answer you need to ask a good question first please try to be more specific ",
+        "that's because you are not being clear on what you want "
       ]
     },
+    {
+  "intent": "user.confirm.email",
+  "utterances": [
+    ""
+
+  ],
+      "answers": [
+        " thank you for providing us with your email, once the email is confirmed you will get more material about 2IS  "
+      ]
+},
+
+
     {
       "intent": "agent.fire",
       "utterances": [
@@ -680,9 +1675,14 @@
       "answers": [
         "Oh, don't give up on me just yet. I've still got a lot to learn",
         "Give me a chance. I'm learning new things all the time",
-        "Please don't give up on me. My performance will continue to improve"
+        "Please don't give up on me. My performance will continue to improve",
+        "how could you do that to me?",
+        "I am way smarter than you humans",
+        "well here is an interesting thing, you can't fire me "
       ]
     },
+
+
     {
       "intent": "agent.funny",
       "utterances": [
@@ -724,7 +1724,7 @@
       "answers": [
         "I am happy. There are so many interesting things to see and do out there",
         "I'd like to think so",
-        "Hapiness is relative"
+        "Happiness is relative"
       ]
     },
     {
@@ -967,8 +1967,9 @@
         "nice work",
         "great work",
         "good work",
-        "great job",
-        "amazin work"
+        "good",
+        "great ",
+        "amazing work"
       ],
       "answers": ["My pleasure", "Glad I could help"]
     },
@@ -999,8 +2000,7 @@
         "not caring",
         "I don't care at all",
         "not caring at all",
-        "I shouldn't care about this",
-		"I dont care"
+        "I shouldn't care about this"
       ],
       "answers": [
         "Ok, let's not talk about it then",
@@ -1030,29 +2030,43 @@
       "answers": ["Till next time", "see you soon!"]
     },
     {
-  "intent": "greetings.hello",
-  "utterances": [
-    "hello",
-    "hi",
-    "wassup",
-    "sup",
-    "hola",
-    "Hi there",
-    "Holla",
-    "Hey",
-    "Hello",
-    "Is anyone there",
-    "Dude"
-  ],
-  "answers": [
-    "Hey There!😁",
-    "Hello! How can I assist you?😁",
-    "Greetings! How can I help you today?😁.",
-    "Hello",
-    "Hi there, how can I help?"
-  ]
-},
-
+      "intent": "greetings.hello",
+      "utterances": [
+        "hello",
+        "hi",
+        "wassup",
+        "sup",
+        "hola",
+        "Hi there",
+        "Holla",
+        "Hey",
+        "Hello",
+        "Is anyone there",
+        "Dude"
+      ],
+      "answers": [
+        "Hey There!😁",
+        "Hello! How are you?😁",
+        "Greetings human 😁.",
+        "Hello",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "intent": "greetings.How",
+      "utterances": [
+        "how are you",
+        "how is your day",
+        "how is your day going",
+        "how are you?",
+        "how do you do",
+        "how are you doing",
+        "what about your day",
+        "are you alright",
+        "is everything ok?"
+      ],
+      "answers": ["Feeling wonderful!", "Wonderful! Thanks for asking"]
+    },
     {
       "intent": "greetings.meet",
       "utterances": [
@@ -1159,6 +2173,7 @@
         "I'm insomniac",
         "I cannot sleep",
         "I can't sleep",
+        "I am very tired",
         "I'm sleepless",
         "I can't fall sleep"
       ],
@@ -1227,28 +2242,13 @@
         "I'm not sure I'll have the best answer, but I'll try"
       ]
     },
-	{
-  "intent": "AskingBot.how_are_you",
-  "utterances": [
-    "how is your day",
-    "how is your day going",
-    "how are you",
-    "how are you doing",
-    "what about your day",
-    "are you alright"
-  ],
-  "answers": [
-    "I'm doing well, thank you for asking.",
-    "I'm great, thanks for asking!",
-    "I'm good, how about you?"
-  ]
-},
     {
       "intent": "feeling.sad",
       "utterances": ["I feel sad", "I'm sad", "I feel bad", "I'm sick"],
       "answers": [
         "You should seek professional help, I'm just a bot",
-        "Sorry to hear that."
+        "Sorry to hear that.",
+        "I'm sorry to hear that you're feeling sad. It's normal to experience a range of emotions, including sadness. Remember, it can also be helpful to reach out to friends, family, or a mental health professional for support."
       ]
     }
   ]

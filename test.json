@@ -1,0 +1,423 @@
+[
+  {
+    "user_input": "What documentation or information is needed to complete the registration?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "Are there any specific prerequisites or qualifications for entry?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "Are there any specific mandates or credentials needed to be eligible?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "What criteria or qualifications must be met to be considered?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "What are the requirements or qualifications needed to participate?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "What are the necessary qualifications for registration?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "What are the essential elements for a successful registration?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "Are there any specific prerequisites or qualifications for registration?",
+    "expected_intent": "program.Register"
+  },
+
+  {
+    "user_input": "What conditions must be met to complete the registration process?",
+    "expected_intent": "program.Register"
+  },
+
+
+  {
+    "user_input": "how many credits will i get?",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "What is the unit value for each course in terms of academic requirements?",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "Can you specify the value or weight assigned to individual courses?",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "How is the course workload distributed across the program's curriculum",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "Can you provide details on the quantitative representation of each course's importance",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "How many credits are attributed to each individual course?",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "How many course credits are required for completion of each module?",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "What is the credit weighting for each course within the program?",
+    "expected_intent": "program.credits"
+  },
+
+  {
+    "user_input": "What is the numerical value or allocation for each course's academic contribution?",
+    "expected_intent": "program.credits"
+  },
+
+
+
+  {
+    "user_input": "Hi there, chatbot! How's everything with you?",
+    "expected_intent": "greetings.hello"
+  },
+
+   {
+    "user_input": "Hi dear chatbot how are you",
+    "expected_intent": "greetings.hello"
+  },
+   {
+    "user_input": "How's your day going, chatbot?",
+    "expected_intent": "greetings.hello"
+  },
+   {
+    "user_input": "Hi , boy How are you holding up",
+    "expected_intent": "greetings.hello"
+  },
+   {
+    "user_input": "Greetings, dear chatbot! How are you faring todayu",
+    "expected_intent": "greetings.hello"
+  },
+   {
+    "user_input": "Hey, chatbot! How's life treating you",
+    "expected_intent": "greetings.hello"
+  },
+
+
+  {
+    "user_input": "When does it start?",
+    "expected_intent": "application.start"
+  },
+
+  {
+    "user_input": "At what time does the program commence?",
+    "expected_intent": "application.start"
+  },
+
+  {
+    "user_input": "At what hour does the program initiate?",
+    "expected_intent": "application.start"
+  },
+
+    {
+    "user_input": "What is the starting time of the program?",
+    "expected_intent": "application.start"
+  },
+
+   {
+    "user_input": "When can I expect the program to start?",
+    "expected_intent": "application.start"
+  },
+
+  {
+    "user_input": "At what point does the program commence?",
+    "expected_intent": "application.start"
+  },
+
+
+
+
+
+   {
+    "user_input": "When is the program scheduled to start?",
+    "expected_intent": "application.start"
+  },
+
+
+
+  {
+    "user_input": "When does the program kick off?",
+    "expected_intent": "application.start"
+  },
+
+
+
+  {
+    "user_input": "What are the requirements for applying to your university?",
+    "expected_intent": "program.application"
+  },
+
+   {
+    "user_input": "do who will be teaching us business intelligence?",
+    "expected_intent": "program.syllabus.BI.teacher"
+  },
+
+  {
+    "user_input": "please tell me what will we learn during bpm",
+    "expected_intent": "program.syllabus.bpm"
+  },
+   {
+    "user_input": "How many years does it take?",
+    "expected_intent": "program.duration"
+  },
+   {
+    "user_input": "when will it finish",
+    "expected_intent": "program.duration"
+  },
+  {
+    "user_input": "What is the anticipated time required for the task",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "How many years does it take?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "How many hours/days/weeks does it take?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "How long is the estimated time frame?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "What is the expected time it takes?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "How many years does it take?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "what is the average duration for completion?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "What is the expected time it takes?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "How much time does it typically require?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": "What is the duration of the process?",
+    "expected_intent": "program.duration"
+  },
+
+
+   {
+    "user_input": "it it possible that the program will be online",
+    "expected_intent": "program.format"
+  },
+
+  {
+    "user_input": "can i have my classes online",
+    "expected_intent": "program.format"
+  },
+   {
+    "user_input": "I have a visa but unfortunately my visa is expired can i study there ",
+    "expected_intent": "program.visa"
+  },
+   {
+    "user_input": "what do i need to know about the program i mean can i find a good job ? ",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "What can you tell me about the program's potential for creating advantageous employment avenues?",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "what do i need to know about the program i mean can i find a good job ? ",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "Are there specific factors about the program that contribute to favorable job outcomes?",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "Does the program have a strong reputation for facilitating successful job placements? ",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "Can you provide insights on the program's job prospects and whether it leads to good employment?",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "What can you tell me about the program's track record in helping individuals find good jobs?",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "Are there any resources or support systems within the program to aid in job placement? ",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "Can you share any details about the program's alumni and their career achievements?",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": "What information or statistics are available regarding the program's effectiveness in assisting graduates to find good jobs?",
+    "expected_intent": "program.job"
+  },
+
+  {
+    "user_input": " if i dont have a bachelor in computer science can i still study for this program  ",
+    "expected_intent": "program.application"
+  },
+
+  {
+    "user_input": " can you please tell me who is the director of the program ",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who has been designated to head the program?",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who has assumed the position of managing the program?",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": " Who has taken up the role of managing the program ",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who is responsible for the program's administration? ",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who is currently leading the program as its director?",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who is the designated director of the program? ",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who can I contact if I need to reach the program's director? ",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": " can you please tell me who is the director of the program ",
+    "expected_intent": "program.directors"
+  },
+
+
+
+{
+    "user_input": "Who has been entrusted with the program's leadership?",
+    "expected_intent": "program.directors"
+  },
+
+  {
+    "user_input": "Who is the individual in charge as the director of the program?",
+    "expected_intent": "program.directors"
+  },
+  {
+    "user_input": " who is in charge?",
+    "expected_intent": "program.directors"
+  },
+  {
+    "user_input": " How long does it take?",
+    "expected_intent": "program.duration"
+  },
+
+  {
+    "user_input": " What qualifications are needed for admission? ",
+    "expected_intent": "program.admission"
+  },
+
+   {
+    "user_input": "What is required to be admitted? ",
+    "expected_intent": "program.admission"
+  },
+
+   {
+    "user_input": " Are there any specific standards for admission?",
+    "expected_intent": "program.admission"
+  },
+
+   {
+    "user_input": "What qualifications do I need to meet to get accepted ",
+    "expected_intent": "program.admission"
+  },
+
+   {
+    "user_input": " Are there any specific standards I need to meet to be considered ",
+    "expected_intent": "program.admission"
+  },
+
+   {
+    "user_input": " Could you provide information on the prerequisites for joining? ",
+    "expected_intent": "program.admission"
+  },
+
+   {
+    "user_input": " What are the prerequisites to enroll?",
+    "expected_intent": "program.admission"
+  },
+
+
+
+
+   {
+    "user_input": " Are there any specific conditions to be eligible?",
+    "expected_intent": "program.admission"
+  }
+
+
+
+
+
+]
