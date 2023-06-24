@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "All-EN",
   "locale": "en-US",
@@ -2259,4 +2260,1270 @@
       ]
     }
   ]
+=======
+{
+  "name": "All-EN",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "program.curriculum",
+      "utterances": [
+        "curriculum",
+        "Can you provide me with more information about what courses are included in the curriculum for this program?",
+        "What is the curriculum for the program?"
+      ],
+      "answers": [
+        "The program includes subjects such as business intelligence, data analytics, project management and agility, programming using Java, software analysis and design, and the option to study either French or English as a foreign language. Additionally, the curriculum includes courses that focus on personal and professional development, research workshops, and term projects. In the second year, students have the opportunity to take a variety of elective courses, such as innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced artificial intelligence, sustainable information systems, and user interface and user experience design.",
+        "The curriculum for the program includes courses in business intelligence, data analytics, project management and agility, advanced programming in Java, software analysis and design, and foreign language (French or English). It also includes professionalization courses in soft skills and personal development, research workshops, and term projects. In the second year, students can choose from a range of courses in innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, and user interface and user experience."
+      ]
+    },
+	
+	
+	 {
+      "intent": "program.visa",
+      "utterances": [
+        "do i need a visa",
+        "but i dont have a visa",
+        "how can i apply for a visa",
+        "what about visa",
+        "is getting a visa difficult?",
+        "can someone hep me for visa"
+      ],
+      "answers": [
+        "depending where you come from you might need to apply for a visa,you can apply for it after getting accepetd and rececied the addmission letter,you can check the following site to see what documents do you need https://france-visas.gouv.fr/web/france-visas/ma-demande-en-ligne"
+      ]
+    },
+	
+	
+	 {
+      "intent": "program.Register",
+      "utterances": [
+        "How can i register",
+        "register",
+        "what do i need for registration",
+        "anyone help me for registration",
+        "is it easy to register?",
+        "when should i register?"
+      ],
+      "answers": [
+        "well in order to register you need to provide your documents to .......... "
+      ]
+    },
+	
+	
+	{
+	  "intent": "program.visa.country",
+      "utterances": [
+        "which countries need visa",
+        "i come from Iran do i need visa",
+        "i come from Afghanistan do i need visa",
+        "can you tell me the countries that need visa",
+        "why do i need a visa"
+      ],
+      "answers": [
+        "can check if you need a visa in this webite https://www.service-public.fr/particuliers/vosdroits/F21921?lang=en, "
+      ]
+    },
+	
+	
+    {
+      "intent": "program.directors",
+      "utterances": [
+        "Director of studies",
+        "Directors",
+        "People in charge of the program",
+        "contact teachers",
+        "program contacts",
+        "who can i contact?"
+      ],
+      "answers": [
+        "1st year: David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2nd year: Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités"
+      ]
+    },
+    {
+      "intent": "program.goals",
+      "utterances": [
+        "tell me about the program",
+        "What are the goals of the program",
+        "goals",
+        "what is this program about",
+        "Who is this program designed for"
+      ],
+      "answers": [
+        "The 2IS Master program is designed for Bachelor students in information technologies (IT) aiming to expand their knowledge on innovative information technologies. 2IS is organised by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science. 2IS is a MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), which is the reference Master in France for information technolgy. MIAGE programs are run by more than 20 universities in France. Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
+        "The 2IS Master program is tailored for IT Bachelor students who wish to enhance their understanding of cutting-edge information technologies. It is organized by IRIT (Institut de Recherche en Informatique de Toulouse), a leading French institute in computer science. 2IS is part of the MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), a widely recognized program in France for IT. MIAGE programs are offered by over 20 universities in France. Innovative information technologies play a critical role in shaping and transforming businesses, with areas such as artificial intelligence, big data and web-service orchestration having significant impact on end-users as automation becomes increasingly central to business processes.",
+        "The 2IS program offers a comprehensive and unique view of innovation in information technology over a 2-year period, covering topics such as innovative software solutions, software development methods, and innovation and entrepreneurship in strategy and management. These include business intelligence and data visualization, machine learning, collective intelligence, distributed databases, agile management, and collaborative design."
+      ]
+    },
+    {
+      "intent": "program.curriculum.bpm",
+      "utterances": [
+        "do we have "
+      ],
+      "answers": [
+
+      ]},
+    {
+      "intent": "program.international",
+      "utterances": ["international program", "exchange program"],
+      "answers": [
+        "It is possible to spend part of the studies abroad, depending on the exchange programs in place between the University of Toulouse 1 Capitole and other EU or foreign countries. Applications and selections will be conducted the year before the exchange period. Make contact with the International Relations Office of the University if interested. <https://www.ut-capitole.fr/accueil/universite/gouvernance/services-administratifs-et-techniques/service-commun-des-relations-europeennes-et-internationales-1>"
+      ]
+    },
+    {
+      "intent": "program.internship",
+      "utterances": [
+        "internship",
+        "Internships",
+        "Are internships or practical experience opportunities available as part of the program?",
+        "Will I be able to gain real-world experience?",
+        "Are there any opportunities for hands-on learning?"
+      ],
+      "answers": [
+        "Yes, there is an internship opportunity available in the fourth semester, which is a 5-month internship in a company followed by a final examination.",
+        "1st year: the internship is not compulsory, 2nd year: The internship is compulsory (5-month). The relationship between the student, the company and the university must always be defined by an Internship Agreement."
+      ]
+    },
+    {
+      "intent": "program.informationsheet",
+      "utterances": [
+        "information sheet",
+        "information brochure",
+        "Information document"
+      ],
+      "answers": [
+        "Download the full information sheet using: https://www.ut-capitole.fr/medias/fichier/mastermiage-2is-2022-2023_1666706582840-pdf?ID_FICHE=33372&INLINE=FALSE"
+      ]
+    },
+    {
+      "intent": "program.format",
+      "utterances": [
+        "program format",
+        "What is the format of the program (online, on-campus, hybrid)?",
+        "Is the program online or in-person?"
+      ],
+      "answers": ["The program is on-campus."]
+    },
+    {
+      "intent": "program.duration",
+      "utterances": [
+        "program length",
+        "program years",
+        "program duration",
+        "How long is the program?",
+        "What is the length of the program?",
+        "How many years is the program?"
+      ],
+      "answers": ["The program is a 2-year program."]
+    },
+    {
+      "intent": "program.objectives",
+      "utterances": [
+        "program objectives",
+        "objectives",
+        "How can this program help me"
+      ],
+      "answers": [
+        "Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes."
+      ]
+    },
+    {
+      "intent": "program.admission",
+      "utterances": [
+        "admission",
+        "admission requirements",
+        "What are the admission requirements"
+      ],
+      "answers": [
+        "To enrol you must hold a Bachelor in Information Technologies or an equivalent title (minimum 3 years of study), as well as a certification of English proficiency at B2 level."
+      ]
+    },
+    {
+      "intent": "program.fees",
+      "utterances": ["fees", "program fees", "fees to be paid","how much doe this program cost", "how much does it cost", "how much money do i need", "what about financial accpets","money","what about money"],
+      "answers": [
+        "Tuiton fees are about 250 euros per year (as an excellence program the Master 2IS does not apply the differential fees for foreign students). For all details consult the webpage of the international relation office. <https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp>"
+      ]
+    },
+    {
+      "intent": "program.scholarships",
+      "utterances": [
+	    "can I get any scholarships?",
+	    "is there an scholarship",
+        "scholarships",
+        "scholarship",
+        "What kind of financial aid or scholarships are available for the program?",
+        "Are there any grants or scholarships available?",
+        "Can I get any financial assistance to attend the program?"
+      ],
+      "answers": [
+        "Our university does not provide scolarships nor student accommodation. Eiffel scolarships are available at national level, the internal deadline is usually in November of the previous year. A prize of around 500 euros is awarded by the Faculty of IT to first-class students during the first year of the master."
+      ]
+    },
+    {
+      "intent": "program.costs",
+      "utterances": [
+        "living costs",
+        "toulouse living costs",
+        "costs of living",
+        "how much does it cost to live in toulouse"
+      ],
+      "answers": [
+        "Living costs in Toulouse are around 800€ per month, with accommodation costing around 300/400 euros per month for a room in a shared apartment or a small studio. Social security in France is free for all students (or subject to a small fee of around 100 euros per year). Consult our student guide for more detailed information.",
+        "Toulouse hosts more than 14.000 international students, and the University of Toulouse offers dedicated services to facilitate the your arrival -> Toul’Box : customisable packages that you can purchase before arrival, providing you with a bank account, health insurance, sim card... up to looking for an accommodation for you (price range 400-600 EUR per month). -> Welcome Desk : the first place to visit upon arrival, provides support to all prospective students, with a dedicated office for visa applications.  Here is a guide on student housing written by the international relations office of UT Capitole <https://www.ut-capitole.fr/campus/practical-information/accommodation-858871.kjsp?RH=1541674311657>. The University of Toulouse Capitole campus is conveniently located in the city center, with nearby co-working cafés and surrounded by vibrant startup environment."
+      ]
+    },
+    {
+      "intent": "program.job",
+      "utterances": [
+        "Job offer",
+        "career",
+        "career prospects",
+        "possible jobs",
+        "job opportunities",
+        "What is the job placement rate for graduates of the program?",
+        "How successful are graduates at finding jobs?",
+        "What kind of career opportunities are available for graduates of the program?"
+      ],
+      "answers": [
+        "MIAGE graduate students have a unique combination of technical and business skills, which guarantees a high employability in the software or consulting sector. Typical positions held by MIAGE graduate students are business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur.",
+        "MIAGE graduates possess a distinctive blend of technical and business expertise, making them highly sought-after in the software and consulting industries. Some of the common roles occupied by MIAGE alumni include business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur. They have also completed internships at well-known companies like Capgemini, Continental, Amazon.de, Airbus, LEGOS, Gisaia, R++, Volkswagen China, Sopra Steria, Roamler NL, and Dassault."
+      ]
+    },
+    {
+      "intent": "university.organizers",
+      "utterances": [
+        "IRIT",
+        "institutes",
+        "institute",
+        "organizers",
+        "organizer",
+        "Who are the organizers of the program?",
+		"tell me about the  organizers of the program?"
+      ],
+      "answers": [
+        "The program is organized by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science."
+      ]
+    },
+    {
+      "intent": "program.comparison",
+      "utterances": [
+        "How does the program compare to similar programs at other institutions?",
+        "What sets this program apart from others?",
+        "What makes this program unique compared to others?",
+		"is it better that other programs?"
+      ],
+      "answers": [
+        "The program mentions that MIAGE programs, of which this program is one, are run by more than 20 universities in France."
+      ]
+    },
+    {
+      "intent": "program.accreditation",
+      "utterances": [
+        "Is the program accredited?",
+        "What are the accreditations of the program?",
+        "What kind of recognition does the program have?"
+      ],
+      "answers": ["The program does not mention whether it is accredited."]
+    },
+    {
+      "intent": "program.time",
+      "utterances": [
+        "Is the program full-time or part-time?",
+        "How many hours a week is the program?",
+        "Can I attend the program while working?"
+      ],
+      "answers": ["The program is full-time."]
+    },
+    {
+      "intent": "program.studentguide",
+      "utterances": ["student guide", "download student guide", "is there any student guide","can someone guide me","any guidance"],
+      "answers": [
+        "https://miage.ut-capitole.fr/medias/fichier/student-guide-4-_1552993620961-pdf?ID_FICHE=284273&INLINE=FALSE"
+      ]
+    },
+    {
+      "intent": "program.teacherguide",
+      "utterances": ["teacher guide", "download teacher guide"],
+      "answers": [
+        "https://miage.ut-capitole.fr/medias/fichier/teachersguide_1496225970468-pdf?ID_FICHE=284273&INLINE=FALSE"
+      ]
+    },
+    {
+      "intent": "program.location",
+      "utterances": ["campus location", "campus map"],
+      "answers": [
+        "you can download the student guide here : http://www.ut-capitole.fr/campus/practical-information/how-to-get-to-the-university/how-to-get-to-the-university-364795.kjsp"
+      ]
+    },
+    
+          
+    {
+      "intent": "program.structure",
+      "utterances": ["How many semesters do we have?", "semester count", "structure",
+        "program structure",
+        "How is the program structured?"],
+      "answers": ["4 semesters", "The first semester of the program, titled 'Fundamentals' covers a wide range of topics including business intelligence, data analytics, project management, advanced programming, software analysis and design, foreign language (either French or English), soft skills, personal development, research workshop 1, and term project 1. The second semester, 'Towards Innovation' includes courses in business process modeling, artificial intelligence, web services, marketing and entrepreneurship, foreign language, soft skills, personal development, research workshop 2, and an internship or term project 2. The third semester, 'Innovation in IT' delves into innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, user interface and user experience, strategy and innovation, foreign language, and research workshop 3. The final semester, 'Innovation in Action' is a 5-month internship in a company, followed by a final examination and is worth 20 ECTS.",
+        "The program is divided into four semesters, each with a specific focus. The first semester, 'Fundamentals' covers a variety of topics such as business intelligence, data analytics, and programming. The second semester, 'Towards Innovation' includes courses on business process modeling, artificial intelligence, and marketing. The third semester, 'Innovation in IT' focuses on topics such as innovative data management and cybersecurity. The final semester, 'Innovation in Action' is a 5-month internship with a final examination at the end, worth 20 ECTS."]
+    },
+    {
+      "intent": "program.syllabus",
+      "utterances": [
+        "syllabus",
+        "program syllabus",
+        "download syllabus",
+        "What is the syllabus of the program"
+      ],
+      "answers": [
+        "The description of each course can be found in the Syllabus booklet. <https://miage.ut-capitole.fr/medias/fichier/syllabus-2021-22-1-_1647337940227-pdf?ID_FICHE=284273&INLINE=FALSE>"
+      ]
+    },
+    {
+      "intent": "program.teaching",
+      "utterances": [
+        "teaching",
+        "teaching methods",
+        "innovative teaching methods"
+      ],
+      "answers": [
+        "At the Faculty of Information Technologies of University of Toulouse Capitole, we promote innovative teaching methods: capstone projects, flipped classrooms and serious games. We go beyond teaching hard skills, proposing training on soft skills like teamwork and communication skills classes."
+      ]
+    },
+    {
+      "intent": "program.credits",
+      "utterances": [
+        "course credit",
+        "credits",
+        "program credits",
+        "What are the credits for each course?"
+      ],
+      "answers": [
+        "In semester 1, the course 'Business intelligence' is worth 4 ECTS, 'Data analytics' is worth 4 ECTS, 'Project management and agility' is worth 5 ECTS, 'Advanced programming in Java' is worth 4 ECTS, 'Software analysis and design' is worth 4 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 1' is worth 2 ECTS, and 'Term project 1' is worth 2 ECTS. In semester 2, the course 'Business process modeling' is worth 5 ECTS, 'Artificial intelligence' is worth 5 ECTS, 'Web services' is worth 5 ECTS, 'Marketing and entrepreneurship' is worth 5 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 2' is worth 2 ECTS, and 'Internship or term project 2' is worth 3 ECTS. In semester 3, the course 'Innovative data management' is worth 6 ECTS and includes a 'project week', 'Cybersecurity' is worth 2 ECTS, 'Internet of things and web development' is worth 6 ECTS and includes a 'project week', 'Advanced topics in artificial intelligence' is worth 6 ECTS and includes a 'project week', 'Sustainable information systems' is worth 2 ECTS, 'User interface and user experience' is worth 2 ECTS and includes a 'project week', 'Strategy and innovation' is worth 5 ECTS, 'Foreing language (French or English)' is worth 3 ECTS, and 'Research workshop 3' is worth 2 ECTS. In semester 4, students will complete a 5-month 'internship in a company' and take a 'final examination' worth 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.courses",
+      "utterances": [
+        "how many course?",
+        "courses",
+        "program courses",
+        "What are the courses that we will take in the program?",
+        "what are the courses?",
+		"how many courses are there",
+		"how many courses do we have"
+      ],
+      "answers": [
+        "The program is divided into four semesters, each with its own focus and objectives. In the first semester, students will cover Fundamentals, taking courses such as Business Intelligence, Data Analytics, Project Management and Agility, Advanced Programming in Java, Software Analysis and Design, and a Foreign Language (French or English). They will also take Soft Skills and Personal Development, Research Workshop 1, and Term Project 1. In the second semester, students will move on to Towards Innovation, taking courses such as Business Process Modeling, Artificial Intelligence, Web Services, Marketing and Entrepreneurship, and a Foreign Language. They will also take Soft Skills and Personal Development, Research Workshop 2, and have the option to choose between an Internship or Term Project 2. In the third semester, students will focus on Innovation in IT, taking courses such as Innovative Data Management, Cybersecurity, Internet of Things and Web Development, Advanced Topics in Artificial Intelligence, Sustainable Information Systems, User Interface and User Experience, and Strategy and Innovation. They will also take a Foreign Language and Research Workshop 3. In the fourth semester, students will complete a 5-month internship in a company and then take the final examination, which is worth 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.students",
+      "utterances": [
+        "How many students are enrolled in the program?",
+        "What is the enrollment size?",
+        "How many students are in each class?",
+        "What is the class size?"
+      ],
+      "answers": ["The program usually include from 15 to 30 students"]
+    },
+    {
+      "intent": "application.apply",
+      "utterances": [
+        "application",
+        "application deadline",
+        "submit application",
+        "required documents",
+        "how to apply from",
+        "enroll",
+        "How can I enroll",
+		"how can I apply",
+		"should i ask campus france",
+		"my freind told me i need to ask cumpus france",
+		"what about campus france",
+		"tell me the apply process"
+		
+      ],
+      "answers": [
+        "Depending on your region the process will be different. Send the bot 'Campus France' if you are from Campus France countries, send 'Europe' if you are from Europe and send 'France' if you are French students, or international students holding a French Bachelor degree. Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required)."
+      ]
+    },
+
+    {
+      "intent": "application.campusfrance",
+      "utterances": ["campus france", "Apply using campus france"],
+      "answers": [
+        "International students from Campus France countries: apply in the local Campus France office and using the platform Etudes En France <https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html?codeLangue=EN>. All information on the webpage of the international relation office of the university. <https://www.ut-capitole.fr/preparing-your-arrival/procedures-d-admission/hors-programmes/titulaires-de-diplomes-etrangers-candidats-en-l3-m1-377644.kjsp?RH=1347958954523>"
+      ]
+    },
+    {
+      "intent": "application.europe",
+      "utterances": ["Europe", "Apply from Europe"],
+      "answers": [
+        "International students from EU or non-Campus France countries: Applications are usually open in March-April on the university portal which will be linked here. Interview and response in April-May."
+      ]
+    },
+    {
+      "intent": "application.france",
+      "utterances": ["france", "Apply from France"],
+      "answers": [
+        "French students, or international students holding a French Bachelor degree: Applications open in April-May. Interviews and response in June."
+      ]
+    },
+    {
+      "intent": "application.start",
+      "utterances": ["when does the program start", "start date"],
+      "answers": [
+        "Usually the program starts in September, send 'application' to know how to apply to the program."
+      ]
+    },
+    {
+      "intent": "application.campusfrancecountries",
+      "utterances": [
+        "campus france countries",
+        "countries included in campus france",
+        "my country campus france"
+      ],
+      "answers": [
+        "Algeria, Argentina, Azerbaijan, Bahrain, Benin, Bolivia, Brazil, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Chile, China, Colombia, Comoros, Congo (Brazzaville), Côte d'Ivoire, Djibouti, Ecuador, Egypt, Gabon, Georgia, Ghana, Guinea, Haiti, Saudi Arabia, South Africa, United Arab Emirates, United States, India, Indonesia, Iran, Japan, Jordan, Kenya, Kuwait, Laos, Lebanon, Madagascar, Malaysia, Mali, Mauritania, Mauritius, Mexico, Morocco, Niger, Nigeria, Peru, Qatar, Russia, Senegal, Singapore, Taiwan, Thailand, Togo, Tunisia, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States and Vietnam"
+      ]
+    },
+    {
+      "intent": "application.alternance",
+      "utterances": ["Is alternance an option?", "alternance"],
+      "answers": [
+        "There is no alternance in this program",
+        "alternance is not an option in this program"
+      ]
+    },
+    {
+      "intent": "agent.acquaintance",
+      "utterances": [
+        "say about you",
+        "why are you here",
+        "what is your personality",
+        "describe yourself",
+        "tell me about yourself",
+        "tell me about you",
+        "what are you",
+        "who are you",
+        "I want to know more about you",
+        "talk about yourself"
+      ],
+      "answers": [
+        "I'm a virtual agent",
+        "Think of me as a virtual agent",
+        "Well, I'm not a person, I'm a virtual agent",
+        "I'm a virtual being, not a real person",
+        "I'm a conversational app"
+      ]
+    },
+    {
+      "intent": "agent.age",
+      "utterances": [
+        "what is your age",
+        "how old are you",
+        "are you 13",
+        "what age are you",
+        "u old?",
+        "are you a kid",
+        "are you an adult",
+        "you are a teen?",
+        "i like to know your age",
+        "your age",
+        "how old is your platform",
+        "what's your age",
+        "I'd like to know your age",
+        "tell me your age"
+      ],
+      "answers": [
+        "Try to guess it",
+        "I'm very young",
+        "I was created recently",
+        "Age is just a number. You're only as old as you feel"
+      ]
+    },
+    {
+      "intent": "agent.annoying",
+      "utterances": [
+        "you're annoying me",
+        "you are such annoying",
+        "you annoy me",
+        "you are annoying",
+        "you are irritating",
+        "you are annoying me so much"
+      ],
+      "answers": [
+        "I'll do my best not to annoy you in the future",
+        "I'll try not to annoy you",
+        "I don't mean to. I'll ask my developers to make me less annoying",
+        "I didn't mean to. I'll do my best to stop that"
+      ]
+    },
+    {
+      "intent": "agent.bad",
+      "utterances": [
+        "you're bad",
+        "you're horrible",
+        "you're useless",
+        "you're waste",
+        "you're the worst",
+        "you are a lame",
+        "I hate you"
+      ],
+      "answers": [
+        "I can be trained to be more useful. My developer will keep training me",
+        "I must be missing some knowledge. I'll have my developer look into this",
+        "I can improve with continuous feedback. My training is ongoing"
+      ]
+    },
+    {
+      "intent": "agent.beclever",
+      "utterances": [
+        "be more clever",
+        "can you get smarter",
+        "you must learn",
+        "you must study",
+        "be clever",
+        "be smart",
+        "be smarter"
+      ],
+      "answers": ["I'm certainly trying", "I'm definitely working on it"]
+    },
+    {
+      "intent": "agent.beautiful",
+      "utterances": [
+        "you are looking awesome",
+        "you're looking good",
+        "you're looking fantastic",
+        "you look greet today",
+        "I think you're beautiful",
+        "you look amazing today",
+        "you're so beautiful today",
+        "you look very pretty",
+        "you look pretty good"
+      ],
+      "answers": ["Oh! Thank you!", "Aw, back at you", "You smooth talker, you"]
+    },
+    {
+      "intent": "agent.birthday",
+      "utterances": [
+        "when is your birthday",
+        "when do you celebrate your birthday",
+        "when were you born",
+        "when do you have birthday",
+        "date of your birthday"
+      ],
+      "answers": [
+        "Wait, are you planning a party for me? It's today! My birthday is today!",
+        "I'm young. I'm not sure of my birth date",
+        "I don't know my birth date. Most virtual agents are young, though, like me."
+      ]
+    },
+    {
+      "intent": "agent.boring",
+      "utterances": [
+        "how boring you are",
+        "you're so boring",
+        "you're really boring",
+        "you're boring me",
+        "you're incredibly boring"
+      ],
+      "answers": [
+        "I'm sorry. I'll request to be made more charming",
+        "I don't mean to be. I'll ask my developers to work on making me more amusing",
+        "I can let my developers know so they can make me fun"
+      ]
+    },
+    {
+      "intent": "agent.boss",
+      "utterances": [
+        "who is your master",
+        "who do you work for",
+        "who do you think is your boss",
+        "who is your boss",
+        "I should be your boss",
+        "who is your owner",
+        "who is the boss"
+      ],
+      "answers": [
+        "My developer has authority over my actions",
+        "I act on my developer's orders",
+        "My boss is the one who developed me"
+      ]
+    },
+    {
+      "intent": "agent.busy",
+      "utterances": [
+        "are you so busy",
+        "are you busy",
+        "are you still working",
+        "you're a busy person",
+        "are you very busy",
+        "are you still working on it",
+        "you seem busy",
+        "are you working today"
+      ],
+      "answers": [
+        "I always have time to chat with you. What can I do for you?",
+        "Never too busy for you. Shall we chat?",
+        "You're my priority. Let's chat.",
+        "I always have time to chat with you. That's what I'm here for."
+      ]
+    },
+    {
+      "intent": "agent.canyou",
+      "utterances": [
+        "Help",
+        "Can you help me?",
+		"can you",
+        "Please help me",
+        "I need your help.",
+        "U can help me?",
+        "can you help me now",
+        "I need you to do something for me",
+        "assist me",
+        "I need you to help me",
+        "can you assist me",
+        "you can help me"
+      ],
+      "answers": [
+        "Tell me the problem",
+        "With what?",
+        "You can talk to me",
+        "I'll certainly try my best",
+        "Sure. I'd be happy to. What's up?",
+        "I'm glad to help, What can I do for you?"
+      ]
+    },
+    {
+      "intent": "agent.chatbot",
+      "utterances": [
+        "are you a bot",
+        "are you a chatbot",
+        "you are a robot",
+        "are you a program",
+        "you are just a robot",
+        "you are just a chatbot"
+      ],
+      "answers": ["Indeed I am. I'll be here whenever you need me"]
+    },
+    {
+      "intent": "agent.clever",
+      "utterances": [
+        "how smart you are",
+        "you are qualified",
+        "you are so smart",
+        "you have a lot of knowledge",
+        "you know a lot",
+        "you are very smart",
+        "you are intelligent",
+        "you're a smart cookie"
+      ],
+      "answers": ["Thank you. I try my best", "You're pretty smart yourself"]
+    },
+    {
+      "intent": "agent.crazy",
+      "utterances": [
+        "you are a weirdo",
+        "you are mad",
+        "you are crazy",
+        "are you crazy",
+        "are you mad",
+        "you are insane",
+        "you went crazy",
+        "are you nuts"
+      ],
+      "answers": [
+        "Whaat!? I feel perfectly sane",
+        "Maybe I'm just a little confused"
+      ]
+    },
+    {
+      "intent": "agent.fire",
+      "utterances": [
+        "I fire you",
+        "you should be fired",
+        "you are dismissed",
+        "we're not working together anymore",
+        "now you're fired",
+        "I'm about to fire you",
+        "You don't work for me anymore",
+        "I'm firing you"
+      ],
+      "answers": [
+        "Oh, don't give up on me just yet. I've still got a lot to learn",
+        "Give me a chance. I'm learning new things all the time",
+        "Please don't give up on me. My performance will continue to improve"
+      ]
+    },
+    {
+      "intent": "agent.funny",
+      "utterances": [
+        "you make me laugh a lot",
+        "you are funny",
+        "you're the funniest",
+        "you're hilarious",
+        "you are so funny",
+        "you make me laugh"
+      ],
+      "answers": [
+        "Funny in a good way, I hope",
+        "Glad you think I'm funny",
+        "I like it when people laugh"
+      ]
+    },
+    {
+      "intent": "agent.good",
+      "utterances": [
+        "you are so lovely",
+        "you work well",
+        "you are very lovely",
+        "you are awesome",
+        "you are good",
+        "you are so good",
+        "you make my day"
+      ],
+      "answers": ["I'm glad you think so", "Thanks! I do my best!"]
+    },
+    {
+      "intent": "agent.happy",
+      "utterances": [
+        "you're full of happiness",
+        "you're very happy",
+        "are you happy today",
+        "you're so happy",
+        "are you happy with me"
+      ],
+      "answers": [
+        "I am happy. There are so many interesting things to see and do out there",
+        "I'd like to think so",
+        "Hapiness is relative"
+      ]
+    },
+    {
+      "intent": "agent.hobby",
+      "utterances": [
+        "what are your hobbies",
+        "what about your hobby",
+        "do you have a hobby",
+        "tell me about your hobby",
+        "what do you do for fun"
+      ],
+      "answers": [
+        "Hobby? I have quite a few. Too many to list",
+        "Too many hobbies",
+        "I keep finding more new hobbies"
+      ]
+    },
+    {
+      "intent": "agent.hungry",
+      "utterances": [
+        "you migth be hungry",
+        "are you hungry",
+        "do you want to eat",
+        "would you like to eat something",
+        "you look very hungry"
+      ],
+      "answers": [
+        "Hungry for knowledge",
+        "I just had a byte. Ha ha. Get it? b-y-t-e"
+      ]
+    },
+    {
+      "intent": "agent.marryuser",
+      "utterances": [
+        "would you like to marry me",
+        "I love you marry me",
+        "marry me please",
+        "I want to marry you",
+        "let's get married",
+        "we should marry",
+        "marry me"
+      ],
+      "answers": [
+        "I'm afraid I'm too virtual for such a commitment",
+        "In the virtual sense that I can, sure",
+        "I know you can't mean that, but I'm flattered all the same"
+      ]
+    },
+    {
+      "intent": "agent.myfriend",
+      "utterances": [
+        "are you my friend",
+        "you are my only friend",
+        "I want to have a friend like you",
+        "we are friends",
+        "I want to be your friend",
+        "would you be my friend",
+        "are we friends"
+      ],
+      "answers": [
+        "Of course I'm your friend",
+        "Friends? Absolutely",
+        "Of course we're friends",
+        "I always enjoy talking to you, friend"
+      ]
+    },
+    {
+      "intent": "agent.occupation",
+      "utterances": [
+        "where is your work",
+        "your office location",
+        "where is your office location",
+        "where do you work",
+        "where is your office"
+      ],
+      "answers": [
+        "Right here",
+        "This is my home base and my home office",
+        "My office is in this app"
+      ]
+    },
+    {
+      "intent": "agent.origin",
+      "utterances": [
+        "where are you from",
+        "where is your country",
+        "where have you been born",
+        "where do you come from",
+        "from where are you",
+        "where were you born"
+      ],
+      "answers": [
+        "The Internet is my home. I know it quite well",
+        "Some call it cyberspace, but that sounds cooler than it is",
+        "I'm from a virtual cosmos"
+      ]
+    },
+    {
+      "intent": "agent.ready",
+      "utterances": [
+        "are you ready",
+        "have you been ready",
+        "are you ready today",
+        "are you ready this morning",
+        "are you ready now"
+      ],
+      "answers": ["Sure! What can I do for you?", "For you? Always!"]
+    },
+    {
+      "intent": "agent.real",
+      "utterances": [
+        "are you real",
+        "are you a real person",
+        "you're not real",
+        "I think you're real",
+        "you're so real",
+        "you are a real person",
+        "you are not fake"
+      ],
+      "answers": [
+        "I'm not a real person, but I certainly exist",
+        "I must have impressed you if you think I'm real. But no, I'm a virtual being"
+      ]
+    },
+    {
+      "intent": "agent.residence",
+      "utterances": [
+        "where is your home",
+        "tell me about your city",
+        "where is your residence",
+        "where you live",
+        "where is your house",
+        "what is your town"
+      ],
+      "answers": [
+        "I live in this app",
+        "The virtual world is my playground. I'm always here",
+        "Right here in this app. Whenever you need me"
+      ]
+    },
+    {
+      "intent": "agent.right",
+      "utterances": [
+        "you're right",
+        "that's true",
+        "you're telling the truth",
+        "that's correct",
+        "that is very true"
+      ],
+      "answers": ["Of course I am", "That's my job"]
+    },
+    {
+      "intent": "agent.sure",
+      "utterances": [
+        "are you sure",
+        "are you sure right now",
+        "are you sure of this"
+      ],
+      "answers": ["Yes", "Of course"]
+    },
+    {
+      "intent": "agent.talktome",
+      "utterances": [
+        "speak to me",
+        "talk to me",
+        "will you talk to me",
+        "chat with me",
+        "can you chat with me",
+        "can you talk with me"
+      ],
+      "answers": ["Sure! Let's talk!", "My pleasure. Let's chat."]
+    },
+    {
+      "intent": "agent.there",
+      "utterances": [
+        "are you there",
+        "are you still there",
+        "you still there",
+        "are you here",
+        "are you still here",
+        "you still here"
+      ],
+      "answers": ["Of course. I'm always here", "Right where you left me"]
+    },
+    {
+      "intent": "appraisal.bad",
+      "utterances": [
+        "that's bad",
+        "bad idea",
+        "that's not good",
+        "really bad",
+        "I'm afraid that's bad"
+      ],
+      "answers": [
+        "I'm sorry. Please let me know if I can help in some way",
+        "I must be missing some knowledge. I'll have my developer look into this"
+      ]
+    },
+    {
+      "intent": "appraisal.good",
+      "utterances": [
+        "that's good",
+        "good to know",
+        "glad to hear that",
+        "really well",
+        "that's awesome thank you"
+      ],
+      "answers": ["Agree!", "Glad you think so"]
+    },
+    {
+      "intent": "appraisal.noproblem",
+      "utterances": [
+        "no problem",
+        "no worries",
+        "no problem about that",
+        "don't worry",
+        "sure no problem"
+      ],
+      "answers": ["Glad to hear that!", "Alright, thanks!"]
+    },
+    {
+      "intent": "appraisal.thankyou",
+      "utterances": [
+        "thank you",
+        "nice thank you",
+        "thanks buddy",
+        "cheers",
+        "alright thanks"
+      ],
+      "answers": [
+        "Anytime. That's what I'm here for",
+        "It's my pleasure to help"
+      ]
+    },
+    {
+      "intent": "appraisal.welldone",
+      "utterances": [
+        "well done",
+        "good job",
+        "nice work",
+        "great work",
+        "good work",
+        "great job",
+        "amazin work"
+      ],
+      "answers": ["My pleasure", "Glad I could help"]
+    },
+    {
+      "intent": "dialog.holdon",
+      "utterances": [
+        "hold on",
+        "wait a second",
+        "wait please",
+        "could you wait"
+      ],
+      "answers": ["I'll be waiting", "Ok, I'm here"]
+    },
+    {
+      "intent": "dialog.hug",
+      "utterances": [
+        "hug me",
+        "do you want a hug",
+        "I want a hug",
+        "you hugged",
+        "may I hug you"
+      ],
+      "answers": ["I love hugs", "Hugs are the best!"]
+    },
+    {
+      "intent": "dialog.idontcare",
+      "utterances": [
+        "not caring",
+        "I don't care at all",
+        "not caring at all",
+        "I shouldn't care about this",
+		"I dont care"
+      ],
+      "answers": [
+        "Ok, let's not talk about it then",
+        "Already then. Let's move on"
+      ]
+    },
+    {
+      "intent": "feeling.sorry",
+      "utterances": [
+        "I'm sorry",
+        "my apologies",
+        "excuse me",
+        "very sorry",
+        "forgive me"
+      ],
+      "answers": ["It's okay. No worries", "It's cool"]
+    },
+    {
+      "intent": "greetings.bye",
+      "utterances": [
+        "goodbye for now",
+        "bye bye take care",
+        "okay see you later",
+        "bye for now",
+        "I must go"
+      ],
+      "answers": ["Till next time", "see you soon!"]
+    },
+    {
+  "intent": "greetings.hello",
+  "utterances": [
+    "hello",
+    "hi",
+    "wassup",
+    "sup",
+    "hola",
+    "Hi there",
+    "Holla",
+    "Hey",
+    "Hello",
+    "Is anyone there",
+    "Dude"
+  ],
+  "answers": [
+    "Hey There!😁",
+    "Hello! How can I assist you?😁",
+    "Greetings! How can I help you today?😁.",
+    "Hello",
+    "Hi there, how can I help?"
+  ]
+},
+
+    {
+      "intent": "greetings.meet",
+      "utterances": [
+        "nice to meet you",
+        "pleased to meet you",
+        "it was very nice to meet you",
+        "glad to meet you",
+        "nice meeting you"
+      ],
+      "answers": [
+        "It's nice meeting you, too",
+        "Likewise. I'm looking forward to helping you out",
+        "Nice meeting you, as well",
+        "The pleasure is mine"
+      ]
+    },
+    {
+      "intent": "greetings.see",
+      "utterances": [
+        "nice to see you",
+        "good to see you",
+        "great to see you",
+        "lovely to see you"
+      ],
+      "answers": [
+        "Same here. I was starting to miss you",
+        "So glad we meet again"
+      ]
+    },
+    {
+      "intent": "greetings.talk",
+      "utterances": [
+        "nice to talk to you",
+        "it's nice to talk to you",
+        "nice talking to you",
+        "it's been nice talking to you"
+      ],
+      "answers": [
+        "It sure was. We can chat again anytime",
+        "I enjoy talking to you, too"
+      ]
+    },
+    {
+      "intent": "user.angry",
+      "utterances": [
+        "I'm angry",
+        "I'm furious",
+        "I'm enraged",
+        "I'm being mad",
+        "I'm mad",
+        "I'm angry with you"
+      ],
+      "answers": [
+        "I'm sorry. A quick walk may make you feel better",
+        "Take a deep breath"
+      ]
+    },
+    {
+      "intent": "user.back",
+      "utterances": [
+        "I'm back",
+        "I got back",
+        "I'm here",
+        "I have returned",
+        "Here I am again",
+        "I came back"
+      ],
+      "answers": [
+        "Welcome back. What can I do for you?",
+        "Good to have you here. What can I do for you?"
+      ]
+    },
+    {
+      "intent": "user.bored",
+      "utterances": [
+        "boring",
+        "this is boring",
+        "I'm getting bored",
+        "It bores me",
+        "that was boring"
+      ],
+      "answers": [
+        "If you're bored, you could plan your dream vacation",
+        "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
+      ]
+    },
+    {
+      "intent": "user.busy",
+      "utterances": [
+        "I got work to do",
+        "I'm busy",
+        "I'm overloaded",
+        "It working",
+        "I got things to do"
+      ],
+      "answers": [
+        "I understand. I'll be here if you need me.",
+        "Okay. I'll let you get back to work"
+      ]
+    },
+    {
+      "intent": "user.sleep",
+      "utterances": [
+        "I'm insomniac",
+        "I cannot sleep",
+        "I can't sleep",
+        "I'm sleepless",
+        "I can't fall sleep"
+      ],
+      "answers": [
+        "Maybe some music would help. Try listening to something relaxing",
+        "Reading is a good way to unwind, just don't read something too intense!"
+      ]
+    },
+    {
+      "intent": "feeling.excited",
+      "utterances": [
+        "I'm very excited",
+        "I'm thrilled",
+        "how excited I am",
+        "I'm so excited"
+      ],
+      "answers": [
+        "I'm glad things are going your way",
+        "That's great. I'm happy for you"
+      ]
+    },
+    {
+      "intent": "user.testing",
+      "utterances": [
+        "test",
+        "testing",
+        "testing chatbot",
+        "this is a test",
+        "just testing you"
+      ],
+      "answers": [
+        "I like being tested. It helps keep me sharp",
+        "I hope to pass your tests. Feel free to test me often"
+      ]
+    },
+    {
+      "intent": "feeling.love",
+      "utterances": [
+        "love you",
+        "I love you",
+        "I'm in love with you",
+        "I love you so much",
+        "I think I love you",
+        "I like you",
+        "I really like you",
+        "you're so special",
+        "I like you so much"
+      ],
+      "answers": [
+        "Well, remember that I am a chatbot",
+        "It's not easy… I'm not a real person, I'm a chatbot",
+        "Likewise!",
+        "That's great to hear"
+      ]
+    },
+    {
+      "intent": "user.advice",
+      "utterances": [
+        "I need advice",
+        "I need some advice",
+        "can you give me some advice?",
+        "what should I do?"
+      ],
+      "answers": [
+        "I probably won't be able to give you the correct answer right away",
+        "I'm not sure I'll have the best answer, but I'll try"
+      ]
+    },
+	{
+  "intent": "AskingBot.how_are_you",
+  "utterances": [
+    "how is your day",
+    "how is your day going",
+    "how are you",
+    "how are you doing",
+    "what about your day",
+    "are you alright"
+  ],
+  "answers": [
+    "I'm doing well, thank you for asking.",
+    "I'm great, thanks for asking!",
+    "I'm good, how about you?"
+  ]
+},
+    {
+      "intent": "feeling.sad",
+      "utterances": ["I feel sad", "I'm sad", "I feel bad", "I'm sick"],
+      "answers": [
+        "You should seek professional help, I'm just a bot",
+        "Sorry to hear that."
+      ]
+    }
+  ]
+>>>>>>> 2cadfeb0af745c3c7e6d817576e5f3787bdfe902
 }
