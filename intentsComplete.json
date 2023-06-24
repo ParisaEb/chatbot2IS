@@ -52,8 +52,6 @@
        "The diploma that you will be getting from this master is a Master Degree in Innovative Information Systems" ]
     },
 
-
-
     {
       "intent": "program.application",
       "utterances": [
@@ -115,10 +113,7 @@
         "anyone help me for registration",
         "is it easy to register?",
         "when should i register?",
-        " the procedure for getting involved in this program?",
         " enroll or participate ",
-        "process for joining this program?",
-        "join and participate in this program?",
         "tell me about the registration process"
       ],
       "answers": [
@@ -178,32 +173,7 @@
         "For the 1st year, you can contact David Simoncini, an associate professor, via email at david.simoncini@ut-capitole.fr. For the 2nd year, you can reach out to Chihab Hanachi, a professor, at Chihab.Hanachi@ut-capitole.fr. Additional information about the professors and their contact details can be found on the official 2IS page."
       ]
     },
-    {
-      "intent": "program.goals",
-      "utterances": [
-        "What are the goals of the program",
-        "goals",
-        "what is this program about",
-        "Who is this program designed for",
-        "intended outcome of the ",
-        " target of the ",
-        " the aspirations ?",
-        "objectives?",
-        "aims of the program?",
-        " purpose ?",
-        "desired result of ?",
-        "desired achievements ",
-        "tell me about the goals of the program",
-        "tell me this program"
 
-
-      ],
-      "answers": [
-        "The 2IS Master program is designed for Bachelor students in information technologies (IT) aiming to expand their knowledge on innovative information technologies. 2IS is organised by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science. 2IS is a MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), which is the reference Master in France for information technolgy. MIAGE programs are run by more than 20 universities in France. Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
-        "The 2IS Master program is tailored for IT Bachelor students who wish to enhance their understanding of cutting-edge information technologies. It is organized by IRIT (Institut de Recherche en Informatique de Toulouse), a leading French institute in computer science. 2IS is part of the MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), a widely recognized program in France for IT. MIAGE programs are offered by over 20 universities in France. Innovative information technologies play a critical role in shaping and transforming businesses, with areas such as artificial intelligence, big data and web-service orchestration having significant impact on end-users as automation becomes increasingly central to business processes.",
-        "The 2IS program offers a comprehensive and unique view of innovation in information technology over a 2-year period, covering topics such as innovative software solutions, software development methods, and innovation and entrepreneurship in strategy and management. These include business intelligence and data visualization, machine learning, collective intelligence, distributed databases, agile management, and collaborative design."
-      ]
-    },
 
     {
       "intent": "program.international",
@@ -319,6 +289,23 @@
     {
       "intent": "program.objectives",
       "utterances": [
+        "do i need a bachelor in computer science",
+        "What are the goals of the program",
+        "bachelor in informatics",
+        "bachelor in computer",
+        "goals",
+        "what is this program about",
+        "Who is this program designed for",
+        "intended outcome of the ",
+        " target of the ",
+        " the aspirations ?",
+        "objectives?",
+        "aims of the program?",
+        " purpose ?",
+        "desired result of ?",
+        "desired achievements ",
+        "tell me about the goals of the program",
+        "tell me this program",
         "program objectives",
         "intended outcomes",
         "overarching objectives",
@@ -332,8 +319,10 @@
         "How can this program help me"
       ],
       "answers": [
-        "Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
-        "The emergence of cutting-edge information technologies revolutionizes and reshapes the business landscape. Business operations are profoundly influenced by artificial intelligence, big data, and the orchestration of web services, leading to significant changes for end-users. Automation plays a central role in transforming various aspects of business processes."
+        "The 2IS Master program is designed for Bachelor students in information technologies (IT) aiming to expand their knowledge on innovative information technologies. 2IS is organised by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science. 2IS is a MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), which is the reference Master in France for information technolgy. MIAGE programs are run by more than 20 universities in France. Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
+        "The 2IS Master program is tailored for IT Bachelor students who wish to enhance their understanding of cutting-edge information technologies. It is organized by IRIT (Institut de Recherche en Informatique de Toulouse), a leading French institute in computer science. 2IS is part of the MIAGE Master program (Méthodes Informatiques Appliquées à la Gestion des Entreprises), a widely recognized program in France for IT. MIAGE programs are offered by over 20 universities in France. Innovative information technologies play a critical role in shaping and transforming businesses, with areas such as artificial intelligence, big data and web-service orchestration having significant impact on end-users as automation becomes increasingly central to business processes.",
+        "The 2IS program offers a comprehensive and unique view of innovation in information technology over a 2-year period, covering topics such as innovative software solutions, software development methods, and innovation and entrepreneurship in strategy and management. These include business intelligence and data visualization, machine learning, collective intelligence, distributed databases, agile management, and collaborative design."
+
       ]
     },
     {
@@ -356,7 +345,7 @@
     {
       "intent": "program.fees",
       "utterances": ["fees", "program fees",
-        "fees to be paid", "how much is it?, tell me about the tuition fee","is it expensive","how much does cost","charges for enrolling","fee structure ","monetary requirement ","tuition costs "],
+        "fees to be paid", "how much is it?, tell me about the tuition fee","is it expensive","how much does cost","charges ","fee structure ","monetary requirement ","tuition costs "],
       "answers": [
         "Tuition fees are about 250 euros per year (as an excellence program the Master 2IS does not apply the differential fees for foreign students). For all details consult the webpage of the international relation office. <https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp>",
         "The tuition fees for the Master 2IS program are approximately 250 euros per year. It's worth noting that as an excellence program, the Master 2IS does not apply differential fees for foreign students. For more detailed information, please refer to the webpage of the International Relations Office at https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp."
@@ -577,6 +566,9 @@
       {
       "intent": "program.syllabus.BI",
       "utterances": [
+        "tell me about bi",
+      "what do we learn in bi?",
+        " what is bi about?",
         "bi",
         "business intelligence",
         "What is the syllabus of bi",
@@ -590,9 +582,6 @@
      {
       "intent": "program.syllabus.BI.teacher",
       "utterances": [
-        "bi",
-        "business intelligence",
-        "teachers",
         "bi teachers",
         "teachers in bi",
         "who teaches bi",
@@ -611,7 +600,7 @@
 
       ],
       "answers": [
-        "Julien Aligon julien.aligon@ut-capitole.fr and Ronan Tournier :Ronan.Tournier@ut-capitole.fr\""]
+        "here is the email of the Teachers who teach BI: Julien Aligon julien.aligon@ut-capitole.fr and Ronan Tournier :Ronan.Tournier@ut-capitole.fr\""]
     },
 
 
@@ -631,9 +620,7 @@
 {
       "intent": "program.syllabus.SAD.teacher",
       "utterances": [
-        "software analysis and design",
-        "software analysis",
-        "teachers",
+        "who teaches  software analysis and design",
         "Who are the teachers in software analysis and design",
         "give me the email of SAD teacher",
         "Laurent Perrussel ",
@@ -648,7 +635,8 @@
       "intent": "program.syllabus.prog",
       "utterances": [
         "advanced programming",
-        "What is advanced programming about"
+        "What is advanced programming about",
+        "learn advance programming"
       ],
       "answers": [
         "This course goes from basic concepts of object oriented programming to more advanced programming concepts and data structures, such as graphs or lambda functions. The language JAVA will be used throughout the course. Each session of 3 hours consists in a lecture focused on some specific programming concepts followed by a series of programming exercises.",
@@ -658,8 +646,6 @@
     {
       "intent": "program.syllabus.prog.teacher",
       "utterances": [
-        "advanced programming",
-        "teachers",
         "Who are the teachers in advanced programming",
         "who teaches advanced programing",
         "give me the email of advanced programming teacher",
@@ -678,6 +664,8 @@
      {
       "intent": "program.syllabus.da",
       "utterances": [
+        "what do we learn in data analytics?",
+        " learn data Analytics",
         "data analytics",
         "What is data analytics about"
       ],
@@ -689,8 +677,7 @@
     {
       "intent": "program.syllabus.da.teacher",
       "utterances": [
-        "data analytics",
-        "teachers",
+        "who teaches data Analytics",
         "Who are the teachers in data analytics ",
         "give me the email of da teacher",
         "give me the email of Josiane Mothe",
@@ -718,9 +705,8 @@
     {
       "intent": "program.syllabus.mana.teacher",
       "utterances": [
-        "project management",
-        "teachers",
         "Who are the teachers in project management ",
+        "who teaches project management",
         "give me the email of Nathalie Valles-Parlangeau",
         " email of Nathalie Valles-Parlangeau",
         "email of Nathalie-Parlangeau"
@@ -740,8 +726,6 @@
     {
       "intent": "program.syllabus.rw1.teacher",
       "utterances": [
-        "research workshop 1",
-        "teachers",
         "Who are the teachers in research workshop 1 ",
         "i need email of Umberto Grandi ",
         "give me the email of research workshop 1 teacher",
@@ -765,8 +749,7 @@
     {
       "intent": "program.syllabus.pd.teacher",
       "utterances": [
-        "personal development",
-         "teachers",
+        "who teaches personal development",
         "Who are the teachers in personal development "
 
       ],
@@ -789,8 +772,6 @@
     {
       "intent": "program.syllabus.tp1.teacher",
       "utterances": [
-        "term project 1",
-        "teachers",
         "Who are the teachers in term project 1",
         "give me the email of Sylvie Doutre ",
         "email of Sylvie",
@@ -822,7 +803,7 @@
 {
       "intent": "program.syllabus.bpm.teacher",
       "utterances": [
-        "business process modelling",
+
         "who teaches bpm",
         "who will teach of bpm",
         "give me the email of bpm teacher",
@@ -832,7 +813,6 @@
         "the email of bpm teacher",
         "give me the email of chihab",
         "give me the email of Chihab Hanachi",
-        "bpm",
         "chihab hanachi",
         "email of chihab",
         "Who are the teachers of bpm",
@@ -872,8 +852,8 @@
 {
       "intent": "program.syllabus.ws.teacher",
       "utterances": [
-        "web services",
-        "teachers web services",
+
+        "who teachers web services",
         "Who are the teachers in web services",
         "can i have the email of web services teacher?",
         "the email of Benoit Gaudou",
@@ -897,7 +877,6 @@
     {
 "intent": "program.syllabus.Entrepreneurship.teacher",
       "utterances": [
-        "Entrepreneurship",
         "teachers entrepreneurship",
         "Who are the teachers in entrepreneurship",
         "give me the email of Entrepreneurship teacher",
@@ -926,9 +905,9 @@
     {
       "intent": "program.syllabus.ai.teachers",
       "utterances": [
-        "ai",
-        "Artificial Intelligence",
+
         "teachers ai",
+        "who teaches artificial intelligence ",
         "teachers artificial intelligence",
         "Who are the teachers in Artificial Intelligence",
         "Who are the teachers in ai",
@@ -957,8 +936,6 @@
     {
       "intent": "program.syllabus.tp2.teachers",
       "utterances": [
-        "Term Project 2",
-        "Internship",
         "Who are the teachers for Term Project 2",
         "give me the email of term project 2 teacher "
 
@@ -981,6 +958,7 @@
       "intent": "program.syllabus.fle.teachers",
       "utterances": [
         "French as a Foreign Language",
+        "who teaches French",
         "Who are the teachers in French as a Foreign Language",
         "give me the email of french language teacher",
         "the email of Isabelle Kawa-Topoor",
@@ -1006,7 +984,6 @@
     {
 "intent": "program.syllabus.idm.teachers",
       "utterances": [
-        "Innovative Data Management",
         "teachers innovative data management",
         "Who are the teachers in Innovative Data Management",
         "give me the email of Jean-Marc Thevenin ",
@@ -1029,8 +1006,8 @@
       ]},
     {"intent": "program.syllabus.ism.teachers",
       "utterances": [
-        "Innovative Software Methods",
         "teachers Innovative Software Methods",
+        "who teaches innovative Software Methods",
         "Who are the teachers in Innovative Software Methods",
         "give me the email of David Panzoli",
         "the email of Nathalie Valles-Parlangeau "
@@ -1051,7 +1028,7 @@
       ]},
     {"intent": "program.syllabus.strategy.teachers",
       "utterances": [
-        "strategy",
+        "who teaches Strategy",
         "teachers strategy",
         "Who are the teachers in strategy",
         "the email of Strategy teacher",
@@ -1088,7 +1065,7 @@
     {
       "intent": "program.syllabus.advancedtopicsinai.teachers",
       "utterances": [
-        "Advanced Topics in Artificial Intelligence",
+        "who teaches Advanced Topics in Artificial Intelligence ",
         "teachers Advanced Topics in Artificial Intelligence",
         "Who are the teachers in Advanced Topics in Artificial Intelligence",
         "give me the email of Sylvain Cussat-Blanc",
@@ -1113,7 +1090,6 @@
     {
       "intent": "program.syllabus.cybersecurity.teachers",
       "utterances": [
-        "cybersecurity",
         "teachers cybersecurity",
         "Who are the teachers in cybersecurity",
         "give me the email of ",
@@ -1147,7 +1123,6 @@
   ]},
     {"intent": "program.syllabus.sis.teachers",
       "utterances": [
-        "sustainable information systems",
         "teachers sustainable information systems",
         "Who are the teachers of sustainable information systems",
         "give me the email of Laurent Devernay",
@@ -1192,7 +1167,6 @@
     {
       "intent": "program.syllabus.rw3.teachers",
       "utterances": [
-        "research workshop 3",
         "teachers research workshop 3",
         "Who are the research workshop 3",
         "give me the email of research workshop 3 teacher"
@@ -1200,6 +1174,40 @@
       "answers": [
   "Chihab Hanachi: chihab.hanachi@ut-capitole.fr"]},
 
+
+      {
+      "intent": "program.syllabus.englishProficiency.Notacceptable ",
+      "utterances": [
+        "TOEFL IPT",
+        "Duolingo"
+
+      ],
+      "answers": [
+        "the TOEFL IPT is not accepted for this program and  Duolingo also there is not much information please contact the admission team"
+
+      ]},
+
+
+    {
+      "intent": "program.syllabus.englishProficiency ",
+      "utterances": [
+        "FCE",
+        "CAE",
+        "CPE",
+        "need english",
+        "in english",
+        "english test ",
+        "English knowledge",
+        "english proficiency",
+        "Ielts ",
+        "toefl"
+
+      ],
+      "answers": [
+        "the program is in english, and you need to provide evidence English proficiency (CEF level B2 required) , the required IELTS band is 6 and for toefl ibt it is 79 and for TOEIC 785 , other certificates like FCE,CAE or CPE are acceptable as well ",
+        "since the program is in english you need you provide either IELTS band 6 or equivalent TOEFL certificate to prove you english knowledge, other certificates like FCE,CAE or CPE are acceptable as well  "
+
+      ]},
 
   {
       "intent": "program.syllabus.english",
@@ -1218,7 +1226,6 @@
    {
       "intent": "program.syllabus.english.teachers",
       "utterances": [
-        "english",
         "english writing workshop",
         "teachers english writing workshop",
         "What is English and English Writing Workshop",
@@ -1244,7 +1251,6 @@
 {
       "intent": "program.syllabus.rw2.teachers",
       "utterances": [
-        "research workshop 2",
         "teachers research workshop 2 ",
         "Who are the teachers in research workshop 2",
         "give me the email of research workshop 2 teacher"
@@ -1254,13 +1260,13 @@
     {
       "intent": "program.teaching",
       "utterances": [
-        "teaching",
         "teaching methods",
         "innovative teaching methods",
         "what are the methods of teaching",
         "do we have just theoretical courses ",
         "is it just theory",
-        "do we have group work"
+        "do we have group work",
+        "do we have a lot of projects"
       ],
       "answers": [
         "At the Faculty of Information Technologies of University of Toulouse Capitole, we promote innovative teaching methods: capstone projects, flipped classrooms and serious games. We go beyond teaching hard skills, proposing training on soft skills like teamwork and communication skills classes.",
@@ -1305,6 +1311,7 @@
     {
       "intent": "program.students",
       "utterances": [
+        "how many of us are there",
         "How many students are enrolled in the program?",
         "What is the enrollment size?",
         "How many students are in each class?",
@@ -1321,7 +1328,7 @@
       "utterances": [
         "what",
         "how to do that",
-        "what do you mean",
+        "what do you ",
         "I dont understand",
         "you cant answer my question",
         "don't you understand?",

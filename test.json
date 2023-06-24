@@ -414,6 +414,37 @@
    {
     "user_input": " Are there any specific conditions to be eligible?",
     "expected_intent": "program.admission"
+  },
+
+
+  {
+    "user_input": " Can you explain the intended outcomes of completing the master program?",
+    "expected_intent": "program.objectives"
+  },
+
+  {
+    "user_input": " What measures are in place to ensure the attainment of the program objectives?",
+    "expected_intent": "program.objectives"
+  },
+
+  {
+    "user_input": " hat specific skills and knowledge does the program aim to develop?",
+    "expected_intent": "program.objectives"
+  },
+
+  {
+    "user_input": "what are the expected achievements or milestones of students in this program?",
+    "expected_intent": "program.objectives"
+  },
+
+  {
+    "user_input": " What are the long-term benefits of completing this master's program?",
+    "expected_intent": "program.objectives"
+  },
+
+  {
+    "user_input": " What is the purpose of pursuing a master's degree in this program?",
+    "expected_intent": "program.objectives"
   }
 
 
