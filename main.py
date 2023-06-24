@@ -170,7 +170,7 @@ def respond(user_input):
         print(confidence)
 
         # Check if the intent is above a certain confidence threshold
-        if confidence > 1.30:
+        if confidence > 1.19:
             if intent in responses:
                 tag = intent
                 response = random.choice(responses[tag])

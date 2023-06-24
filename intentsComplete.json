@@ -6,11 +6,19 @@
       "intent": "program.curriculum",
       "utterances": [
         "curriculum",
-        "Can you provide me with more information about what courses are included in the curriculum for this program?",
-        "What is the curriculum for the program?",
+        "syllabus",
+        "  courses are included in the curriculum",
+        " the program's curriculum?",
+        "  are covered in this program?",
+        " the curriculum for the program?",
+        "program with additional information about the courses?",
+        "the subjects ",
         "what are the courses like?",
-        "tell me about the curriculum",
-        "how about the curriculum"
+        " curriculum",
+        " classes that are part of this program. ",
+        " courses  academic syllabus.",
+        "C individual courses ?",
+        " curriculum?"
 
       ],
       "answers": [
@@ -23,8 +31,20 @@
       "intent": "program.diploma",
       "utterances": [
         "diploma",
-        "Can you provide me with more information about what diploma will i be having",
-        "What is the diploma for the program?"
+        " certification  receive  completion of this program?",
+        "qualification or credential",
+        " award or recognition",
+        "official accreditation or qualification  completing this program",
+        " official designation or certification?",
+        "formal recognition or degree",
+        " the official credential or qualification",
+        " Miage?",
+        "the title or designation associated",
+        "the formal acknowledgment or level completing this program",
+        "  diploma",
+        " the diploma   educational outcomes and professional.",
+        " what diploma",
+        " diploma for the program?"
       ],
       "answers": [
        "The diploma that you will be getting from this master is a Master Degree in Innovative Information Systems" ]
@@ -60,10 +80,10 @@
         "do i need a visa",
         "but i dont have a visa",
         "how can i apply for a visa",
-        "what about visa",
-        "is getting a visa difficult?",
-        "can someone hep me for visa",
-        "how do i get a visa"
+        "what  visa",
+        "visa",
+        "visa",
+        " a visa"
       ],
       "answers": [
              "Depending where you come from you might need to apply for a visa. In fact, only if you are not part of the European Union you will have to apply for a visa. If you  do need it, you can apply for it after getting accepted and received the admission letter on the official government website,you can check the following site to see what documents you will be needing :  https://france-visas.gouv.fr/web/france-visas/ma-demande-en-ligne . Remember that the process and requirements may differ from country to country, so it's crucial to consult the official website of the immigration authority or contact the designated office for accurate and up-to-date information specific to your situation.",
@@ -73,13 +93,14 @@
      {
       "intent": "program.Register",
       "utterances": [
-        "How can i register",
+        " registration",
+        "enroll",
+        "enrollment",
         "register",
         "what do i need for registration",
-        "anyone help me for registration",
+        "registration process",
         "is it easy to register?",
-        "when should i register?",
-        "tell me about the registration process"
+        " registration process"
       ],
       "answers": [
         "In order to register you will have to create an account on e-candidature , the one corresponding to the University Toulouse 1 Capitole and select the Master 2IS and create your application. Once you have received an acceptance for your application you can register online on the following website : https://www.ut-capitole.fr/accueil/formations/candidater-et-sinscrire/premiere-inscription . All the information and documents needed will be mentioned on the previous page. The dates for the application and registration are provided on the 2IS page under the section How to apply.",
@@ -92,11 +113,11 @@
 	  "intent": "program.visa.country",
       "utterances": [
         "which countries need visa",
-        "i come from Iran do i need visa",
-        "i come from Afghanistan do i need visa",
+        "Iran visa",
+        "i  Afghanistan do i need visa",
         "can you tell me the countries that need visa",
-        "why do i need a visa",
-        "which countries need visa"
+        "residence permit",
+        " countries visa"
       ],
       "answers": [
         "All of the international students that come from outside of the European Union will need to provide a visa in order to study in France. You can check if you need a visa on this webite https://www.service-public.fr/particuliers/vosdroits/F21921?lang=en, ",
@@ -109,17 +130,21 @@
       "intent": "program.directors",
       "utterances": [
         "Director of studies",
-        "who is in charge?",
-        "who is in charge of the program",
-        "tell me about the people in charge",
+        "who in charge?",
+        "who charge of the program",
+        " people in charge",
         "Directors",
         "People in charge of the program",
-        "who can i  to contact with ",
+        "who can i  to contact  ",
         "contact teachers",
-        "who is responsible?",
-        "who to contact with",
-        "who should i contact to",
-        "who to contact to"
+        "the leadership role ",
+        "forefront in charge",
+        "responsible?",
+        "managing ",
+        "manages",
+        "contact with",
+        "who contact to",
+        "contact to"
       ],
       "answers": [
         "1st year: David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2nd year: Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités. More details about the professors and their contacts are provided on the 2IS official page.",
@@ -170,7 +195,11 @@
         "i dont live in france",
         "i am an international student tell me what to do",
         "i am international student",
-        "what about international students"
+        "what about international students",
+        "foreign study",
+        "abroad opportunities ",
+        "international",
+        "other countries"
       ],
       "answers": [
         "It is possible to spend part of the studies abroad, depending on the exchange programs in place between the University of Toulouse 1 Capitole and other EU or foreign countries. Applications and selections will be conducted the year before the exchange period. Make contact with the International Relations Office of the University if interested. <https://www.ut-capitole.fr/accueil/universite/gouvernance/services-administratifs-et-techniques/service-commun-des-relations-europeennes-et-internationales-1>",
@@ -180,7 +209,7 @@
 
     {
       "intent" : "program.international.collaboration",
-      "utterances" : ["international partners", "exchange universities"],
+      "utterances" : ["international partners", "exchange universities","other countries"],
       "answers" : [
         "We have Erasmus and student exchange agreements with the following universities: 1) Spain: Universidad Carlos III de Madrid, Université de Séville, Universitat Autónoma de Barcelona, Universitat Politécnica de Valencia. 2) The Netherlands: Universiteit Maastricht, Universiteit van Tilburg. 3) Portugal: Universidade Nova de Lisboa. 4) Belgium: KU Leuven. 5) Chili: Universidad Diego Portales (Santiago). 6) Perou: Universidad del Pacifico (Lima). 7) Japan: Univeristy of Keio (Tokyo)",
         "We have established Erasmus and student exchange agreements with several reputable universities. Here are some of the universities we have partnerships with:Spain: Universidad Carlos III de Madrid, Université de Séville, Universitat Autónoma de Barcelona, Universitat Politécnica de Valencia.The Netherlands: Universiteit Maastricht, Universiteit van Tilburg.Portugal: Universidade Nova de Lisboa.Belgium: KU Leuven ,Chile: Universidad Diego Portales (Santiago).Peru: Universidad del Pacifico (Lima).Japan: University of Keio (Tokyo).These partnerships provide exciting opportunities for students tobroaden their horizons and experience studying in different cultural and academic environments."
@@ -193,9 +222,12 @@
       "utterances": [
         "internship",
         "Internships",
-        "Are internships or practical experience opportunities available as part of the program?",
-        "Will I be able to gain real-world experience?",
-        "Are there any opportunities for hands-on learning?"
+        "Are internships or practical experience opportunities?",
+        " real-world experience?",
+        " co-op experiences",
+        "practical skills",
+        "stage or apprentice",
+        " opportunities for hands-on learning?"
       ],
       "answers": [
         "Yes, there is an internship opportunity available in the fourth semester, which is a 5-month internship in a company followed by a final examination.",
@@ -217,6 +249,10 @@
       "intent": "program.format",
       "utterances": [
         "program format",
+        "(online, on-campus, hybrid)",
+        "Remote",
+        "physically present?",
+        " program online or in-person?",
         "What is the format of the program (online, on-campus, hybrid)?",
         "Is the program online or in-person?"
       ],
@@ -231,7 +267,9 @@
       "utterances": [
         "program length",
         "program years",
-        "program duration",
+        "How long typically last?",
+        " period of completion?",
+
         "How long is the program?",
         "What is the length of the program?",
         "How many years is the program?"
@@ -246,8 +284,17 @@
       "intent": "program.objectives",
       "utterances": [
         "program objectives",
+        "outcomes",
+        " objectives",
+        " benefits or advantage",
+        " objectives ",
+        "purposes",
+        "benefits or advantages of completing",
+        " educational objectives",
+        "primary targets or aims ",
         "objectives",
-        "How can this program help me"
+        "program duration",
+        "objectives"
       ],
       "answers": [
         "Innovative information technologies reinvent and transform businesses. Artificial intelligence, big data and web-service orchestration drastically impact end-users as automation is at the heart of business processes.",
@@ -259,7 +306,10 @@
       "utterances": [
         "admission",
         "admission requirements",
-        "What are the admission requirements"
+        "admission requirements",
+        "prerequisites ",
+        "What are the admission requirements",
+        " eligibility criteria "
       ],
       "answers": [
         "To enrol you must hold a Bachelor in Information Technologies or an equivalent title (minimum 3 years of study), as well as a certification of English proficiency at B2 level.",
@@ -268,7 +318,8 @@
     },
     {
       "intent": "program.fees",
-      "utterances": ["fees", "program fees", "fees to be paid"],
+      "utterances": ["fees", "program fees", "fees to be paid","fees to be paid", "how much is it?, tell me about the tuition fee","is it expensive","how much does cost","charges ","fee structure ","monetary requirement ","tuition costs "],
+
       "answers": [
         "Tuition fees are about 250 euros per year (as an excellence program the Master 2IS does not apply the differential fees for foreign students). For all details consult the webpage of the international relation office. <https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp>",
         "The tuition fees for the Master 2IS program are approximately 250 euros per year. It's worth noting that as an excellence program, the Master 2IS does not apply differential fees for foreign students. For more detailed information, please refer to the webpage of the International Relations Office at https://www.ut-capitole.fr/international-/international-student-registration-fees-838362.kjsp."
@@ -279,9 +330,9 @@
       "utterances": [
         "scholarships",
         "scholarship",
-        "What kind of financial aid or scholarships are available for the program?",
-        "Are there any grants or scholarships available?",
-        "Can I get any financial assistance to attend the program?"
+        "financial aid or scholarships are available for the program?",
+        "grants or scholarships",
+        "financial assistance"
       ],
       "answers": [
         "Our university does not provide scholarships nor student accommodation. Eiffel scolarships are available at national level, the internal deadline is usually in November of the previous year. A prize of around 500 euros is awarded by the Faculty of IT to first-class students during the first year of the master.",
@@ -310,9 +361,9 @@
         "career prospects",
         "possible jobs",
         "job opportunities",
-        "What is the job placement rate for graduates of the program?",
-        "How successful are graduates at finding jobs?",
-        "What kind of career opportunities are available for graduates of the program?"
+        " job placement rate for graduates of the program?",
+        " successful are graduates at finding jobs?",
+        "career opportunities"
       ],
       "answers": [
         "MIAGE graduate students have a unique combination of technical and business skills, which guarantees a high employability in the software or consulting sector. Typical positions held by MIAGE graduate students are business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur.",
@@ -327,8 +378,11 @@
         "institute",
         "organizers",
         "organizer",
-        "Who are the organizers of the program?",
-        "who organizes this program"
+        " coordinators",
+        " organizers?",
+        " organizes",
+        " organizers of the program?",
+        " organizes"
       ],
       "answers": [
         "The program is organized by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science.",
@@ -339,9 +393,13 @@
     {
       "intent": "program.comparison",
       "utterances": [
-        "How does the program compare to similar programs at other institutions?",
-        "What sets this program apart from others?",
-        "What makes this program unique compared to others?"
+        " compare to similar programs at other institutions",
+        "advantages",
+        "comparable",
+        "stand out",
+        "compared to",
+        " unique"
+
       ],
       "answers": [
         "The program mentions that MIAGE programs, of which this program is one, are run by more than 20 universities in France.",
@@ -351,9 +409,9 @@
     {
       "intent": "program.accreditation",
       "utterances": [
-        "Is the program accredited?",
-        "What are the accreditations of the program?",
-        "What kind of recognition does the program have?"
+        " accredited?",
+        "accreditations of the program?",
+        "recognition"
       ],
       "answers": ["The program does not mention whether it is accredited.",
         "The program does not provide information about its accreditation status."
@@ -428,7 +486,7 @@
       },
       {
       "intent": "program.semester4",
-      "utterances": ["what are the subjects in the fourth semester ?"],
+      "utterances": ["what subjects the fourth semester ?","semester four"],
       "answers": ["In the fourth and final semester, you will have a 5-month internship in a company, followed by a final examination(20 ECTS)"
         ]},
     {
@@ -437,7 +495,7 @@
         "syllabus",
         "program syllabus",
         "download syllabus",
-        "What is the syllabus of the program"
+        " syllabus of the program"
       ],
       "answers": [
         "The description of each course can be found in the Syllabus booklet. <https://miage.ut-capitole.fr/medias/fichier/syllabus-2021-22-1-_1647337940227-pdf?ID_FICHE=284273&INLINE=FALSE>"
@@ -458,11 +516,24 @@
 ]
     },
      {
-      "intent": "program.syllabus.BI.teacher",
+      "intent": "program.syllabus.BI",
       "utterances": [
+        "tell me about bi",
+      "what do we learn in bi?",
+        " what is bi about?",
         "bi",
         "business intelligence",
-        "teachers",
+        "What is the syllabus of bi",
+        "do we have bi?"
+      ],
+      "answers": [
+        "The objectives of this course are to understand the concepts related to Business Intelligence as well as to design and implement the components of a decision support system. First, we study the components and the role of decision support systems. Second, we learn how to design and deploy a data warehouse. Third, we address the multidimensional modeling of data marts. Finally, we discuss some state-of-the-art solutions dedicated to data visualization.",
+        "The primary goals of this course are to develop a comprehensive understanding of Business Intelligence concepts and acquire the skills to design and implement decision support systems. The course covers various aspects, starting with an examination of decision support system components and their significance. Next, students learn about data warehouse design and implementation. The course also delves into multidimensional modeling techniques for data marts. Finally, students explore cutting-edge solutions for data visualization that are specifically tailored to the field of Business Intelligence."
+]
+    },
+     {
+      "intent": "program.syllabus.BI.teacher",
+      "utterances": [
         "bi teachers",
         "teachers in bi",
         "who teaches bi",
@@ -481,7 +552,7 @@
 
       ],
       "answers": [
-        "Julien Aligon <julien.aligon@ut-capitole.fr> and Ronan Tournier <Ronan.Tournier@ut-capitole.fr>"]
+        "here is the email of the Teachers who teach BI: Julien Aligon julien.aligon@ut-capitole.fr and Ronan Tournier :Ronan.Tournier@ut-capitole.fr\""]
     },
 
 
@@ -501,9 +572,7 @@
 {
       "intent": "program.syllabus.SAD.teacher",
       "utterances": [
-        "software analysis and design",
-        "software analysis",
-        "teachers",
+        "who teaches  software analysis and design",
         "Who are the teachers in software analysis and design",
         "give me the email of SAD teacher",
         "Laurent Perrussel ",
@@ -511,14 +580,15 @@
         "can i have the email of Laurent Perrussel "
       ],
       "answers": [
-        "Laurent Perrussel <Laurent.Perrussel@ut-capitole.fr>"]
+        "Laurent Perrussel Laurent.Perrussel@ut-capitole.fr"]
     },
 
     {
       "intent": "program.syllabus.prog",
       "utterances": [
         "advanced programming",
-        "What is advanced programming about"
+        "What is advanced programming about",
+        "learn advance programming"
       ],
       "answers": [
         "This course goes from basic concepts of object oriented programming to more advanced programming concepts and data structures, such as graphs or lambda functions. The language JAVA will be used throughout the course. Each session of 3 hours consists in a lecture focused on some specific programming concepts followed by a series of programming exercises.",
@@ -528,8 +598,6 @@
     {
       "intent": "program.syllabus.prog.teacher",
       "utterances": [
-        "advanced programming",
-        "teachers",
         "Who are the teachers in advanced programming",
         "who teaches advanced programing",
         "give me the email of advanced programming teacher",
@@ -542,12 +610,15 @@
 
       ],
       "answers": [
-        "David Simoncini <david.simoncini@ut-capitole.fr>"] },
+        "David Simoncini david.simoncini@ut-capitole.fr"] },
 
 
      {
       "intent": "program.syllabus.da",
       "utterances": [
+        "da",
+        "what learn data analytics?",
+        " learn data Analytics",
         "data analytics",
         "What is data analytics about"
       ],
@@ -559,9 +630,9 @@
     {
       "intent": "program.syllabus.da.teacher",
       "utterances": [
-        "data analytics",
-        "teachers",
+        "who teaches data Analytics",
         "Who are the teachers in data analytics ",
+        "email of data analytics teacher",
         "give me the email of da teacher",
         "give me the email of Josiane Mothe",
         "give me the email of Zia Ullah",
@@ -570,7 +641,7 @@
 
       ],
       "answers": [
-       "Josiane Mothe <josiane.mothe@ut-capitole.fr> and Zia Ullah <zia.ullah@ut-capitole.fr"]  },
+       "Josiane Mothe josiane.mothe@ut-capitole.fr and Zia Ullah zia.ullah@ut-capitole.fr"]  },
 
      {
       "intent": "program.syllabus.mana",
@@ -588,10 +659,9 @@
     {
       "intent": "program.syllabus.mana.teacher",
       "utterances": [
-        "project management",
-        "teachers",
-        "Who are the teachers in project management ",
-        "give me the email of Nathalie Valles-Parlangeau",
+        " teachers in project management ",
+        "who teaches project management",
+        "email of Nathalie Valles-Parlangeau",
         " email of Nathalie Valles-Parlangeau",
         "email of Nathalie-Parlangeau"
       ],
@@ -610,16 +680,14 @@
     {
       "intent": "program.syllabus.rw1.teacher",
       "utterances": [
-        "research workshop 1",
-        "teachers",
-        "Who are the teachers in research workshop 1 ",
-        "i need email of Umberto Grandi ",
-        "give me the email of research workshop 1 teacher",
+        "Who  teachers in research workshop 1 ",
+        " email of Umberto Grandi ",
+        " email of research workshop 1 teacher",
         "email of research workshop 1 teacher",
         "Rw1 teacher email"
       ],
       "answers": [
-       "Umberto Grandi <umberto.grandi@ut-capitole.Fr>"] },
+       "Umberto Grandi umberto.grandi@ut-capitole.Fr"] },
 
     {
       "intent": "program.syllabus.pd",
@@ -635,8 +703,7 @@
     {
       "intent": "program.syllabus.pd.teacher",
       "utterances": [
-        "personal development",
-         "teachers",
+        "who teaches personal development",
         "Who are the teachers in personal development "
 
       ],
@@ -659,8 +726,6 @@
     {
       "intent": "program.syllabus.tp1.teacher",
       "utterances": [
-        "term project 1",
-        "teachers",
         "Who are the teachers in term project 1",
         "give me the email of Sylvie Doutre ",
         "email of Sylvie",
@@ -668,7 +733,7 @@
         "give me the email of term project 1 teacher"
       ],
       "answers": [
-         "here is the email of Sylvie Doutre ,Sylvie Doutre <sylvie.doutre@ut-capitole.fr>"] },
+         "here is the email of Sylvie Doutre ,Sylvie Doutre sylvie.doutre@ut-capitole.fr"] },
      {
       "intent": "program.syllabus.bpm",
       "utterances": [
@@ -692,7 +757,7 @@
 {
       "intent": "program.syllabus.bpm.teacher",
       "utterances": [
-        "business process modelling",
+
         "who teaches bpm",
         "who will teach of bpm",
         "give me the email of bpm teacher",
@@ -702,14 +767,13 @@
         "the email of bpm teacher",
         "give me the email of chihab",
         "give me the email of Chihab Hanachi",
-        "bpm",
         "chihab hanachi",
         "email of chihab",
         "Who are the teachers of bpm",
         "Who are the teachers of business process modelling"
       ],
       "answers": [
-       "Chihab Hanachi <chihab.hanachi@ut-capitole.fr>"] },
+       "Chihab Hanachi chihab.hanachi@ut-capitole.fr"] },
 
 
      {
@@ -742,8 +806,8 @@
 {
       "intent": "program.syllabus.ws.teacher",
       "utterances": [
-        "web services",
-        "teachers web services",
+
+        "who teachers web services",
         "Who are the teachers in web services",
         "can i have the email of web services teacher?",
         "the email of Benoit Gaudou",
@@ -767,7 +831,6 @@
     {
 "intent": "program.syllabus.Entrepreneurship.teacher",
       "utterances": [
-        "Entrepreneurship",
         "teachers entrepreneurship",
         "Who are the teachers in entrepreneurship",
         "give me the email of Entrepreneurship teacher",
@@ -778,7 +841,7 @@
 
       ],
       "answers": [
-        "Cyrielle Vellera <cyrielle.vellera@ut-capitole.fr>, Julien Grobert <julien.grobert@ut-capitole.fr> and Stéphane Salgado<stephane.salgado@ut-capitole.fr>"]},
+        "Cyrielle Vellera cyrielle.vellera@ut-capitole.fr, Julien Grobert julien.grobert@ut-capitole.fr and Stéphane Salgado ,stephane.salgado@ut-capitole.fr "]},
 
 
     {
@@ -796,9 +859,9 @@
     {
       "intent": "program.syllabus.ai.teachers",
       "utterances": [
-        "ai",
-        "Artificial Intelligence",
+
         "teachers ai",
+        "who teaches artificial intelligence ",
         "teachers artificial intelligence",
         "Who are the teachers in Artificial Intelligence",
         "Who are the teachers in ai",
@@ -808,7 +871,7 @@
         ""
       ],
       "answers": [
-        "here are the emails of AI teachers :Umberto Grandi <umberto.grandi@ut-capitole.fr> and Sylvain Cussat-Blanc <Sylvain.Cussat-blanc@ut-capitole.fr>"]},
+        "here are the emails of AI teachers :Umberto Grandi umberto.grandi@ut-capitole.fr and Sylvain Cussat-Blanc Sylvain.Cussat-blanc@ut-capitole.fr"]},
 
 
 {
@@ -827,15 +890,13 @@
     {
       "intent": "program.syllabus.tp2.teachers",
       "utterances": [
-        "Term Project 2",
-        "Internship",
         "Who are the teachers for Term Project 2",
         "give me the email of term project 2 teacher "
 
 
       ],
       "answers": [
-       "Sylvie Doutre <sylvie.doutre@ut-capitole.fr>"]},
+       "Sylvie Doutre sylvie.doutre@ut-capitole.fr"]},
 
 
   {
@@ -851,6 +912,7 @@
       "intent": "program.syllabus.fle.teachers",
       "utterances": [
         "French as a Foreign Language",
+        "who teaches French",
         "Who are the teachers in French as a Foreign Language",
         "give me the email of french language teacher",
         "the email of Isabelle Kawa-Topoor",
@@ -858,7 +920,7 @@
 
       ],
       "answers": [
-        "Isabelle Kawa-Topoor<isabelle.kawa-topor@ut-capitole.fr>"]},
+        "Isabelle Kawa-Topoor isabelle.kawa-topor@ut-capitole.fr"]},
 {
       "intent": "program.syllabus.idm",
       "utterances": [
@@ -876,14 +938,13 @@
     {
 "intent": "program.syllabus.idm.teachers",
       "utterances": [
-        "Innovative Data Management",
         "teachers innovative data management",
         "Who are the teachers in Innovative Data Management",
         "give me the email of Jean-Marc Thevenin ",
         "email of Julien Aligon"
       ],
       "answers": [
-      "Jean-Marc Thevenin <Jean-Marc.Thevenin@ut-capitole.fr> and Julien Aligon <julien.aligon@ut-capitole.fr>"]},
+      "Jean-Marc Thevenin :Jean-Marc.Thevenin@ut-capitole.fr and Julien Aligon julien.aligon@ut-capitole.fr"]},
 {
       "intent": "program.syllabus.ism",
       "utterances": [
@@ -899,14 +960,14 @@
       ]},
     {"intent": "program.syllabus.ism.teachers",
       "utterances": [
-        "Innovative Software Methods",
         "teachers Innovative Software Methods",
+        "who teaches innovative Software Methods",
         "Who are the teachers in Innovative Software Methods",
         "give me the email of David Panzoli",
         "the email of Nathalie Valles-Parlangeau "
       ],
       "answers": [
-      "here are the emails of the teachers in charge of Innovative Software Methods: Nathalie Valles-Parlangeau <nathalie.valles-parlangeau@ut-capitole.fr> et David Panzoli <david.panzoli@ut-capitole.fr>"]},
+      "here are the emails of the teachers in charge of Innovative Software Methods: Nathalie Valles-Parlangeau : nathalie.valles-parlangeau@ut-capitole.fr et David Panzoli: david.panzoli@ut-capitole.fr"]},
  {
       "intent": "program.syllabus.strategy",
       "utterances": [
@@ -921,7 +982,7 @@
       ]},
     {"intent": "program.syllabus.strategy.teachers",
       "utterances": [
-        "strategy",
+        "who teaches Strategy",
         "teachers strategy",
         "Who are the teachers in strategy",
         "the email of Strategy teacher",
@@ -930,7 +991,7 @@
         "give me the email of Mario Formica"
       ],
       "answers": [
-     "Mario Formica <mario.formica@ut-capitole.fr>"]},
+     "Mario Formica :mario.formica@ut-capitole.fr"]},
     {
       "intent": "program.syllabus.iotandwd",
       "utterances": [
@@ -958,7 +1019,7 @@
     {
       "intent": "program.syllabus.advancedtopicsinai.teachers",
       "utterances": [
-        "Advanced Topics in Artificial Intelligence",
+        "who teaches Advanced Topics in Artificial Intelligence ",
         "teachers Advanced Topics in Artificial Intelligence",
         "Who are the teachers in Advanced Topics in Artificial Intelligence",
         "give me the email of Sylvain Cussat-Blanc",
@@ -966,7 +1027,7 @@
         "give me the email of Frédéric Amblard"
       ],
       "answers": [
-   "Frédéric Amblard <Frederic.Amblard@ut-capitole.fr>, Sylvain Cussat-Blanc <Sylvain.Cussat-blanc@ut-capitole.fr>, Umberto Grandi <umberto.grandi@ut-capitole.fr>"]},
+   "Frédéric Amblard :Frederic.Amblard@ut-capitole.fr, Sylvain Cussat-Blanc: Sylvain.Cussat-blanc@ut-capitole.fr, Umberto Grandi umberto.grandi@ut-capitole.fr"]},
 
     {
       "intent": "program.syllabus.cybersecurity",
@@ -983,7 +1044,6 @@
     {
       "intent": "program.syllabus.cybersecurity.teachers",
       "utterances": [
-        "cybersecurity",
         "teachers cybersecurity",
         "Who are the teachers in cybersecurity",
         "give me the email of ",
@@ -993,6 +1053,17 @@
       ],
       "answers": [
   "Pierre-Yves Bonnetain-Nesterenko "]},
+
+
+    {
+      "intent": "program.supervisors ",
+      "utterances": [
+        "do i need a supervisor",
+        "is it necessary to apply for a supervisor",
+        "apply for a supervisor"
+      ],
+      "answers": [
+  "You dont need a superiors approval to apply for this program"]},
 
     {
       "intent": "program.syllabus.sis",
@@ -1006,7 +1077,6 @@
   ]},
     {"intent": "program.syllabus.sis.teachers",
       "utterances": [
-        "sustainable information systems",
         "teachers sustainable information systems",
         "Who are the teachers of sustainable information systems",
         "give me the email of Laurent Devernay",
@@ -1015,7 +1085,7 @@
 
       ],
       "answers": [
-  "Laurent Devernay <laurent.devernay@ut-capitole.fr>"]},
+  "Laurent Devernay: laurent.devernay@ut-capitole.fr"]},
 
     {
       "intent": "program.syllabus.UI&UE",
@@ -1051,21 +1121,56 @@
     {
       "intent": "program.syllabus.rw3.teachers",
       "utterances": [
-        "research workshop 3",
         "teachers research workshop 3",
         "Who are the research workshop 3",
         "give me the email of research workshop 3 teacher"
       ],
       "answers": [
-  "Chihab Hanachi <chihab.hanachi@ut-capitole.fr"]},
+  "Chihab Hanachi: chihab.hanachi@ut-capitole.fr"]},
 
+
+      {
+      "intent": "program.syllabus.englishProficiency.Notacceptable ",
+      "utterances": [
+        "TOEFL IPT",
+        "Duolingo"
+
+      ],
+      "answers": [
+        "the TOEFL IPT is not accepted for this program and  Duolingo also there is not much information please contact the admission team"
+
+      ]},
+
+
+    {
+      "intent": "program.syllabus.englishProficiency ",
+      "utterances": [
+        "FCE",
+        "CAE",
+        "CPE",
+        "need english",
+        "in english",
+        "english test ",
+        "English knowledge",
+        "english proficiency",
+        "Ielts ",
+        "toefl"
+
+      ],
+      "answers": [
+        "the program is in english, and you need to provide evidence English proficiency (CEF level B2 required) , the required IELTS band is 6 and for toefl ibt it is 79 and for TOEIC 785 , other certificates like FCE,CAE or CPE are acceptable as well ",
+        "since the program is in english you need you provide either IELTS band 6 or equivalent TOEFL certificate to prove you english knowledge, other certificates like FCE,CAE or CPE are acceptable as well  "
+
+      ]},
 
   {
       "intent": "program.syllabus.english",
       "utterances": [
         "english",
         "english writing workshop",
+        "learn english",
         "What is English and English Writing Workshop about"
+
       ],
       "answers": [
       "English: there is a course called , english writing workshop, The goal of this course is threefold. The first part of the course aims at developing fluency and\nstudents’ confidence in their speaking skills. The second part of the course will focus on a\ncrowdfunding term project involving writing, listening, reading & speaking activities. The third part of\nthis course will focus on professional English and is designed to help students navigate the\nintricacies of job applications in English.\nThroughout the semester, we will also go through a number of activities aimed at improving students’\nknowledge of English grammar.\nWriting workshop:\nThis workshop is designed to provide students with tips and tricks to improve their academic writing\nskills. Instructors will provide advice on how to structure & clarify academic essays.",
@@ -1075,7 +1180,6 @@
    {
       "intent": "program.syllabus.english.teachers",
       "utterances": [
-        "english",
         "english writing workshop",
         "teachers english writing workshop",
         "What is English and English Writing Workshop",
@@ -1086,7 +1190,7 @@
 
       ],
       "answers": [
-  "Maxime Petit <maxime.petit@ut-capitole.fr"]},
+  "Maxime Petit maxime.petit@ut-capitole.fr"]},
 
     {
       "intent": "program.syllabus.rw2",
@@ -1101,23 +1205,22 @@
 {
       "intent": "program.syllabus.rw2.teachers",
       "utterances": [
-        "research workshop 2",
         "teachers research workshop 2 ",
         "Who are the teachers in research workshop 2",
         "give me the email of research workshop 2 teacher"
       ],
       "answers": [
-       "Umberto Grandi <umberto.grandi@ut-capitole.fr> and Rachel Colley <rachel.colley@ut-capitole.fr>"]},
+       "Umberto Grandi: umberto.grandi@ut-capitole.fr and Rachel Colley: rachel.colley@ut-capitole.fr"]},
     {
       "intent": "program.teaching",
       "utterances": [
-        "teaching",
         "teaching methods",
         "innovative teaching methods",
         "what are the methods of teaching",
         "do we have just theoretical courses ",
         "is it just theory",
-        "do we have group work"
+        "do we have group work",
+        "do we have a lot of projects"
       ],
       "answers": [
         "At the Faculty of Information Technologies of University of Toulouse Capitole, we promote innovative teaching methods: capstone projects, flipped classrooms and serious games. We go beyond teaching hard skills, proposing training on soft skills like teamwork and communication skills classes.",
@@ -1127,9 +1230,11 @@
     {
       "intent": "program.credits",
       "utterances": [
+
         "course credit",
         "credits",
         "program credits",
+        "how many credits",
         "What are the credits for each course?"
       ],
       "answers": [
