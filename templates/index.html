@@ -3,6 +3,15 @@
 <head>
     <title>Chatbot</title>
     <style>
+ body {
+       background-image: url("https://raw.githubusercontent.com/ParisaEb/chatbot2IS/master/2is.jpeg");
+    background-size: 55% auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed; /* Optional: Keeps the background fixed when scrolling */
+    height: 100vh; /* Added height to fill the entire viewport */
+    margin: 0; /* Remove default margin */
+}
         /* CSS styles */
         #chat-circle {
             position: fixed;
@@ -174,8 +183,10 @@
             var commonQuestionsVisible = false; // Track if common questions are visible
 
             $('#chat-circle').click(function() {
+
                 $(this).hide();
                 $('#chat-frame').show();
+
             });
 
             $('#chat-form').submit(function(event) {

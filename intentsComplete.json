@@ -70,7 +70,7 @@
         "what are the requirements to apply"
       ],
       "answers": [
-      "Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required - to check the list of accepted certificates, please visit our official website).",
+      "in order to apply Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required - to check the list of accepted certificates, please visit our official website).",
       "Applications should include a curriculum vitae (CV), grade transcripts, a cover letter, and proof of English proficiency. For English proficiency, a Common European Framework (CEF) level B2 is required. You can find the list of accepted certificates on our official website."]
     },
 
@@ -466,7 +466,7 @@
 
     {
       "intent": "program.semester1",
-      "utterances": ["what are the subjects in the first semester", "what are the courses in the first semester","who are the professors in the first semester ?"],
+      "utterances": ["what are the subjects in the first semester", "what are the courses in the first semester","who are the professors in the first semester ?","semester 1","the first semester"],
       "answers": ["In the first semester, you will have 5 fundamental courses that are worth 4 ECTS each : Business Intelligence, Data Analytics, Project Management, Advanced programming and Software analysis and design. Also you will be conducting Professionalisation courses to help you with the integration to the professional world where you will work on your Soft skills and personal development (4 ECTS), a foreign language (French or English). And finally you will be working in Research Workshop and on a Term project, worthing each 2 ECTS."]
     },
 
@@ -544,11 +544,11 @@
         "who teaches us bi",
         "Who are the teachers in bi",
         "Who are the teachers in business intelligence ",
-        "give me the email of Ronan Tournier",
+        " the email of Ronan Tournier",
         "the need email of BI teacher",
         "can i have the email of Ronan Tournier",
         "email of Julien Aligon",
-        "give me the Julien Aligon email"
+        " the Julien Aligon email"
 
       ],
       "answers": [
@@ -574,9 +574,9 @@
       "utterances": [
         "who teaches  software analysis and design",
         "Who are the teachers in software analysis and design",
-        "give me the email of SAD teacher",
+        " the email of SAD teacher",
         "Laurent Perrussel ",
-        "give me the emal of Laurent Perrussel ",
+        "the email of Laurent Perrussel ",
         "can i have the email of Laurent Perrussel "
       ],
       "answers": [
@@ -600,12 +600,12 @@
       "utterances": [
         "Who are the teachers in advanced programming",
         "who teaches advanced programing",
-        "give me the email of advanced programming teacher",
-        "give me david email ",
-        "give me david's email",
+        " the email of advanced programming teacher",
+        "david email ",
+        " david's email",
         "who is david?",
         "David Simoncini",
-        " give me the email of, David Simoncini",
+        " the email of, David Simoncini",
         "email of David Simoncini"
 
       ],
@@ -633,9 +633,9 @@
         "who teaches data Analytics",
         "Who are the teachers in data analytics ",
         "email of data analytics teacher",
-        "give me the email of da teacher",
-        "give me the email of Josiane Mothe",
-        "give me the email of Zia Ullah",
+        "the email of da teacher",
+        " the email of Josiane Mothe",
+        " the email of Zia Ullah",
         "email of Zia Ullah",
         "Zia Ullah email"
 
@@ -727,10 +727,10 @@
       "intent": "program.syllabus.tp1.teacher",
       "utterances": [
         "Who are the teachers in term project 1",
-        "give me the email of Sylvie Doutre ",
+        "the email of Sylvie Doutre ",
         "email of Sylvie",
         "emai of Doutre ",
-        "give me the email of term project 1 teacher"
+        "the email of term project 1 teacher"
       ],
       "answers": [
          "here is the email of Sylvie Doutre ,Sylvie Doutre sylvie.doutre@ut-capitole.fr"] },
@@ -760,13 +760,14 @@
 
         "who teaches bpm",
         "who will teach of bpm",
-        "give me the email of bpm teacher",
-        "give me the email of bpm teacher",
-          "give me the email of bpm teacher",
-          "give me the email of bpm teacher",
+        " the email of bpm teacher",
+        " the email of bpm teacher",
+          "the email of bpm teacher",
+          " the email of bpm teacher",
         "the email of bpm teacher",
-        "give me the email of chihab",
-        "give me the email of Chihab Hanachi",
+        "the email of chihab",
+        "the email of Chihab Hanachi",
+        "mr hanachi",
         "chihab hanachi",
         "email of chihab",
         "Who are the teachers of bpm",
@@ -833,10 +834,10 @@
       "utterances": [
         "teachers entrepreneurship",
         "Who are the teachers in entrepreneurship",
-        "give me the email of Entrepreneurship teacher",
+        " the email of Entrepreneurship teacher",
         "the teacher of Entrepreneurship email",
         "email of Cyrielle Vellera",
-        "give me the email of Cyrielle Vellera",
+        " the email of Cyrielle Vellera",
         "email of Cyrielle"
 
       ],
@@ -865,10 +866,10 @@
         "teachers artificial intelligence",
         "Who are the teachers in Artificial Intelligence",
         "Who are the teachers in ai",
-        "give me the email of Umberto Grandi",
-        "give me the email of Sylvain Cussat-Blanc",
-        "give me the email of Artificial Intelligence teachers ",
-        ""
+        "the email of Umberto Grandi",
+        " the email of Sylvain Cussat-Blanc",
+        "the email of Artificial Intelligence teachers "
+
       ],
       "answers": [
         "here are the emails of AI teachers :Umberto Grandi umberto.grandi@ut-capitole.fr and Sylvain Cussat-Blanc Sylvain.Cussat-blanc@ut-capitole.fr"]},
@@ -891,7 +892,7 @@
       "intent": "program.syllabus.tp2.teachers",
       "utterances": [
         "Who are the teachers for Term Project 2",
-        "give me the email of term project 2 teacher "
+        " the email of term project 2 teacher "
 
 
       ],
@@ -914,7 +915,7 @@
         "French as a Foreign Language",
         "who teaches French",
         "Who are the teachers in French as a Foreign Language",
-        "give me the email of french language teacher",
+        " the email of french language teacher",
         "the email of Isabelle Kawa-Topoor",
         "the email of Isabelle Topoor"
 
@@ -940,7 +941,7 @@
       "utterances": [
         "teachers innovative data management",
         "Who are the teachers in Innovative Data Management",
-        "give me the email of Jean-Marc Thevenin ",
+        " the email of Jean-Marc Thevenin ",
         "email of Julien Aligon"
       ],
       "answers": [
@@ -963,7 +964,7 @@
         "teachers Innovative Software Methods",
         "who teaches innovative Software Methods",
         "Who are the teachers in Innovative Software Methods",
-        "give me the email of David Panzoli",
+        " the email of David Panzoli",
         "the email of Nathalie Valles-Parlangeau "
       ],
       "answers": [
@@ -988,7 +989,7 @@
         "the email of Strategy teacher",
         "email of Formica",
         "email of Mario",
-        "give me the email of Mario Formica"
+        " the email of Mario Formica"
       ],
       "answers": [
      "Mario Formica :mario.formica@ut-capitole.fr"]},
@@ -1022,9 +1023,9 @@
         "who teaches Advanced Topics in Artificial Intelligence ",
         "teachers Advanced Topics in Artificial Intelligence",
         "Who are the teachers in Advanced Topics in Artificial Intelligence",
-        "give me the email of Sylvain Cussat-Blanc",
-        "give me the email of teachers of Advanced Topics in Artificial Intelligence ",
-        "give me the email of Frédéric Amblard"
+        " the email of Sylvain Cussat-Blanc",
+        "the email of teachers of Advanced Topics in Artificial Intelligence ",
+        " the email of Frédéric Amblard"
       ],
       "answers": [
    "Frédéric Amblard :Frederic.Amblard@ut-capitole.fr, Sylvain Cussat-Blanc: Sylvain.Cussat-blanc@ut-capitole.fr, Umberto Grandi umberto.grandi@ut-capitole.fr"]},
@@ -1046,8 +1047,7 @@
       "utterances": [
         "teachers cybersecurity",
         "Who are the teachers in cybersecurity",
-        "give me the email of ",
-        "give me the email of cybersecurity teacher Pierre-Yve "
+        "the email of cybersecurity teacher Pierre-Yve "
 
 
       ],
@@ -1079,7 +1079,7 @@
       "utterances": [
         "teachers sustainable information systems",
         "Who are the teachers of sustainable information systems",
-        "give me the email of Laurent Devernay",
+        " the email of Laurent Devernay",
         "email of Laurent Devernay",
         "email of Devernay"
 
@@ -1123,7 +1123,7 @@
       "utterances": [
         "teachers research workshop 3",
         "Who are the research workshop 3",
-        "give me the email of research workshop 3 teacher"
+        " the email of research workshop 3 teacher"
       ],
       "answers": [
   "Chihab Hanachi: chihab.hanachi@ut-capitole.fr"]},
@@ -1183,10 +1183,10 @@
         "english writing workshop",
         "teachers english writing workshop",
         "What is English and English Writing Workshop",
-        "give me the email of english writing workshop teacher",
+        "the email of english writing workshop teacher",
         "who teaches English",
-        "give me the email of Maxime ",
-        "give me the email of Maxime Petit"
+        " the email of Maxime ",
+        "the email of Maxime Petit"
 
       ],
       "answers": [
@@ -1207,7 +1207,7 @@
       "utterances": [
         "teachers research workshop 2 ",
         "Who are the teachers in research workshop 2",
-        "give me the email of research workshop 2 teacher"
+        " the email of research workshop 2 teacher"
       ],
       "answers": [
        "Umberto Grandi: umberto.grandi@ut-capitole.fr and Rachel Colley: rachel.colley@ut-capitole.fr"]},
@@ -1331,7 +1331,7 @@
     },
     {
       "intent": "application.start",
-      "utterances": ["when does the program start", "start date"],
+      "utterances": ["when does the program start", "start date","commence"],
       "answers": [
         "Usually the program starts in September, send 'application' to know how to apply to the program.",
         "Typically, the program commences in September. If you would like to learn more about the application process for the program, please send the keyword 'application'."
@@ -2185,7 +2185,7 @@
       "utterances": [
         "I need advice",
         "I need some advice",
-        "can you give me some advice?",
+        "some advice?",
         "what should I do?"
       ],
       "answers": [

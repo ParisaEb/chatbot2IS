@@ -196,6 +196,10 @@ print("Bot: Hello! How can I assist you today?")
 while True:
     user_input = input("User: ")
     dialogue.append(user_input)
+    cursor.execute("INSERT INTO user_inputs (input_text, date ) VALUES (?, ?)",
+                   (user_input, user_date_of_use))
+
+    conn.commit()
 
     if user_input.lower() == 'goodbye':
         print("Bot: Goodbye!")
